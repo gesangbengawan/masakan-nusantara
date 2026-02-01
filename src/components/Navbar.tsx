@@ -96,10 +96,6 @@ export function Navbar() {
                             <Link href="/tentang" onClick={() => setIsOpen(false)} className="block text-3xl font-serif font-bold hover:text-primary transition-colors">
                                 Tentang Kami
                             </Link>
-                            <div className="pt-8 border-t border-border w-20 mx-auto" />
-                            <Link href="/admin" onClick={() => setIsOpen(false)} className="block text-sm font-medium text-muted-foreground hover:text-primary">
-                                Panel Admin
-                            </Link>
                         </div>
                     </motion.div>
                 )}

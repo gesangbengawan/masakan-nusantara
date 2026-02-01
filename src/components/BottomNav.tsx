@@ -1,12 +1,13 @@
 "use client";
 
-import { Home, Search, Heart, ChefHat } from "lucide-react";
+import { Home, Search, Heart, ChefHat, ArrowLeft } from "lucide-react";
 import Link from "next/link";
-import { usePathname } from "next/navigation";
+import { usePathname, useRouter } from "next/navigation";
 import { motion } from "framer-motion";
 
 export function BottomNav() {
     const pathname = usePathname();
+    const router = useRouter();
 
     const isActive = (path: string) => {
         if (path === "/" && pathname === "/") return true;
@@ -15,10 +16,10 @@ export function BottomNav() {
     };
 
     const navItems = [
-        { href: "/", icon: Home, label: "Beranda" },
-        { href: "/resep", icon: Search, label: "Cari" },
-        { href: "/favorit", icon: Heart, label: "Favorit" }, // Nanti diimplementasi
-        { href: "/tentang", icon: ChefHat, label: "Tentang" },
+        { name: "Home", icon: Home, path: "/" },
+        { name: "Jelajahi", icon: Search, path: "/resep" },
+        { name: "Favorit", icon: Heart, path: "/favorit" },
+        { name: "Tentang", icon: ChefHat, path: "/tentang" },
     ];
 
     return (
@@ -28,12 +29,23 @@ export function BottomNav() {
                 animate={{ y: 0, opacity: 1 }}
                 className="bg-black/80 backdrop-blur-md border border-white/10 text-white shadow-2xl rounded-full px-6 py-3 flex gap-8 items-center pointer-events-auto"
             >
+                {/* Back Button */}
+                <button
+                    onClick={() => router.back()}
+                    className="flex flex-col items-center gap-1 transition-colors relative group text-white/60 hover:text-white"
+                    aria-label="Kembali"
+                >
+                    <div className="p-2 rounded-full transition-all">
+                        <ArrowLeft className="w-5 h-5" />
+                    </div>
+                </button>
+
                 {navItems.map((item) => {
-                    const active = isActive(item.href);
+                    const active = isActive(item.path);
                     return (
                         <Link
-                            key={item.href}
-                            href={item.href}
+                            key={item.path}
+                            href={item.path}
                             className={`flex flex-col items-center gap-1 transition-colors relative group ${active ? "text-primary-foreground" : "text-white/60 hover:text-white"}`}
                         >
                             <div className={`p-2 rounded-full transition-all ${active ? "bg-white/20" : ""}`}>
