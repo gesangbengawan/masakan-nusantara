@@ -25,11 +25,11 @@ export function RecipeFilteredList({ initialRecipes }: { initialRecipes: Recipe[
         const matchProvince = filter === "Semua"
             ? true
             : filter === "Papua"
-                ? r.province.includes("Papua") // Any province containing "Papua" (Barat, Pegunungan, etc)
+                ? (r.province || "").includes("Papua") // Any province containing "Papua" (Barat, Pegunungan, etc)
                 : r.province === filter;
 
         const matchSearch = r.title.toLowerCase().includes(search.toLowerCase()) ||
-            r.description.toLowerCase().includes(search.toLowerCase());
+            (r.description || "").toLowerCase().includes(search.toLowerCase());
         return matchProvince && matchSearch;
     });
 
