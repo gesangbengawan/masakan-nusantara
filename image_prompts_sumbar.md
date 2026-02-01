@@ -1,0 +1,11 @@
+# West Sumatra (Padang) Image Prompts
+
+| No | Recipe Title | Target Filename | AI Prompt (Summary) |
+|---|---|---|---|
+| 1 | **Gulai Tunjang** (Kikil) | `sumbar_gulai_tunjang.jpeg` | **Professional photography of Gulai Tunjang Padang. Beef tendon (kikil) pieces in very thick, oily red-orange coconut curry. The texture of kikil looks gelatinous and tender. Served in a small white ceramic bowl (distinctive Padang style). Rich, spicy, authentic Minang.** |
+| 2 | **Ayam Pop** (Bukittinggi) | `sumbar_ayam_pop.jpeg` | **Authentic Ayam Pop. Chicken pieces that look pale white (boiled/steamed appearance with shiny oil), not brown fried. Skin is soft. Served with bright orange tomato chili sambal and boiled cassava leaves. Minimalist plate. Unique Bukittinggi style.** |
+| 3 | **Ikan Asam Padeh** | `sumbar_ikan_asam_padeh.jpeg` | **Close up of Ikan Asam Padeh. Mackerel Tuna (Tongkol) steak in deep red clear soup (sour & spicy, no coconut milk). Fresh red chili vivid color. Garnished with large pieces of Asam Kandis (dried garcinia) and turmeric leaf. Fresh and spicy mood.** |
+| 4 | **Gulai Pakis** (Paku) | `sumbar_gulai_pakis.jpeg` | **Bowl of Gulai Pakis (Fern Curry). Young green fern leaves (curled tips) in yellow turmeric savory coconut sauce. Some small shrimps or ebi visible. Served over compressed rice cake (Ketupat). Traditional breakfast vivid colors.** |
+| 5 | **Soto Padang** | `sumbar_soto_padang.jpeg` | **Soto Padang bowl. Clear beef broth soup. Topped with CRISPY DRY BEEF (Dendeng Kering) slices that look like chips. Pink rice vermicelli (soun), potato perkedel, and red crackers. Elegant, aromatic with star anise visible.** |
+| 6 | **Itiak Lado Mudo** | `sumbar_itiak_lado_mudo.jpeg` | **Itiak Lado Mudo (Duck in Green Chili) from Koto Gadang. Duck pieces smothered in thick Green Chili Sambal and oily green sauce. No coconut milk, just oil and chili. Rustic look, spicy green color palette.** |
+| 7 | **Bubur Kampiun** | `sumbar_bubur_kampiun.jpeg` | **Festive bowl of Bubur Kampiun. A mix of Sweet rice porridge (Sumsum), Candil balls, Black sticky rice, Banana Kolak, and a slice of Steamed Srikaya (Egg Custard) on top. Drizzled with brown sugar syrup. Dessert masterpiece.** |
