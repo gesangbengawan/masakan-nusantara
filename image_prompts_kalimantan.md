@@ -1,0 +1,19 @@
+# Kalimantan (Borneo) Image Prompts
+
+| No | Recipe Title | Target Filename | AI Prompt (Summary) |
+|---|---|---|---|
+| 1 | **Bubur Pedas Sambas** | `kalimantan_barat_bubur_pedas_sambas.jpeg` | **Bubur Pedas Sambas. A bowl of savory porridge containing many vegetables (fern/pakis, corn, sweet potato). Topped with fried peanuts and anchovies. Darker colored porridge from roasted rice. DO NOT SHOW CHILI (Pedas means spicy from black pepper).** |
+| 2 | **Asam Pedas Tempoyak** | `kalimantan_barat_asam_pedas_tempoyak.jpeg` | **Asam Pedas Tempoyak Ikan Patin. A fish curry dish with yellowish-red thick gravy (durian paste texture). Contains Catfish (Patin) slices and round yellow Eggplant (Terong Asam). A clay pot or rustic bowl.** |
+| 3 | **Choipan Pontianak** | `kalimantan_barat_choipan.jpeg` | **Choipan Pontianak. Translucent white dumplings (shaped like pastel/moon) arranged on a plate. Topped generously with crispy minced garlic (Garlic Oil). Served with a small bowl of red chili sauce.** |
+| 4 | **Soto Banjar** | `kalimantan_selatan_soto_banjar.jpeg` | **Soto Banjar. A soup with cloudy white broth (evaporated milk). Contains shredded chicken, glass noodles, and boiled egg. Served with Perkedel (Potato cake) and slices of Lontong/Ketupat. Lime wedge on side.** |
+| 5 | **Ketupat Kandangan** | `kalimantan_selatan_ketupat_kandangan.jpeg` | **Ketupat Kandangan. Cut rice cakes (Ketupat) drenched in thick white coconut milk gravy. Topped with a piece of GRILLED SNAKEHEAD FISH (Haruan). The fish looks dark/grilled. Broken ketupat texture.** |
+| 6 | **Patin Bakar** | `kalimantan_selatan_ikan_patin_bakar.jpeg` | **Ikan Patin Bakar Banjar. Grilled large Catfish fillet with red caramelized spices (bumbu rujak). Shiny oily surface. Served with Sambal Acan (Terasi) and young mango slices.** |
+| 7 | **Juhu Singkah** | `kalimantan_tengah_juhu_singkah.jpeg` | **Juhu Singkah Rotan. A bowl of yellow soupy curry containing white Rattan Shoots (Umbut Rotan - cylinder shaped like bamboo shoots) and fish cuts. Light coconut milk broth.** |
+| 8 | **Wadi Ikan** | `kalimantan_tengah_wadi_ikan.jpeg` | **Wadi Ikan Goreng. Fried Fermented Fish. The fish looks deep fried golden brown, with some scorched rice grains sticking to it. Served on a simple plate with fresh chilies.** |
+| 9 | **Tumis Kalakai** | `kalimantan_tengah_tumis_kalakai.jpeg` | **Tumis Kalakai. Stir fried Red Fern (Pakis Merah). The stems are reddish-purple. Cooked with shrimp paste (belacan). Looks wet and shiny.** |
+| 10 | **Ayam Cincane** | `kalimantan_timur_ayam_cincane.jpeg` | **Ayam Cincane Samarinda. Grilled red chicken. The chicken is covered in bright red oily spice paste (but not crispy, it's wet spice). Served with fresh cucumber slices.** |
+| 11 | **Nasi Bekepor** | `kalimantan_timur_nasi_bekepor.jpeg` | **Nasi Bekepor Kutai. Rice cooked in a metal pot (kastrol). Mixed with salted fish shreds and basil leaves. Served with 'Sambal Raja' (Eggplant and long beans sambal) side dish.** |
+| 12 | **Gence Ruan** | `kalimantan_timur_gence_ruan.jpeg` | **Gence Ruan Ikan Gabus. Whole grilled Snakehead fish (Gabus) split open. Topped with coarse fried shallot and chili sambal (Sambal Gence). The sambal looks chunky and oily.** |
+| 13 | **Kepiting Soka** | `kalimantan_utara_kepiting_soka.jpeg` | **Kepiting Soka Tarakan. Deep fried Soft Shell Crabs coated in batter. Golden crispy. Drizzled with dark glossy Black Pepper Oyster sauce. Served on a white plate.** |
+| 14 | **Lawa Timun** | `kalimantan_utara_lawa_timun.jpeg` | **Lawa Timun Bulungan. An appetizer salad made of minced cucumber and transparent SEAWEED. Mixed with grated roasted coconut. Looks fresh and green/white.** |
+| 15 | **Sate Temburung** | `kalimantan_utara_sate_temburung.jpeg` | **Sate Temburung. Satay made of Blood Clams (Kerang Dara). Grilled on skewers with red spicy marinade. Slightly charred. Served on a banana leaf.** |
