@@ -53,7 +53,7 @@ export default async function RecipeDetailPage({ params }: Props) {
                     className="object-cover"
                     priority
                 />
-                <div className="absolute inset-0 bg-gradient-to-t from-stone-950 via-stone-950/40 to-transparent" />
+                <div className="absolute bottom-0 left-0 right-0 h-2/3 bg-gradient-to-t from-stone-950 from-10% via-stone-950/60 via-30% to-transparent" />
 
                 {/* Text Overlay - Clean & Minimalist */}
                 <div className="absolute bottom-0 left-0 right-0 p-8 md:p-12">
