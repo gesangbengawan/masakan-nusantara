@@ -8,38 +8,60 @@ import { Recipe } from "@/types/recipe"; // Ensure type exists
 
 const PROVINCES = [
     "Semua",
-    "Sumatera Barat",
-    "Aceh",
-    "Sumatera Selatan",
-    "DKI Jakarta",
-    "Jawa Barat",
-    "DI Yogyakarta",
-    "Jawa Timur",
-    "Bali"
+    "Aceh", "Sumatera Utara", "Sumatera Barat", "Riau", "Kepulauan Riau", "Jambi", "Sumatera Selatan", "Bengkulu", "Lampung", "Bangka Belitung",
+    "DKI Jakarta", "Jawa Barat", "Banten", "Jawa Tengah", "DI Yogyakarta", "Jawa Timur",
+    "Bali", "Nusa Tenggara Barat", "Nusa Tenggara Timur",
+    "Kalimantan Barat", "Kalimantan Tengah", "Kalimantan Selatan", "Kalimantan Timur", "Kalimantan Utara",
+    "Sulawesi Utara", "Gorontalo", "Sulawesi Tengah", "Sulawesi Barat", "Sulawesi Selatan", "Sulawesi Tenggara",
+    "Maluku", "Maluku Utara", "Papua", "Papua Barat", "Papua Pegunungan"
 ];
 
 export function RecipeFilteredList({ initialRecipes }: { initialRecipes: Recipe[] }) {
     const [filter, setFilter] = useState("Semua");
+    const [search, setSearch] = useState("");
 
-    const filtered = filter === "Semua"
-        ? initialRecipes
-        : initialRecipes.filter(r => r.province === filter);
+    const filtered = initialRecipes.filter(r => {
+        const matchProvince = filter === "Semua" ? true : r.province === filter;
+        const matchSearch = r.title.toLowerCase().includes(search.toLowerCase()) ||
+            r.description.toLowerCase().includes(search.toLowerCase());
+        return matchProvince && matchSearch;
+    });
 
     return (
         <>
-            <div className="flex gap-3 overflow-x-auto pb-6 mb-8 scrollbar-hide">
-                {PROVINCES.map(p => (
-                    <button
-                        key={p}
-                        onClick={() => setFilter(p)}
-                        className={`px-5 py-2 rounded-full whitespace-nowrap transition-all border ${filter === p
-                                ? "bg-black text-white border-black"
-                                : "bg-white text-stone-600 border-stone-200 hover:border-black"
-                            }`}
-                    >
-                        {p}
-                    </button>
-                ))}
+            {/* Search & Filter Container */}
+            <div className="mb-10 space-y-6">
+                {/* Search Bar */}
+                <div className="relative max-w-xl mx-auto">
+                    <input
+                        type="text"
+                        placeholder="Cari resep otentik (misal: Rendang, Soto, Ayam)..."
+                        value={search}
+                        onChange={(e) => setSearch(e.target.value)}
+                        className="w-full px-6 py-4 rounded-full border border-stone-200 shadow-sm focus:ring-2 focus:ring-amber-500 focus:border-transparent outline-none text-lg bg-white bg-opacity-80 backdrop-blur-sm transition-all"
+                    />
+                    <div className="absolute right-4 top-1/2 -translate-y-1/2 text-stone-400">
+                        <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
+                        </svg>
+                    </div>
+                </div>
+
+                {/* Filter Scrollable */}
+                <div className="flex gap-3 overflow-x-auto pb-4 scrollbar-hide justify-start md:justify-center">
+                    {PROVINCES.map(p => (
+                        <button
+                            key={p}
+                            onClick={() => setFilter(p)}
+                            className={`px-5 py-2 rounded-full whitespace-nowrap transition-all border font-medium ${filter === p
+                                ? "bg-black text-white border-black shadow-md"
+                                : "bg-white text-stone-600 border-stone-200 hover:border-black hover:bg-stone-50"
+                                }`}
+                        >
+                            {p}
+                        </button>
+                    ))}
+                </div>
             </div>
 
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
