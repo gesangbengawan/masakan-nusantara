@@ -16,11 +16,16 @@ export default async function AdminDashboard() {
             <div className="max-w-6xl mx-auto">
                 <div className="flex justify-between items-center mb-8">
                     <h1 className="text-3xl font-bold">Admin Panel</h1>
-                    <Link href="/admin/resep/baru">
-                        <Button>
-                            <Plus className="mr-2 h-4 w-4" /> Tambah Resep
-                        </Button>
-                    </Link>
+                    <div className="space-x-2">
+                        <Link href="/admin/pengaturan">
+                            <Button variant="outline">Pengaturan</Button>
+                        </Link>
+                        <Link href="/admin/resep/baru">
+                            <Button>
+                                <Plus className="mr-2 h-4 w-4" /> Tambah Resep
+                            </Button>
+                        </Link>
+                    </div>
                 </div>
 
                 <div className="bg-card rounded-xl border border-border overflow-hidden shadow-sm">
@@ -41,10 +46,10 @@ export default async function AdminDashboard() {
                                     <td className="p-4">
                                         <span
                                             className={`inline-flex px-2 py-1 rounded-full text-xs font-bold ${recipe.difficulty === "Mudah"
-                                                    ? "bg-green-100 text-green-700"
-                                                    : recipe.difficulty === "Sedang"
-                                                        ? "bg-yellow-100 text-yellow-700"
-                                                        : "bg-red-100 text-red-700"
+                                                ? "bg-green-100 text-green-700"
+                                                : recipe.difficulty === "Sedang"
+                                                    ? "bg-yellow-100 text-yellow-700"
+                                                    : "bg-red-100 text-red-700"
                                                 }`}
                                         >
                                             {recipe.difficulty}

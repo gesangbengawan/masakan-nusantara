@@ -8,6 +8,7 @@ export interface Recipe {
     cookTime: string;
     servings: number;
     difficulty: "Mudah" | "Sedang" | "Sulit";
+    province?: string;
     ingredients: string[];
     instructions: string[];
 }

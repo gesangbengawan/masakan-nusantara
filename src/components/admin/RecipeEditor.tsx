@@ -3,9 +3,9 @@
 import { useState } from "react";
 import { useRouter } from "next/navigation";
 import { Button } from "@/components/ui/button";
-import { supabase } from "@/lib/supabase";
 import { Recipe } from "@/types/recipe";
 import { Trash, Plus } from "lucide-react";
+import { upsertRecipe } from "@/app/actions/recipe";
 
 interface RecipeEditorProps {
     initialData?: Recipe | null;
@@ -24,6 +24,7 @@ export default function RecipeEditor({ initialData }: RecipeEditorProps) {
             cookTime: "",
             servings: 2,
             difficulty: "Mudah",
+            province: "",
             ingredients: [],
             instructions: [],
         }
@@ -70,26 +71,14 @@ export default function RecipeEditor({ initialData }: RecipeEditorProps) {
 
         let error;
 
-        if (initialData?.id) {
-            const { error: updateError } = await supabase
-                .from("recipes")
-                .update(recipeData)
-                .eq("id", initialData.id);
-            error = updateError;
-        } else {
-            const { error: insertError } = await supabase
-                .from("recipes")
-                .insert([recipeData]);
-            error = insertError;
-        }
-
-        setLoading(false);
-
-        if (error) {
-            alert("Error: " + error.message);
-        } else {
+        try {
+            await upsertRecipe(recipeData);
             router.push("/admin");
             router.refresh();
+        } catch (err: any) {
+            alert("Error: " + err.message);
+        } finally {
+            setLoading(false);
         }
     };
 
@@ -165,6 +154,16 @@ export default function RecipeEditor({ initialData }: RecipeEditorProps) {
                             <label className="block text-sm font-medium mb-1">Porsi</label>
                             <input type="number" name="servings" value={formData.servings} onChange={handleChange} className="w-full p-2 rounded bg-background border border-border" />
                         </div>
+                    </div>
+                    <div className="md:col-span-2">
+                        <label className="block text-sm font-medium mb-1">Asal Provinsi</label>
+                        <input
+                            name="province"
+                            value={formData.province || ""}
+                            onChange={handleChange}
+                            placeholder="Contoh: Sumatera Barat"
+                            className="w-full p-2 rounded bg-background border border-border"
+                        />
                     </div>
                 </div>
             </div>
