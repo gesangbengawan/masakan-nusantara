@@ -52,6 +52,7 @@ export default async function RecipeDetailPage({ params }: Props) {
                     fill
                     className="object-cover"
                     priority
+                    unoptimized
                 />
                 <div className="absolute bottom-0 left-0 right-0 h-2/3 bg-gradient-to-t from-stone-950 from-10% via-stone-950/60 via-30% to-transparent" />
 
