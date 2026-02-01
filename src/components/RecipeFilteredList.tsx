@@ -13,7 +13,7 @@ const PROVINCES = [
     "Bali", "Nusa Tenggara Barat", "Nusa Tenggara Timur",
     "Kalimantan Barat", "Kalimantan Tengah", "Kalimantan Selatan", "Kalimantan Timur", "Kalimantan Utara",
     "Sulawesi Utara", "Gorontalo", "Sulawesi Tengah", "Sulawesi Barat", "Sulawesi Selatan", "Sulawesi Tenggara",
-    "Maluku", "Maluku Utara", "Papua", "Papua Barat", "Papua Pegunungan"
+    "Maluku", "Maluku Utara", "Papua"
 ];
 
 export function RecipeFilteredList({ initialRecipes }: { initialRecipes: Recipe[] }) {
@@ -22,7 +22,12 @@ export function RecipeFilteredList({ initialRecipes }: { initialRecipes: Recipe[
     const [isExpanded, setIsExpanded] = useState(false); // State for minimize/maximize
 
     const filtered = initialRecipes.filter(r => {
-        const matchProvince = filter === "Semua" ? true : r.province === filter;
+        const matchProvince = filter === "Semua"
+            ? true
+            : filter === "Papua"
+                ? r.province.includes("Papua") // Any province containing "Papua" (Barat, Pegunungan, etc)
+                : r.province === filter;
+
         const matchSearch = r.title.toLowerCase().includes(search.toLowerCase()) ||
             r.description.toLowerCase().includes(search.toLowerCase());
         return matchProvince && matchSearch;
