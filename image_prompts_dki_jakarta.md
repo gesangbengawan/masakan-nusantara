@@ -1,0 +1,11 @@
+# DKI Jakarta (Betawi) Image Prompts
+
+| No | Recipe Title | Target Filename | AI Prompt (Summary) |
+|---|---|---|---|
+| 1 | **Nasi Uduk** | `dki_jakarta_nasi_uduk.jpeg` | **Nasi Uduk Kebon Kacang Betawi. A small banana leaf parcel containing white savory rice topped with fried shallots, shredded omelet (dadar rawis), fried vermicelli (bihun), and Semur Tahu Tempe (brown stew). Served with peanut sambal. Authentic Jakarta street food style.** |
+| 2 | **Soto Tangkar** | `dki_jakarta_soto_tangkar.jpeg` | **Soto Tangkar Betawi. A bowl of reddish-orange coconut curry soup containing beef ribs (iga) and beef brisket. The soup color is richer/redder than Soto Betawi. Garnished with spring onions, tomatoes, and emping crackers. Spicy and savory look.** |
+| 3 | **Asinan Betawi** | `dki_jakarta_asinan_betawi.jpeg` | **Asinan Betawi Salad. A plate of vegetable salad (lettuce, bean sprouts, tofu, cabbage) covered in peanut vinegar sauce. Topped with a large YELLOW NOODLE CRACKER (Kerupuk Mie Kuning) and some pink crackers. Fresh and messy.** |
+| 4 | **Gabus Pucung** | `dki_jakarta_gabus_pucung.jpeg` | **Gabus Pucung Bekasi. Fried Snakehead fish (Ikan Gabus) served in a bowl of thick BLACK soup (Kluwak/Pucung broth). Similar to Rawon but with fish. Garnished with fried shallots and green cayenne pepper. Traditional claypot or rustic bowl.** |
+| 5 | **Laksa Betawi** | `dki_jakarta_laksa_betawi.jpeg` | **Laksa Betawi Authentique. Yellow coconut milk soup containing Ketupat rice cakes, vermicelli (bihun), boiled egg, and lemon basil (kemangi). Yellowish savory soup with aroma of dried shrimp (Ebi). Topped with fried shallots.** |
+| 6 | **Semur Jengkol** | `dki_jakarta_semur_jengkol.jpeg` | **Semur Jengkol Betawi. A plate of Jengkol stinky beans braised in thick dark sweet soy sauce (kecap manis) gravy. The beans look soft, shiny, and caramelized dark brown. Topped with fried shallots. Delicious vegetarian dish.** |
+| 7 | **Es Selendang Mayang** | `dki_jakarta_es_selendang_mayang.jpeg` | **Es Selendang Mayang. A glass of traditional Jakarta dessert. Layered rice flour cake (red, white, green layers) cut into blocks, floating in white coconut milk and brown palm sugar syrup with ice cubes. Refreshing colorful drink.** |
