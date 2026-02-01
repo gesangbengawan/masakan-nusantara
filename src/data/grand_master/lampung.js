@@ -182,7 +182,7 @@ module.exports = [
         image: "lampung_engkak_ketan.jpeg", // Target
         prepTime: "30 Menit",
         cookTime: "2 Jam (Lapis)",
-        servings: "1 Loyang",
+        servings: 16,
         difficulty: "Sulit (Teknik Lapis)",
         ingredients: [
             "500 gr Tepung Ketan Putih",
@@ -249,7 +249,7 @@ module.exports = [
         image: "lampung_keripik_pisang.jpeg", // Target
         prepTime: "30 Menit",
         cookTime: "1 Jam",
-        servings: "2 Toples",
+        servings: 10,
         difficulty: "Sedang",
         ingredients: [
             "2 sisir Pisang Kepok Tua Mentah (Kulit Hijau)",
