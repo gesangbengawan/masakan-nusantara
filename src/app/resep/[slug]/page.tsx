@@ -9,6 +9,14 @@ interface Props {
     params: Promise<{ slug: string }>;
 }
 
+
+export const revalidate = 3600; // Cache for 1 hour
+
+export async function generateStaticParams() {
+    const { data: recipes } = await supabase.from('recipes').select('slug');
+    return recipes?.map(({ slug }) => ({ slug })) || [];
+}
+
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
     const { slug } = await params;
 

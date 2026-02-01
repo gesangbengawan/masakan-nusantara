@@ -11,4 +11,5 @@ export interface Recipe {
     province?: string;
     ingredients: string[];
     instructions: string[];
+    tips?: string[];
 }

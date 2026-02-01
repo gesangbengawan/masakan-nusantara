@@ -3,7 +3,7 @@ import { Metadata } from "next";
 import { supabase } from "@/lib/supabase";
 import { Recipe } from "@/types/recipe";
 
-export const revalidate = 0; // Ensure dynamic data fetching
+export const revalidate = 3600; // Cache for 1 hour
 
 export const metadata: Metadata = {
     title: "Daftar Resep | Masakan Nusantara",
