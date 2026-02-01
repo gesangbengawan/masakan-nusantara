@@ -103,6 +103,7 @@ export function RecipeFilteredList({ initialRecipes }: { initialRecipes: Recipe[
                                     alt={recipe.title}
                                     fill
                                     className="object-cover group-hover:scale-110 transition-transform duration-700"
+                                    sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
                                 />
                                 {/* Content Overlay */}
                                 <div className="absolute bottom-0 left-0 right-0 p-4 bg-gradient-to-t from-black/90 via-black/60 to-transparent pt-12 transform transition-all duration-300">
