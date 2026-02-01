@@ -2,8 +2,9 @@ require('dotenv').config({ path: '.env.local' });
 const { createClient } = require('@supabase/supabase-js');
 const part1 = require('../src/data/part1_authentic.js');
 const part2 = require('../src/data/part2_authentic.js');
+const part3 = require('../src/data/part3_authentic.js');
 
-const recipes = [...part1, ...part2];
+const recipes = [...part1, ...part2, ...part3];
 
 const supabaseUrl = process.env.NEXT_PUBLIC_SUPABASE_URL;
 const supabaseKey = process.env.SUPABASE_SERVICE_ROLE_KEY;
