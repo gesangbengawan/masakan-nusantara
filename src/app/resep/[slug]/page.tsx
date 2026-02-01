@@ -45,7 +45,7 @@ export default async function RecipeDetailPage({ params }: Props) {
             </div>
 
             {/* Hero Section - Immersive */}
-            <div className="relative h-[70vh] w-full">
+            <div className="relative h-[70vh] w-full group">
                 <Image
                     src={recipe.image || "/images/hero.png"}
                     alt={recipe.title}
@@ -53,39 +53,36 @@ export default async function RecipeDetailPage({ params }: Props) {
                     className="object-cover"
                     priority
                 />
-                <div className="absolute inset-0 bg-gradient-to-b from-black/30 via-transparent to-stone-950" />
+                <div className="absolute inset-0 bg-gradient-to-t from-stone-950 via-stone-950/40 to-transparent" />
 
-                {/* Floating Title Card */}
-                <div className="absolute -bottom-12 left-0 right-0 px-4">
-                    <div className="max-w-4xl mx-auto bg-stone-900/40 backdrop-blur-xl border border-white/10 p-8 md:p-12 rounded-3xl shadow-2xl relative overflow-hidden">
-                        {/* Shine Effect */}
-                        <div className="absolute top-0 left-0 w-full h-1 bg-gradient-to-r from-transparent via-amber-500/50 to-transparent opacity-50"></div>
-
-                        <div className="flex flex-col md:flex-row gap-6 items-center justify-between relative z-10">
-                            <div className="text-left flex-1">
-                                <span className="inline-block px-3 py-1 mb-4 text-xs font-bold tracking-[0.2em] text-amber-400 uppercase border border-amber-400/20 rounded-full">
+                {/* Text Overlay - Clean & Minimalist */}
+                <div className="absolute bottom-0 left-0 right-0 p-8 md:p-12">
+                    <div className="max-w-5xl mx-auto flex flex-col md:flex-row gap-6 items-end justify-between">
+                        <div className="text-left flex-1 mb-6 md:mb-0">
+                            <div className="flex items-center gap-3 mb-4">
+                                <span className="inline-block px-3 py-1 text-xs font-bold tracking-[0.2em] text-amber-400 uppercase border border-amber-400/50 rounded-full bg-black/20 backdrop-blur-sm">
                                     {recipe.province}
                                 </span>
-                                <h1 className="text-3xl md:text-5xl font-serif font-bold text-white mb-4 leading-tight drop-shadow-lg">
-                                    {recipe.title}
-                                </h1>
-                                <p className="text-stone-100 font-light text-lg leading-relaxed max-w-2xl drop-shadow-md">
-                                    {recipe.description}
-                                </p>
                             </div>
+                            <h1 className="text-4xl md:text-6xl font-serif font-bold text-white mb-4 leading-tight drop-shadow-2xl">
+                                {recipe.title}
+                            </h1>
+                            <p className="text-stone-300 font-light text-lg md:text-xl leading-relaxed max-w-3xl drop-shadow-lg line-clamp-2 md:line-clamp-none">
+                                {recipe.description}
+                            </p>
+                        </div>
 
-                            {/* Actions */}
-                            <div className="flex flex-col gap-3 shrink-0">
-                                <FavoriteButton slug={recipe.slug} />
-                                <div className="flex items-center gap-4 text-sm font-medium text-stone-400 bg-stone-950/50 px-4 py-2 rounded-xl border border-white/5">
-                                    <span className="flex items-center gap-2">
-                                        <Clock className="w-4 h-4 text-amber-500" /> {recipe.cookTime}
-                                    </span>
-                                    <span className="w-px h-4 bg-white/10"></span>
-                                    <span className="flex items-center gap-2">
-                                        <Utensils className="w-4 h-4 text-amber-500" /> {recipe.servings} Porsi
-                                    </span>
-                                </div>
+                        {/* Actions & Metrics */}
+                        <div className="flex flex-col gap-4 shrink-0 pb-2">
+                            <FavoriteButton slug={recipe.slug} />
+                            <div className="flex items-center gap-6 text-sm font-medium text-stone-300">
+                                <span className="flex items-center gap-2">
+                                    <Clock className="w-5 h-5 text-amber-500" /> {recipe.cookTime}
+                                </span>
+                                <span className="w-px h-4 bg-white/20"></span>
+                                <span className="flex items-center gap-2">
+                                    <Utensils className="w-5 h-5 text-amber-500" /> {recipe.servings} Porsi
+                                </span>
                             </div>
                         </div>
                     </div>
