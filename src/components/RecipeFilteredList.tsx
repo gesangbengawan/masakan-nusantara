@@ -54,7 +54,7 @@ export function RecipeFilteredList({ initialRecipes }: { initialRecipes: Recipe[
                         <h3 className="font-serif text-xl font-bold text-amber-500">Jelajahi Provinsi</h3>
                         <button
                             onClick={() => setIsExpanded(!isExpanded)}
-                            className="text-amber-600 hover:text-amber-800 text-sm font-medium flex items-center gap-1 transition-colors"
+                            className="text-amber-600 hover:text-amber-800 text-lg font-bold flex items-center gap-1 transition-colors"
                         >
                             {isExpanded ? "Sembunyikan" : "Lihat Semua"}
                             <svg xmlns="http://www.w3.org/2000/svg" className={`h-4 w-4 transition-transform ${isExpanded ? "rotate-180" : ""}`} fill="none" viewBox="0 0 24 24" stroke="currentColor">
