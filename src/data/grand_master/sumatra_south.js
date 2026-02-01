@@ -4,8 +4,8 @@ module.exports = [
         slug: "gulai-tempoyak-ikan-patin-jambi",
         province: "Jambi",
         title: "Gulai Tempoyak Ikan Patin",
-        description: "Hidangan ikonik tanah Melayu Jambi. Ikan Patin sungai segar dimasak dengan TEMPOYAK (fermentasi durian) murni tanpa santan atau dengan sedikit santan, menghasilkan kuah kental berwarna kuning dengan rasa Asam-Manis-Pedas yang sangat khas dan aromatik.",
-        image: "jambi_gulai_tempoyak_ikan_patin.png",
+        description: "Hidangan ikonik tanah Melayu Jambi yang menggugah selera. Menggunakan Ikan Patin sungai segar yang dimasak dengan TEMPOYAK (fermentasi durian) murni. Kuahnya kental berwarna kuning keemasan dengan perpaduan rasa Asam, Manis, dan Pedas yang sangat kompleks dan aromatik, tanpa menggunakan santan (atau sedikit santan untuk variasi gurih).",
+        image: "jambi_gulai_tempoyak_ikan_patin.jpeg",
         prepTime: "20 Menit",
         cookTime: "30 Menit",
         servings: 4,
@@ -27,22 +27,25 @@ module.exports = [
         instructions: [
             "**Siapkan Patin**: Cuci bersih ikan patin dengan jeruk nipis dan garam untuk menghilangkan bau tanah dan amis. Bilas bersih.",
             "**Rebus Kuah**: Didihkan air. Masukkan bumbu halus, serai, daun jeruk, dan daun kunyit. Masak sampai bumbu matang dan tidak langu.",
-            "**Masukkan Tempoyak**: Masukkan tempoyak. Aduk rata sampai larut dalam kuah. Kuah akan mengental alami.",
+            "**Masukkan Tempoyak**: Masukkan tempoyak. Aduk rata sampai larut dalam kuah. Kuah akan mengental alami karena serat durian.",
             "**Masak Ikan**: Masukkan ikan patin. Masak dengan api sedang. Jangan sering diaduk agar ikan tidak hancur.",
             "**Balancing Rasa**: Tambahkan gula pasir cukup banyak untuk menyeimbangkan rasa asam tempoyak dan pedas cabai. Rasanya harus 'Medok' asam manis pedas.",
-            "**Sajikan**: Angkat saat ikan matang. Sajikan dengan nasi putih hangat."
+            "**Sajikan**: Angkat saat ikan matang. Sajikan dengan nasi putih hangat. Kuahnya sangat nikmat disiram ke nasi."
         ],
         tips: [
-            "**Pilih Tempoyak**: Gunakan tempoyak yang sudah difermanentasi minimal 3-5 hari untuk rasa asam yang pas.",
-            "**Tanpa Santan**: Gulai Tempoyak Jambi asli biasanya tidak pakai santan (lebih segar), tapi ada versi yang pakai santan (lebih gurih)."
+            "**Pilih Tempoyak**: Gunakan tempoyak yang sudah difermanentasi minimal 3-5 hari. Tempoyak yang baik warnanya kuning cerah dan aromanya asam segar, bukan busuk.",
+            "**Tanpa Santan**: Gulai Tempoyak Jambi asli biasanya tidak pakai santan (lebih segar), tapi ada versi yang pakai sedikit santan (lebih gurih creamy).",
+            "**Jenis Durian**: Tempoyak dari durian lokal yang dagingnya tebal dan manis-pahit akan menghasilkan gulai terbaik.",
+            "**Bau Tanah**: Jika takut bau tanah/lumpur pada patin, rendam ikan dengan air asam jawa sebelum dimasak.",
+            "**Kepedasan**: Masakan ini wajib pedas untuk mengimbangi rasa durian yang kuat."
         ]
     },
     {
         slug: "nasi-gemuk-jambi",
         province: "Jambi",
         title: "Nasi Gemuk (Sarapan Khas Jambi)",
-        description: "Sarapan khas Jambi mirip nasi uduk tetapi dengan lauk pelengkap yang khas seperti daging suwir manis, telur dadar iris, teri kacang, dan sambal terasi manis yang menggugah selera.",
-        image: "jambi_nasi_gemuk.png",
+        description: "Menu sarapan kebanggaan masyarakat Jambi, sekilas mirip Nasi Uduk Betawi namun dengan cita rasa yang lebih 'gemuk' (kaya rasa/lemak) karena penggunaan santan kental yang royal. Disajikan dengan lauk lengkap: daging suwir manis, teri kacang, telur dadar, dan sambal terasi manis khas Jambi.",
+        image: "jambi_nasi_gemuk.jpeg",
         prepTime: "30 Menit",
         cookTime: "45 Menit",
         servings: 4,
@@ -62,22 +65,26 @@ module.exports = [
             "Cabai Merah, Terasi, Bawang Merah, Tomat (Tumis matang manis)"
         ],
         instructions: [
-            "**Aron Nasi**: Masak beras dengan santan dan rempah daun di panci/rice cooker sampai menjadi nasi aron (setengah matang).",
+            "**Aron Nasi**: Masak beras dengan santan dan rempah daun di panci/rice cooker sampai menjadi nasi aron (setengah matang). Aduk sesekali agar santan merata.",
             "**Kukus**: Kukus nasi aron selama 30 menit sampai matang pulen dan berlemak (gemuk).",
             "**Buat Sambal**: Tumis bumbu sambal sampai benar-benar matang berminyak. Beri gula merah dan garam. Sambal Nasi Gemuk cenderung manis gurih.",
-            "**Penyajian**: Cetak nasi di piring. Kelilingi dengan lauk pauk (telur, teri kacang, daging suwir). Taruh sambal di atas nasi/samping."
+            "**Penyajian**: Cetak nasi di piring. Kelilingi dengan lauk pauk (telur, teri kacang, daging suwir). Taruh sambal di atas nasi/samping.",
+            "**Pelengkap**: Sajikan hangat dengan teh manis."
         ],
         tips: [
-            "**Santan**: Gunakan santan yang cukup banyak agar nasi terasa 'gemuk' (rich/creamy) saat dimakan.",
-            "**Kerupuk Merah**: Ciri khas visual Nasi Gemuk adalah kehadiran kerupuk singkong berwarna merah menyala."
+            "**Santan Royal**: Gunakan santan yang cukup banyak dan kental agar nasi terasa 'gemuk' (rich/creamy) dan berminyak saat dimakan.",
+            "**Kerupuk Merah**: Ciri khas visual Nasi Gemuk adalah kehadiran kerupuk singkong berwarna merah menyala.",
+            "**Sambal Manis**: Sambal Nasi Gemuk berbeda dengan sambal uduk, rasanya lebih manis (pakai gula merah) dan berbau terasi.",
+            "**Bungkus Daun**: Paling nikmat jika dibungkus dengan daun pisang seperti nasi rames, aromanya akan menyatu.",
+            "**Daging Suwir**: Daging sapi biasanya dimasak semur kering lalu disuwir halus (seperti abon basah)."
         ]
     },
     {
         slug: "gulai-tepek-ikan-jambi",
         province: "Jambi",
         title: "Gulai Tepek Ikan (Sajian Kenduri)",
-        description: "Olahan ikan gabus yang dibuat seperti pempek lenjer, dipotong serong (ditepek/dipipihkan), lalu dimasak dalam kuah gulai santan nanas yang asam gurih. Biasa disajikan saat kenduri/hajatan.",
-        image: "jambi_gulai_tepek_ikan.png",
+        description: "Hidangan istimewa yang biasanya hanya muncul saat kenduri atau hajatan besar di Jambi. Terbuat dari ikan gabus yang diolah seperti pempek lenjer, dipotong serong (ditepek/dipipihkan), lalu dimasak kembali dalam kuah gulai santan nanas yang kental, asam, dan gurih.",
+        image: "jambi_gulai_tepek_ikan.jpeg",
         prepTime: "1 Jam",
         cookTime: "30 Menit",
         servings: 6,
@@ -98,15 +105,18 @@ module.exports = [
         ],
         instructions: [
             "**Buat Adonan Tepek**: Campur ikan giling, bawang putih, garam, air es. Aduk sampai lengket. Masukkan sagu sedikit demi sedikit. Uleni ringan.",
-            "**Bentuk**: Bentuk memanjang seperti lenjer. Rebus di air mendidih sampai mengapung. Angkat. Dinginkan.",
+            "**Bentuk & Rebus**: Bentuk memanjang seperti lenjer. Rebus di air mendidih sampai mengapung. Angkat. Dinginkan.",
             "**Potong**: Potong-potong serong tebal (seperti memotong lontong). Sisihkan.",
             "**Masak Kuah**: Tumis bumbu halus sampai harum. Masukkan santan dan nanas. Masak sampai mendidih dan nanas layu.",
             "**Masukkan Tepek**: Masukkan potongan tepek ikan ke dalam kuah gulai. Masak sebentar agar bumbu meresap ke dalam pori-pori tepek.",
             "**Sajikan**: Sajikan hangat. Tekstur tepek kenyal lembut berpadu kuah gulai nanas yang segar."
         ],
         tips: [
-            "**Ikan Gabus**: Tradisionalnya menggunakan ikan gabus sungai untuk tekstur yang lebih padat dan putih.",
-            "**Adas Manis**: Rempah wajib untuk aroma khas Gulai Tepek Jambi yang membedakannya dengan gulai Padang."
+            "**Ikan Gabus**: Tradisionalnya menggunakan ikan gabus sungai (haruan) untuk tekstur yang lebih padat dan warna putih susu.",
+            "**Adas Manis**: Rempah wajib (bumbu jintan manis) untuk aroma khas Gulai Tepek Jambi yang membedakannya dengan gulai Padang.",
+            "**Nanas Parut**: Sebagian nanas bisa diparut agar rasa asam manisnya menyatu dengan kuah santan.",
+            "**Jangan Overcook**: Jangan memasak tepek terlalu lama di dalam kuah agar tidak lembek/hancur.",
+            "**Acara Khusus**: Karena pembuatannya rumit, masakan ini dianggap makanan 'mewah' jamuan tamu."
         ]
     },
 
@@ -115,8 +125,8 @@ module.exports = [
         slug: "pendap-bengkulu-ikan-pais",
         province: "Bengkulu",
         title: "Pendap (Ikan Pais Daun Talas)",
-        description: "Ikan yang dibumbui rempah khas (kelapa parut, asam kandis) lalu dibungkus berlapis-lapis dengan daun talas muda, kemudian direbus/dikukus lama (8 jam) hingga daun talas menjadi lembut seperti sayur.",
-        image: "bengkulu_pendap.png",
+        description: "Salah satu makanan terlezat di dunia. Ikan segar yang dibumbui rempah 'khas' (kelapa parut, asam kandis) lalu dibungkus berlapis-lapis dengan daun talas muda, kemudian direbus/dikukus super lama (hingga 8 jam). Daun talas akan luluh menjadi sayur lembut yang creamy dan kaya rasa.",
+        image: "bengkulu_pendap.jpeg",
         prepTime: "40 Menit",
         cookTime: "4 Jam (Modern) - 8 Jam (Tradisional)",
         servings: 4,
@@ -137,21 +147,24 @@ module.exports = [
             "**Bumbu Kelapa**: Campur bumbu halus dengan kelapa parut dan asam kandis. Bagi menjadi 2 bagian.",
             "**Lumuri Ikan**: Lumuri ikan dengan sebagian bumbu.",
             "**Bungkus (Layering)**: Ambil daun pisang lebar. Tumpuk daun talas tebal di atasnya. Taruh sisa bumbu kelapa. Taruh ikan di tengah. Tutup lagi dengan daun talas banyak.",
-            "**Ikat Kuat**: Bungkus padat dan ikat kencang dengan tali rafia/bambu. Harus padat.",
+            "**Ikat Kuat**: Bungkus padat dan ikat kencang dengan tali rafia/bambu. Harus padat agar daun menyatu.",
             "**Rebus Lama**: Rebus bungkusan Pendap dalam air mendidih selama 4-6 jam (tambahkan air jika surut). Bisa juga dipresto 1-2 jam.",
             "**Hasil**: Daun talas akan hancur lembut menjadi sayur berbumbu yang menyelimuti ikan."
         ],
         tips: [
-            "**Daun Talas**: Jangan ganti dengan daun lain. Daun talas memberikan rasa creamy yang unik saat luluh dimasak lama.",
-            "**Durasi Masak**: Semakin lama dimasak, semakin enak dan awet (bisa tahan berhari-hari)."
+            "**Daun Talas**: Jangan ganti dengan daun lain. Daun talas memberikan rasa creamy yang unik dan tekstur lembut saat dimasak lama.",
+            "**Durasi Masak**: Semakin lama dimasak, semakin enak, bumbu meresap, dan awet (bisa tahan berhari-hari tanpa kulkas).",
+            "**Rasa Gatal**: Proses memasak yang lama juga berfungsi menghilangkan rasa gatal (oksalat) pada daun talas.",
+            "**Ikan Laut**: Ikan laut berdaging tebal seperti Kakap atau Gebur paling cocok karena tidak mudah hancur.",
+            "**Nasi Hangat**: Pendap paling enak dimakan dengan nasi panas, rasanya seperti makan lauk dan sayur sekaligus."
         ]
     },
     {
         slug: "bagar-hiu-bengkulu-unik",
         province: "Bengkulu",
         title: "Bagar Hiu (Gulai Tanpa Santan)",
-        description: "Kuliner langka favorit Presiden Soekarno saat pengasingan. Olahan daging ikan hiu (atau ikan pari) yang dimasak dengan kelapa sangrai tumbuk dan rempah, menghasilkan kuah kental hitam gurih TANPA SANTAN.",
-        image: "bengkulu_bagar_hiu.png",
+        description: "Kuliner langka dan eksotis favorit Presiden Soekarno saat pengasingan di Bengkulu. Olahan daging ikan hiu (atau ikan pari) yang dimasak dengan kelapa sangrai tumbuk dan rempah kari, menghasilkan kuah kental hitam gurih TANPA SANTAN. Rasanya unik, perpaduan kari India dan masakan Melayu.",
+        image: "bengkulu_bagar_hiu.jpeg",
         prepTime: "30 Menit",
         cookTime: "45 Menit",
         servings: 4,
@@ -161,7 +174,7 @@ module.exports = [
             "1 butir Kelapa Parut (Sangrai kering coklat, tumbuk halus berminyak)",
             "Air secukupnya",
             "## Bumbu Marinasi (Hilangkan Amis)",
-            "Air Jeruk Nipis & Garam",
+            "Air Jeruk Nipis & Garam (Banyak)",
             "## Bumbu Halus",
             "8 Bawang Merah, 4 Bawang Putih",
             "10 Cabai Merah, 1 sdt Ketumbar, 1/4 sdt Jinten",
@@ -170,24 +183,27 @@ module.exports = [
             "Asam Jawa (larutkan air)"
         ],
         instructions: [
-            "**Cuci Ikan**: Cuci ikan hiu/pari sangat bersih dengan air jeruk nipis untuk menghilangkan bau pesing/amis khasnya. Bilas.",
+            "**Cuci Ikan**: Cuci ikan hiu/pari berkali-kali dengan air jeruk nipis untuk menghilangkan bau pesing/amis khasnya. Bilas bersih.",
             "**Tumis Bumbu**: Tumis bumbu halus dengan sedikit minyak sampai wangi matang.",
-            "**Masukkan Kelapa**: Masukkan kelapa sangrai tumbuk. Aduk rata dengan bumbu.",
+            "**Masukkan Kelapa**: Masukkan kelapa sangrai tumbuk. Aduk rata dengan bumbu sampai menjadi pasta hitam berminyak.",
             "**Masak Ikan**: Masukkan potongan ikan. Aduk rata agar terbalut bumbu. Tuang air panas sampai ikan terendam.",
             "**Simmer**: Masak api kecil-sedang. Bumbui garam, gula, air asam jawa. Masak sampai kuah menyusut dan mengental (keluar minyak dari kelapa).",
             "**Sajikan**: Kuah akan berwarna coklat gelap pekat seperti rendang tapi teksturnya berbeda. Sajikan nasi hangat."
         ],
         tips: [
-            "**Kelapa Sangrai**: Kunci Bagar Hiu adalah kelapa sangrai yang ditumbuk halus sampai keluar minyak, berfungsi sebagai pengental pengganti santan.",
-            "**Rempah**: Penggunaan rempah 'kari' (cengkeh, pala, kayu manis) wajib ada."
+            "**Kelapa Sangrai**: Kunci Bagar Hiu adalah kelapa sangrai yang ditumbuk halus sampai keluar minyak, ini berfungsi sebagai pengental alami pengganti santan.",
+            "**Rempah Kari**: Penggunaan rempah kering (cengkeh, pala, kayu manis, jinten) wajib ada untuk menetralkan bau ikan hiu.",
+            "**Cuci Bersih**: Proses pencucian ikan hiu/pari sangat krusial, gunakan jeruk nipis atau daun jambu biji untuk menghilangkan bau amonia.",
+            "**Pari**: Jika sulit menemukan hiu (karena perlindungan), Ikan Pari adalah pengganti yang umum dan legal.",
+            "**Inap**: Seperti rendang, Bagar Hiu makin enak jika dipanaskan ulang."
         ]
     },
     {
         slug: "gulai-kembaang-bengkulu",
         province: "Bengkulu",
         title: "Gulai Kemba'ang (Iga Sapi & Daun Pakis)",
-        description: "Gulai iga sapi tradisional Bengkulu (biasanya saat Lebaran) yang dimasak dengan santan kental dan sayur daun pakis (paku) serta unji (kecombrang), rasanya gurih berlemak.",
-        image: "bengkulu_gulai_kembaang.png", // Assuming valid prompt
+        description: "Gulai iga sapi tradisional khas Bengkulu yang wajib ada saat Lebaran/Idul Fitri. Keunikannya terletak pada kombinasi iga sapi berlemak dengan santan kental dan sayuran khas: DAUN PAKIS (paku) dan UNJI (kecombrang), menghasilkan aroma yang sangat harum.",
+        image: "bengkulu_gulai_kembaang.png",
         prepTime: "30 Menit",
         cookTime: "1.5 Jam",
         servings: 4,
@@ -205,15 +221,18 @@ module.exports = [
             "Asam Kandis"
         ],
         instructions: [
-            "**Rebus Iga**: Presto atau rebus iga sapi sampai empuk. Sisihkan kaldunya.",
+            "**Rebus Iga**: Presto atau rebus iga sapi sampai empuk. Sisihkan kaldunya untuk kuah.",
             "**Masak Kuah**: Tumis bumbu halus dan daun kunyit sampai wangi. Tuang santan dan kaldu sapi.",
-            "**Masak Iga**: Masukkan iga sapi. Masak sampai bumbu meresap dan santan berminyak.",
-            "**Masukkan Sayur**: Terakhir, masukkan daun pakis. Masak sebentar saja agar pakis tetap hijau dan renyah. Bumbui garam.",
-            "**Sajikan**: Hidangkan sebagai lauk makan besar."
+            "**Masak Iga**: Masukkan iga sapi. Masak sampai bumbu meresap dan santan berminyak (tanak).",
+            "**Masukkan Sayur**: Terakhir, masukkan daun pakis muda. Masak sebentar saja agar pakis tetap hijau dan renyah. Bumbui garam.",
+            "**Sajikan**: Hidangkan sebagai lauk makan besar bersama ketupat atau nasi."
         ],
         tips: [
-            "**Pakis Muda**: Pastikan menggunakan pakis sayur yang muda agar tidak alot.",
-            "**Unji**: Jika ada, tambahkan irisan unji (kecombrang) untuk aroma otentik Bengkulu."
+            "**Pakis Muda**: Pastikan menggunakan pakis sayur yang muda (ujungnya melengkung) agar teksturnya renyah dan tidak alot.",
+            "**Unji**: Jika ada, tambahkan irisan unji (batang kecombrang) ke dalam gulai untuk aroma otentik Bengkulu.",
+            "**Bumbu Medok**: Bumbu gulai harus tebal dan berani (medok) agar meresap ke dalam iga dan pakis.",
+            "**Santan Kani**: Gunakan santan kani (perasan pertama) di akhir memasak untuk hasil kuah yang gurih maksimal.",
+            "**Lebaran**: Di Bengkulu, masakan ini identik dengan suasana hari raya."
         ]
     },
 
@@ -222,8 +241,8 @@ module.exports = [
         slug: "pempek-kapal-selam-palembang",
         province: "Sumatera Selatan",
         title: "Pempek Kapal Selam (Isi Telur Besar)",
-        description: "Ikon kuliner Palembang. Adonan ikan tenggiri dan sagu yang diisi telur utuh, digoreng garing, dan disajikan dengan Cuko hitam pekat yang pedas, asam, manis.",
-        image: "sumatera_selatan_pempek_kapal_selam.png",
+        description: "Ikon kuliner Palembang yang mendunia. Adonan ikan tenggiri segar dan sagu tani yang diisi telur ayam/bebek utuh, direbus lalu digoreng garing. Disajikan dengan 'Cuko' hitam pekat yang rasanya nendang: Pedas, Asam, Manis, dengan aroma bawang putih yang kuat.",
+        image: "sumatera_selatan_pempek_kapal_selam.jpeg",
         prepTime: "1 Jam",
         cookTime: "30 Menit",
         servings: 5,
@@ -249,16 +268,19 @@ module.exports = [
             "**Penyajian**: Goreng pempek sampai kuning keemasan. Potong-potong. Siram Cuko. Taburi timun cincang dan ebi bubuk."
         ],
         tips: [
-            "**Ikan Dingin**: Pastikan daging ikan dan air benar-benar DINGIN agar pempek kenyal garing, bukan lembek atau keras.",
-            "**Jangan Uleni**: Saat memasukkan sagu, aduk perlahan pakai ujung jari. Uleni terlalu kuat bikin pempek keras (alot)."
+            "**Ikan Dingin**: Pastikan daging ikan dan air benar-benar DINGIN (bisa masuk freezer sebentar) agar pempek kenyal garing, bukan lembek atau keras.",
+            "**Jangan Uleni**: Saat memasukkan sagu, aduk perlahan pakai ujung jari saja. Menguleni terlalu kuat akan mengaktifkan gluten dan bikin pempek keras (alot).",
+            "**Gula Batok**: Kunci Cuko yang enak adalah Gula Batok (Gula Aren) asli Lubuklinggau yang warnanya hitam pekat dan rasanya legit, bukan gula merah biasa (coklat).",
+            "**Telur Bebek**: Isian telur bebek lebih gurih dan kuningnya lebih masir, tapi telur ayam juga enak.",
+            "**Inap Cuko**: Cuko makin enak jika diinapkan 1 malam dalam kulkas, rasa bawang dan cabainya makin menyatu."
         ]
     },
     {
         slug: "tekwan-palembang-kuah-udang",
         province: "Sumatera Selatan",
         title: "Tekwan (Sup Biji Ikan)",
-        description: "Sup bola-bola ikan kecil yang segar dengan kaldu udang, dilengkapi jamur kuping, bengkuang, dan bunga sedap malam. Makanan nyaman (comfort food) khas Palembang.",
-        image: "sumatera_selatan_tekwan.png",
+        description: "Sajian sup 'comfort food' khas Palembang berupa biji ikan (mirip bakso ikan tak beraturan) yang disajikan dalam kuah kaldu udang yang bening namun gurih. Dilengkapi dengan jamur kuping, bengkuang yang renyah, dan aroma bunga sedap malam.",
+        image: "sumatera_selatan_tekwan.jpeg",
         prepTime: "45 Menit",
         cookTime: "30 Menit",
         servings: 6,
@@ -281,22 +303,25 @@ module.exports = [
         ],
         instructions: [
             "**Biji Tekwan**: Campur ikan, putih telur, garam, air. Masukkan sagu. Buat adonan seperti bakso ikan. Cubit-cubit kecil (tak beraturan) cemplungkan ke air mendidih. Rebus sampai mengapung. Tiriskan.",
-            "**Kaldu Udang**: Rebus kepala/kulit udang. Saring kaldunya. Cincang kasar daging udang, tumis sebentar.",
-            "**Masak Sup**: Tumis bumbu halus sampai wangi. Masukkan daging udang cincang. Tuang ke panci kaldu.",
-            "**Isian**: Masukkan bengkuang, jamur kuping, sedap malam. Masak sampai bengkuang renyah matang. Bumbui garam gula.",
+            "**Kaldu Udang**: Rebus kepala/kulit udang sampai merah. Saring kaldunya. Cincang kasar daging udang, tumis sebentar.",
+            "**Masak Sup**: Tumis bumbu halus sampai wangi. Masukkan daging udang cincang. Tuang ke panci kaldu udang.",
+            "**Isian**: Masukkan bengkuang, jamur kuping, dan bunga sedap malam. Masak sampai bengkuang renyah matang (jangan lembek). Bumbui garam gula.",
             "**Penyajian**: Masukkan biji tekwan ke kuah, panaskan sebentar. Tata soun di mangkuk. Siram tekwan dan kuahnya. Taburi seledri dan bawang goreng."
         ],
         tips: [
-            "**Bunga Sedap Malam**: Wajib pakai bunga sedap malam kering (kimcan) untuk aroma khas Tekwan.",
-            "**Kaldu**: Rasa tekwan bertumpu pada kaldu udang yang manis gurih."
+            "**Bunga Sedap Malam**: Wajib pakai bunga sedap malam kering (kimcan) yang direndam dan diikat simpul. Memberikan aroma khas Tekwan yang tidak tergantikan.",
+            "**Kaldu Udang**: Rasa tekwan bertumpu pada kaldu udang. Jangan buang kepala/kulit udang, rebus untuk ekstrak rasanya.",
+            "**Bengkuang**: Irisan bengkuang memberikan tekstur 'krenyes' yang segar dalam kuah hangat.",
+            "**Lada Putih**: Gunakan lada putih bubuk yang berkualitas agar kuah terasa hangat di tenggorokan.",
+            "**Cubit**: Biji tekwan tidak perlu bulat rapi, justru bentuk 'cubitan' abstrak yang membuat teksturnya enak."
         ]
     },
     {
         slug: "pindang-patin-palembang-nanas",
         province: "Sumatera Selatan",
         title: "Pindang Patin Palembang (Kuah Nanas)",
-        description: "Sup ikan patin dengan kuah bening segar berwarna kemerahan yang kaya rempah (kunyit, serai, daun salam) serta rasa asam manis segar dari nenas dan tomat. Bebas santan.",
-        image: "sumatera_selatan_pindang_patin_palembang.png",
+        description: "Sup ikan patin segar dengan kuah bening berwarna kemerahan yang rasanya sangat menyegarkan: Asam, Manis, Pedas, dan Gurih. Penggunaan nanas segar dan daun kemangi membuat masakan ini bebas amis dan sangat ringan (tanpa santan).",
+        image: "sumatera_selatan_pindang_patin_palembang.jpeg",
         prepTime: "20 Menit",
         cookTime: "30 Menit",
         servings: 4,
@@ -316,14 +341,17 @@ module.exports = [
         ],
         instructions: [
             "**Rebus Rempah**: Didihkan air. Masukkan semua bumbu geprek (bawang bakar, kunyit, jahe, serai, salam). Masak sampai wangi rempah keluar kuat.",
-            "**Masukkan Ikan**: Masukkan potongan patin. Masak api sedang.",
-            "**Bumbui**: Masukkan gula merah, air asam jawa, garam. Masak sampai ikan matang.",
-            "**Finishing**: Masukkan potongan NANAS dan cabai belah. Masak sebentar (nanas jangan hancur). Terakhir masukkan KEMANGI. Matikan api.",
+            "**Masukkan Ikan**: Masukkan potongan patin. Masak api sedang. Buang buih yang mengapung.",
+            "**Bumbui**: Masukkan gula merah, air asam jawa, garam. Masak sampai ikan matang. Koreksi rasa asam manisnya.",
+            "**Finishing**: Masukkan potongan NANAS dan cabai belah. Masak sebentar (nanas jangan hancur, cukup layu). Terakhir masukkan KEMANGI. Matikan api.",
             "**Rasa**: Harus seimbang Asam, Manis, Pedas, Segar, Wangi Kemangi."
         ],
         tips: [
-            "**Bawang Bakar**: Membakar bawang dan kunyit sebelum dimasukkan kuah memberikan aroma 'smoky' yang sedap dan kuah lebih bening bersih.",
-            "**Nanas**: Nanas memberikan enzim yang mengempukkan ikan dan rasa manis alami."
+            "**Bawang Bakar**: Membakar bawang, kunyit, dan jahe sebelum dimasukkan kuah memberikan aroma 'smoky' yang sedap dan membuat kuah tetap bening (tidak keruh).",
+            "**Nanas**: Nanas memberikan enzim yang mengempukkan ikan dan rasa manis alami. Pilih nanas Palembang yang manis asam.",
+            "**Kemangi**: Wajib dimasukkan terakhir saat api mati agar aromanya tetap segar dan daunnya hijau.",
+            "**Patin Sungai**: Jika memungkinkan, gunakan Patin Sungai (bukan tambak) karena lemaknya lebih gurih dan dagingnya lebih padat.",
+            "**Kepala Ikan**: Bagian kepala patin adalah bagian terlezat untuk dipindang."
         ]
     },
 
@@ -332,8 +360,8 @@ module.exports = [
         slug: "lempah-kuning-ikan-tenggiri",
         province: "Bangka Belitung",
         title: "Lempah Kuning Ikan (Gangan)",
-        description: "Masakan khas Bangka berupa ikan laut segar (Tenggiri/Kakap) masak kuah kuning cerah dengan dominasi rasa ASAM dari nanas/asam jawa dan PEDAS cabai rawit. Tanpa bawang putih, tanpa santan.",
-        image: "bangka_belitung_lempah_kuning.png",
+        description: "Masakan kebanggaan masyarakat Bangka. Sup ikan laut segar (Tenggiri/Kakap) dengan kuah kuning cerah yang rasanya sangat vibrant: Asam dari nanas/asam jawa dan Pedas menyengat dari cabai rawit. Dimasak TAPA bawang putih dan TANPA santan.",
+        image: "bangka_belitung_lempah_kuning.jpeg",
         prepTime: "15 Menit",
         cookTime: "20 Menit",
         servings: 4,
@@ -350,23 +378,26 @@ module.exports = [
             "1 sdt Terasi Bangka (Bakar)"
         ],
         instructions: [
-            "**Rebus Bumbu**: Didihkan air di panci. Masukkan bumbu halus langsung (tanpa ditumis minyak). Lempah kuning biasanya direbus saja agar segar.",
-            "**Masukkan Nanas**: Masukkan irisan nanas. Masak sampai nanas setengah layu dan kaldu nanas keluar.",
+            "**Rebus Bumbu**: Didihkan air di panci. Masukkan bumbu halus langsung (tanpa ditumis minyak). Lempah kuning direbus saja agar rasanya ringan segar.",
+            "**Masukkan Nanas**: Masukkan irisan nanas. Masak sampai nanas setengah layu dan kaldu nanas keluar menyatu dengan kuah.",
             "**Masak Ikan**: Masukkan ikan. Masak sampai ikan matang (jangan overcook).",
             "**Seasoning**: Beri garam dan gula secukupnya. Rasa harus sangat segar: Asam Nanas, Pedas Cabai, Wangi Terasi.",
-            "**Sajikan**: Hidangkan panas. Kuahnya sangat membangkitkan selera."
+            "**Sajikan**: Hidangkan panas. Kuahnya yang segar sangat cocok untuk cuaca panas."
         ],
         tips: [
-            "**Tanpa Minyak**: Lempah kuning otentik tidak menggunakan minyak goreng untuk menumis. Bumbu cemplung langsung ke air mendidih.",
-            "**Terasi Bangka**: Mutlak diperlukan untuk rasa otentik."
+            "**Tanpa Minyak**: Lempah kuning otentik tidak menggunakan minyak goreng untuk menumis. Bumbu 'dicemplung' langsung ke air mendidih.",
+            "**Terasi Bangka**: Kualitas terasi (belacan) Bangka sangat menentukan kenikmatan kuahnya. Bakar terasi dulu agar wangi.",
+            "**Tanpa Bawang Putih**: Jangan pakai bawang putih, karena akan mengubah profil rasa asli Lempah Kuning.",
+            "**Nanas**: Rasa asam dari nanas memberikan karakter segar yang memotong amis ikan laut.",
+            "**Ikan Segar**: Gunakan ikan laut paling segar, karena bumbunya minimalis, kesegaran ikan adalah kunci."
         ]
     },
     {
         slug: "mie-belitung-atep-udang",
         province: "Bangka Belitung",
         title: "Mie Belitung Atep (Kuah Udang Kental)",
-        description: "Mie kuning siram kuah udang kental yang manis gurih, disajikan dengan kentang rebus, tahu, timun, emping, dan udang rebus. Khas Belitung yang menghangatkan.",
-        image: "bangka_belitung_mie_belitung_atep.png",
+        description: "Mie kuning khas Belitung yang disiram kuah udang kental berwarna kecokelatan yang rasanya manis gurih. Disajikan dengan toping lengkap: kentang rebus, tahu, timun, emping, dan udang rebus. Rasanya unik dan menghangatkan perut.",
+        image: "bangka_belitung_mie_belitung_atep.jpeg",
         prepTime: "30 Menit",
         cookTime: "40 Menit",
         servings: 4,
@@ -386,23 +417,26 @@ module.exports = [
             "Timun, Emping, Tauge"
         ],
         instructions: [
-            "**Kaldu**: Rebus kulit udang, saring. Didihkan air kaldu.",
-            "**Tumis Bumbu**: Tumis bumbu halus. Masukkan daging udang cincang. Masak sampai berubah warna.",
-            "**Masak Kuah**: Masukkan tumisan ke panci kaldu. Beri Gula Merah (kuah Mie Belitung agak kecoklatan manis). Masak sampai medok.",
-            "**Kentalkan**: Larutkan maizena/sagu, tuang ke kuah sampai kental meletup.",
-            "**Penyajian**: Tata mie, kentang, tahu, tauge di piring (alas daun simpur jika ada). Siram kuah kental panas. Taburi emping."
+            "**Kaldu**: Rebus kulit udang sampai merah, saring. Didihkan air kaldu udang.",
+            "**Tumis Bumbu**: Tumis bumbu halus sampai wangi. Masukkan daging udang cincang. Masak sampai berubah warna.",
+            "**Masak Kuah**: Masukkan tumisan udang ke panci kaldu. Beri Gula Merah (kuah Mie Belitung agak kecoklatan manis). Masak sampai bumbu tanak.",
+            "**Kentalkan**: Larutkan maizena/sagu dengan sedikit air, tuang ke kuah mendidih sambil diaduk sampai kental meletup-letup.",
+            "**Penyajian**: Tata mie, kentang rebus, tahu goreng, tauge di piring (alas daun simpur jika ada). Siram kuah kental panas. Taburi emping dan timun."
         ],
         tips: [
-            "**Gula Merah + Udang**: Kombinasi manis gula jawa dan gurih udang adalah ciri khas utama Mie Belitung.",
-            "**Kental**: Kuahnya harus cukup kental agar menempel di mie saat disuap."
+            "**Gula Merah + Udang**: Kombinasi manis gula jawa dan gurih udang adalah ciri khas utama rasa Mie Belitung yang tidak ditemukan di mie lain.",
+            "**Kental**: Kuahnya harus cukup kental (seperti lem encer) agar menempel (coating) di setiap helai mie saat disuap.",
+            "**Daun Simpur**: Di Belitung, mie ini disajikan di atas Daun Simpur yang memberikan aroma hutan yang khas.",
+            "**Lada**: Lada putih yang cukup kuat memberikan rasa hangat menyeimbangkan manisnya kuah.",
+            "**Udang Segar**: Gunakan udang laut segar, jangan udang tambak, agar kaldunya manis alami."
         ]
     },
     {
         slug: "otak-otak-bakar-bangka",
         province: "Bangka Belitung",
         title: "Otak-Otak Bakar Bangka (Cuko Merah)",
-        description: "Otak-otak ikan tenggiri yang dibungkus daun pisang dan dibakar arang, dimakan dengan Cuko Terasi Merah (Tauco) yang asam pedas. Aromanya sangat wangi asap.",
-        image: "bangka_belitung_otak_otak_bakar_bangka.png",
+        description: "Camilan wajib jika ke Bangka. Otak-otak ikan tenggiri yang dibungkus daun pisang dan dibakar arang, menghasilkan aroma asap yang wangi. Yang membuatnya beda adalah 'Cuko' cocolannya yang berwarna merah (dari cabai & tauco/terasi), rasanya asam pedas segar.",
+        image: "bangka_belitung_otak_otak_bakar_bangka.jpeg",
         prepTime: "45 Menit",
         cookTime: "15 Menit",
         servings: 20,
@@ -422,15 +456,18 @@ module.exports = [
             "Cuka/Jeruk Kunci, Gula Pasir"
         ],
         instructions: [
-            "**Adonan**: Campur ikan, santan dingin, putih telur, bumbu halus. Aduk rata (tekstur lembek). Masukkan daun bawang. Terakhir masukkan sagu, aduk balik rata.",
+            "**Adonan**: Campur ikan, santan dingin, putih telur, bumbu halus. Aduk rata (tekstur akan lembek). Masukkan daun bawang. Terakhir masukkan sagu sedikit demi sedikit, aduk balik rata (jangan diuleni).",
             "**Bungkus**: Ambil selembar daun pisang. Taruh 1 sdm adonan. Gulung dan sematkan lidi di kedua ujungnya (seperti pepes kecil panjang).",
             "**Bakar**: Bakar di atas bara api arang. Balik-balik sampai daun gosong dan otak-otak menggelembung matang.",
             "**Sambal**: Rebus bahan sambal (cabai bawang) lalu blender dengan terasi/tauco. Beri cuka dan gula. Rasa harus asam pedas segar.",
             "**Sajikan**: Buka bungkus daun yang hangus, cocol otak-otak panas ke sambal merah."
         ],
         tips: [
-            "**Santan Dingin**: Santan membuat otak-otak lembut dan gurih ('lemak'), beda dengan pempek yang kenyal padat.",
-            "**Bakar Arang**: Aroma daun pisang terbakar merasuk ke dalam daging ikan."
+            "**Santan Dingin**: Penggunaan santan dingin membuat tekstur otak-otak lembut dan gurih ('lemak'), berbeda dengan otak-otak Jakarta yang lebih kenyal.",
+            "**Bakar Arang**: Aroma daun pisang yang terbakar arang akan merasuk ke dalam daging ikan, memberikan aroma 'smokey' signature.",
+            "**Jeruk Kunci**: Untuk sambal, gunakan Jeruk Kunci (Sonkit) khas Bangka untuk rasa asam yang wangi jeruk.",
+            "**Jenis Ikan**: Selain tenggiri, bisa menggunakan ikan parang-parang untuk hasil yang lebih putih dan kenyal.",
+            "**Segera Santap**: Otak-otak bakar paling nikmat disantap segera saat masih panas mengembang."
         ]
     },
 
@@ -439,8 +476,8 @@ module.exports = [
         slug: "seruit-ikan-bakar-lampung",
         province: "Lampung",
         title: "Seruit Ikan Bakar (Tradisi Nyewit)",
-        description: "Tradisi makan bersama 'Nyeriuit'. Ikan bakar sungai (Belida/Baung/Mas) yang disajikan dengan SAMBAL SERUIT khas (dicampur tempoyak/mangga), lalapan mentah, dan kuah pindang.",
-        image: "lampung_seruit_ikan_bakar.png",
+        description: "Lebih dari sekadar makanan, Seruit adalah tradisi kebersamaan ('Nyewit'). Ikan bakar sungai (Belida/Baung) disajikan dengan SAMBAL SERUIT yang unik (dicampur tempoyak durian atau mangga muda kuini), lalapan mentah yang melimpah, dan kuah pindang.",
+        image: "lampung_seruit_ikan_bakar.jpeg",
         prepTime: "30 Menit",
         cookTime: "30 Menit",
         servings: 4,
@@ -458,24 +495,27 @@ module.exports = [
             "Daun Singkong Rebus, Terong Bakar, Timun, Kemangi, Jengkol Muda"
         ],
         instructions: [
-            "**Bakar Ikan**: Bakar ikan sungai dengan bumbu oles kuning sederhana atau polos garam saja sampai matang.",
-            "**Ulek Sambal**: Ulek kasar cabai, terasi, garam di cobek besar (layah).",
-            "**Campur Tempoyak**: Masukkan tempoyak atau mangga muda ke dalam sambal. Penyet-penyet.",
+            "**Bakar Ikan**: Bakar ikan sungai dengan bumbu oles kuning sederhana atau polos garam saja sampai matang harum.",
+            "**Ulek Sambal**: Ulek kasar cabai, terasi, garam di cobek besar (layah). Jangan terlalu halus.",
+            "**Campur Tempoyak**: Masukkan tempoyak durian atau mangga muda (kuini) ke dalam sambal. Penyet-penyet agar menyatu dengan cabai.",
             "**Encerkan**: Siram dengan sedikit air hangat atau kuah pindang ikan. Aduk rata. Sambal Seruit teksturnya agak cair dan kasar.",
             "**Campur Ikan (Nyewit)**: Ambil daging ikan bakar, suwir kasar, CAMPURKAN langsung ke dalam cobek sambal. Aduk jadi satu dengan tangan.",
-            "**Makan**: Ambil nasi, cocol lalapan ke campuran sambal ikan tadi. Makan ramai-ramai pakai tangan."
+            "**Makan**: Ambil nasi, ambil campuran sambal ikan, cocol dengan lalapan. Makan ramai-ramai pakai tangan (muluk)."
         ],
         tips: [
-            "**Nyewit**: Seruit bukan nama masakannya, tapi nama tradisi mencampur sambal, ikan, dan tempoyak di satu wadah.",
-            "**Terasi Lampung**: Gunakan terasi udang yang berkualitas kuat."
+            "**Tradisi Nyewit**: Seruit sejatinya adalah proses mencampur sambal, ikan, dan tempoyak di satu wadah besar untuk dimakan bersama.",
+            "**Mangga Kuini**: Selain tempoyak, mangga kuini (embam) yang wangi tajam adalah campuran sambal seruit yang paling favorit.",
+            "**Ikan Sungai**: Gunakan ikan sungai berlemak seperti Baung, Belida, atau Patin. Ikan laut kurang cocok untuk seruit.",
+            "**Lalapan Pahit**: Daun pepaya atau bunga pepaya yang agak pahit sangat cocok menyeimbangkan rasa seruit yang kuat.",
+            "**Terasi**: Terasi Lampung yang dibakar memberikan aroma dasar yang kuat pada sambalnya."
         ]
     },
     {
         slug: "gulai-taboh-lampung",
         province: "Lampung",
         title: "Gulai Taboh (Ikan Asap & Kacang)",
-        description: "Gulai bersantan gurih yang berisi ikan asap (ikan salai/tuhuk) atau ikan laut, dimasak dengan kacang-kacangan (kacang merah/panjang) dan labu, serta rebung. Masakan Pesisir Lampung.",
-        image: "lampung_gulai_taboh.png",
+        description: "Gulai santan kental yang gurih ('Taboh' artinya Santan/Lemak) khas Pesisir Lampung. Berisi ikan asap (ikan salai/tuhuk) yang dimasak bersama aneka isian: kacang merah, kacang panjang, labu kuning, dan rebung. Kuahnya kaya rasa dan sangat mengenyangkan.",
+        image: "lampung_gulai_taboh.jpeg",
         prepTime: "30 Menit",
         cookTime: "45 Menit",
         servings: 4,
@@ -493,23 +533,26 @@ module.exports = [
             "2 keping Asam Gelugur, Serai, Daun Salam"
         ],
         instructions: [
-            "**Rebus Santan**: Masak santan dengan bumbu halus dan rempah daun sambil diaduk agar tidak pecah.",
-            "**Masukkan Isian Keras**: Masukkan kacang merah rebus dan rebung/labu. Masak sampai empuk.",
-            "**Masukkan Ikan**: Masukkan ikan asap. Masak sebentar agar aroma asap keluar ke kuah.",
-            "**Finishing**: Beri garam gula. Masukkan kemangi dan belimbing wuluh (jika suka asam).",
-            "**Sajikan**: Kuah Taboh harus kental, gurih santan, dan pedas."
+            "**Rebus Santan**: Masak santan dengan bumbu halus dan rempah daun sambil diaduk-aduk agar mendidih tapi tidak pecah santan.",
+            "**Masukkan Isian Keras**: Masukkan kacang merah rebus dan rebung/labu. Masak sampai sayuran empuk.",
+            "**Masukkan Ikan**: Masukkan ikan asap. Masak sebentar agar aroma asap keluar ke kuah dan menyatu.",
+            "**Finishing**: Beri garam gula. Masukkan daun kemangi dan belimbing wuluh (jika suka asam) sesaat sebelum diangkat.",
+            "**Sajikan**: Kuah Taboh harus kental, gurih santan, dan pedas. Sajikan dengan nasi hangat."
         ],
         tips: [
-            "**Ikan Tuhuk**: Di Pesisir Barat (Krui), Gulai Taboh sering menggunakan Ikan Tuhuk (Blue Marlin).",
-            "**Taboh**: Artinya 'Santan' atau 'Lemak'. Rasa gurih santan sangat dominan."
+            "**Ikan Tuhuk**: Di Pesisir Barat (Krui), Gulai Taboh sering menggunakan Ikan Tuhuk (Blue Marlin) asap yang dagingnya padat seperti ayam.",
+            "**Variasi Isi**: Gulai Taboh ada dua jenis: Taboh Iwa (Ikan) dan Taboh Daging. Yang paling umum adalah ikan.",
+            "**Kacang Merah**: Kacang merah memberikan tekstur empuk dan rasa manis yang kontras dengan kuah pedas gurih.",
+            "**Santan Kental**: Kunci kelezatan adalah santan yang benar-benar kental dari kelapa tua.",
+            "**Asam Gelugur**: Asam gelugur memberikan rasa asam yang tidak mengubah warna kuah."
         ]
     },
     {
         slug: "pindang-meranjat-lampung",
         province: "Lampung",
         title: "Pindang Meranjat (Pindang Tulang/Ikan)",
-        description: "Varian pindang khas Meranjat yang kuahnya lebih pedas dan sedikit lebih kental dibanding pindang Palembang, sering menggunakan Ikan Patin atau Tulang Iga Sapi dengan bumbu terasi dan nanas.",
-        image: "lampung_pindang_meranjat.png", // Assuming user generates this
+        description: "Varian pindang khas daerah Meranjat yang terkenal 'nendang'. Kuahnya berwarna merah oranye, lebih pedas, dan sedikit lebih kental dibanding pindang Palembang. Menggunakan Ikan Patin atau Tulang Iga Sapi dengan bumbu terasi, nanas, dan kemangi yang melimpah.",
+        image: "lampung_pindang_meranjat.png",
         prepTime: "20 Menit",
         cookTime: "40 Menit",
         servings: 4,
@@ -527,15 +570,18 @@ module.exports = [
             "1 sdt Terasi Bakar (Wajib)"
         ],
         instructions: [
-            "**Tumis Bumbu**: Tumis bumbu halus dan terasi sampai matang wangi.",
-            "**Rebus Kuah**: Masukkan tumisan ke air mendidih. Masukkan bumbu geprek.",
-            "**Masak Protein**: Masukkan ikan/iga. Masak sampai matang. Bumbui dengan Air Asam Jawa, Gula, Garam. Rasa Pindang Meranjat lebih 'nendang' bumbunya.",
-            "**Pelengkap**: Masukkan nanas dan cabai rawit utuh. Sesaat sebelum diangkat, masukkan kemangi.",
-            "**Warna**: Kuah berwarna merah oranye (lebih pekat dari pindang Palembang bening)."
+            "**Tumis Bumbu**: Tumis bumbu halus dan terbasi bakar dengan sedikit minyak sampai matang wangi. (Ini bedanya, bumbunya ditumis dulu).",
+            "**Rebus Kuah**: Masukkan tumisan ke dalam panci air mendidih. Masukkan bumbu geprek lainnya.",
+            "**Masak Protein**: Masukkan ikan atau iga sapi. Masak sampai matang. Bumbui dengan Air Asam Jawa, Gula, Garam. Rasa Pindang Meranjat lebih kuat bumbunya.",
+            "**Pelengkap**: Masukkan potongan nanas dan cabai rawit utuh. Sesaat sebelum diangkat, masukkan kemangi.",
+            "**Sajikan**: Kuah berwarna merah cantik. Rasanya pedas, asam, gurih, segar."
         ],
         tips: [
-            "**Terasi**: Pindang Meranjat wajib pakai terasi dalam bumbu halusnya, memberikan rasa umami kuat.",
-            "**Pedas**: Tingkat kepedasannya biasanya di atas rata-rata pindang biasa."
+            "**Terasi**: Pindang Meranjat wajib pakai terasi (belacan) dalam bumbu halusnya, memberikan rasa umami 'nendang' yang membedakannya dengan pindang biasa.",
+            "**Pedas**: Tingkat kepedasannya biasanya di atas rata-rata pindang Palembang, cocok untuk pecinta pedas.",
+            "**Tumis Bumbu**: Menumis bumbu halus membuat warna kuah lebih keluar dan rasa lebih matang.",
+            "**Tulang Iga**: Selain ikan, Pindang Tulang Iga Sapi ala Meranjat juga sangat populer.",
+            "**Nanas Masak**: Masak nanas sedikit lebih lama agar rasa manisnya keluar menyeimbangkan pedas."
         ]
     }
 ];

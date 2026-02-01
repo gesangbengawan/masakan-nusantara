@@ -3,315 +3,323 @@ module.exports = [
     {
         slug: "ayam-betutu-gilimanuk-kuah",
         province: "Bali",
-        title: "Ayam Betutu Gilimanuk (Kuah)",
-        description: "Ayam kampung utuh yang dimasak slow cook dengan bumbu 'Base Genep' super pedas dan kuah kuning berminyak. Versi Gilimanuk yang berkuah tajam, bukan versi kering (Ubud).",
-        image: "bali_ayam_betutu_kuah.png",
+        title: "Ayam Betutu Gilimanuk (Kuah Pedas)",
+        description: "Ayam kampung utuh yang dimasak dalam kuah bumbu genep lengkap (Base Genep) yang SANGAT PEDAS. Berbeda dengan Betutu Gianyar yang kering (panggang), versi Gilimanuk berkuah kuning super pedas yang meresap hingga ke tulang.",
+        image: "bali_ayam_betutu_kuah.jpeg",
         prepTime: "30 Menit",
         cookTime: "2 Jam",
-        servings: 4,
-        difficulty: "Sedang",
+        servings: 6,
+        difficulty: "Sulit (Bumbu)",
         ingredients: [
-            "1 ekor Ayam Kampung (Utuh/Belah bekakak)",
+            "1 ekor Ayam Kampung Utuh (Belah dada tidak putus/bekakak)",
             "1 Liter Air",
-            "Minyak Kelapa (Wajib untuk tumis)",
-            "## Base Genep (Cincang Halus/Kasar)",
-            "100 gr Bawang Merah, 50 gr Bawang Putih",
-            "50 gr Cabai Rawit Merah (Wajib Pedas)",
-            "Lengkuas, Kencur, Kunyit, Jahe (masing-masing 3-4 cm)",
-            "2 batang Serai (Iris halus)",
-            "## Bumbu Wangi (Ulek Halus)",
-            "1 sdm Ketumbar, 1/2 sdt Merica",
-            "5 butir Kemiri, 1 sdt Terasi Bakar",
-            "Garam, Gula"
+            "## Base Genep (Ulek Kasar)",
+            "15 Bawang Merah, 7 Bawang Putih, 4 Kemiri",
+            "5 cm Lengkuas, 5 cm Kunyit, 5 cm Jahe, 3 cm Kencur",
+            "3 batang Serai, 4 Daun Jeruk",
+            "## Base Rajang (Iris Halus)",
+            "50 gr Cabai Rawit Merah (Wajib Banyak)",
+            "1 sdt Terasi Bakar, Garam, Gula Merah"
         ],
         instructions: [
-            "**Tumis Bumbu**: Panaskan minyak kelapa. Tumis bumbu wangi (ulek) dan Base Genep (cincang) sampai benar-benar matang dan harum semerbak.",
-            "**Masukkan Ayam**: Masukkan ayam. Baluri dengan bumbu tumis sampai rata. Masak sebentar agar kulit ayam layu.",
-            "**Rebus (Nyat-Nyat)**: Tuang air sampai menutupi ayam. Tutup panci. Masak api kecil (slow cook) selama 1.5 - 2 jam.",
-            "**Seasoning**: Bumbui garam gula secukupnya. Rasa Betutu Gilimanuk didominasi rasa pedas cabai dan kencur/kunyit.",
-            "**Penyajian**: Sajikan dengan kuah kuning pedasnya, Kacang Tanah Goreng, dan Plecing Kangkung."
+            "**Siapkan Bumbu**: Campur Base Genep (ulek) dan Base Rajang (iris). Tumis dengan minyak kelapa sampai sangat harum. (Di Bali asli, bumbu ini diremas-remas dulu ke ayam sebelum dimasak).",
+            "**Marinasi**: Lumuri ayam dengan bumbu tumis. Masukkan sisa bumbu ke dalam rongga perut ayam.",
+            "**Masak**: Masukkan ayam dan air ke panci. Masak api kecil (simmer) tertutup rapat selama 1.5 - 2 jam.",
+            "**Cek Kematangan**: Masak sampai ayam sangat empuk dan kuah menyusut tapi masih ada (nyemek).",
+            "**Sajikan**: Kuahnya yang kuning kemerahan sangat pedas. Sajikan dengan Plecing Kangkung dan Kacang Goreng."
         ],
         tips: [
-            "**Cincang vs Ulek**: Ciri khas Base Genep Bali adalah bumbunya dicincang sangat halus (rajang), bukan diblender mulus, memberikan tekstur kuah yang berampas enak.",
-            "**Minyak Kelapa**: Gunakan minyak kelapa asli (VCO/Minyak Tandusan) untuk aroma otentik Bali."
+            "**Base Genep**: Kunci Betutu adalah bumbu dasar (Base Genep) yang lengkap. Kencur dan lengkuas harus berasa.",
+            "**Cabai Rajang**: Selain bumbu halus, irisan cabai rawit kasar memberikan sensasi pedas yang 'menggigit'.",
+            "**Kencur**: Aroma kencur (cekuh) sangat dominan di masakan Bali.",
+            "**Ayam Kampung**: Gunakan ayam kampung agar dagingnya tidak hancur saat dimasak lama dan kaldunya gurih.",
+            "**Minyak Kelapa**: Tumis bumbu dengan minyak kelapa asli untuk aroma otentik Bali."
         ]
     },
     {
-        slug: "sate-lilit-ikan-bali",
+        slug: "sate-lilit-ikan-laut",
         province: "Bali",
         title: "Sate Lilit Ikan (Base Genep)",
-        description: "Daging ikan laut (tenggiri/tuna) yang dicincang, dicampur parutan kelapa muda dan Base Genep, lalu dililitkan pada batang serai wangi dan dibakar.",
-        image: "bali_sate_lilit_ikan_laut.png",
+        description: "Sate khas Bali yang terbuat dari daging ikan laut giling yang dicampur dengan parutan kelapa muda dan bumbu Base Genep, lalu dililitkan pada batang serai atau bambu lebar. Rasanya gurih, wangi, dan sedikit manis.",
+        image: "bali_sate_lilit.png",
         prepTime: "45 Menit",
         cookTime: "15 Menit",
         servings: 20,
         difficulty: "Sedang",
         ingredients: [
-            "500 gr Daging Ikan Tenggiri/Tuna Giling",
-            "100 gr Kelapa Parut Muda (Kuping)",
+            "500 gr Ikan Tenggiri/Tuna Giling",
+            "100 gr Kelapa Parut Muda (Kukus)",
             "50 ml Santan Kental",
             "20 batang Serai (untuk tusukan)",
-            "Daun Jeruk (Iris halus)",
-            "## Base Genep (Haluskan)",
-            "10 Bawang Merah, 5 Bawang Putih",
-            "5 Cabai Merah",
-            "3 cm Kencur, Kunyit, Jahe, Lengkuas",
-            "3 butir Kemiri, 1 sdt Terasi",
-            "Gula Merah (Sedikit)"
+            "## Bumbu Halus (Base Genep)",
+            "8 Bawang Merah, 4 Bawang Putih",
+            "3 cm Kunyit (Bakar), 3 cm Lengkuas, 3 cm Kencur",
+            "3 Cabai Merah Besar (Buang biji agar warna cantik)",
+            "Gula Merah, Garam, Daun Jeruk iris halus"
         ],
         instructions: [
-            "**Tumis Bumbu**: Tumis Base Genep sampai wangi dan matang (kering). Angkat. Biarkan dingin (Penting: jangan campur bumbu panas ke ikan mentah).",
-            "**Adonan Sate**: Campur ikan giling, kelapa parut, santan, irisan daun jeruk, dan bumbu tumis dingin. Uleni dengan tangan sampai lengket dan menyatu.",
-            "**Tes Rasa**: Ambil sedikit adonan, goreng/rebus untuk tes garam gula.",
-            "**Lilitkan**: Ambil segenggam adonan. Lilitkan pada batang bonggol serai. Tekan-tekan agar padat menempel.",
-            "**Bakar**: Bakar di atas arang dengan api sedang. Bolak-balik sampai matang kecokelatan.",
-            "**Sajikan**: Sate Lilit enak dimakan dengan Sambal Matah."
+            "**Buat Adonan**: Campur ikan giling, kelapa parut, santan, dan bumbu halus. Aduk rata. Uleni sebentar sampai adonan lengket dan bisa dibentuk.",
+            "**Tes Rasa**: Ambil sedikit adonan, goreng/bakar. Cicipi asin manisnya.",
+            "**Melilit**: Ambil segenggam adonan. Lilitkan melingkar pada batang serai (bagian putihnya). Tekan-tekan agar menempel kuat.",
+            "**Bakar**: Bakar di atas bara api arang. Balik-balik sampai matang kecokelatan dan berminyak.",
+            "**Sajikan**: Wangi serai yang terbakar akan merasuk ke dalam daging.",
+            "**Pelengkap**: Sambal Matah."
         ],
         tips: [
-            "**Kelapa Muda**: Gunakan kelapa parut yang agak muda agar adonan sate lembab (juicy) dan gurih.",
-            "**Batang Serai**: Menggunakan serai sebagai tusukan memberikan aroma wangi dari dalam sate saat dibakar."
+            "**Kelapa Muda**: Kelapa parut membuat tekstur sate lilit menjadi 'juicy' dan berserat, tidak padat seperti bakso.",
+            "**Batang Serai**: Menggunakan batang serai sebagai tusukan memberikan aroma wangi dari dalam.",
+            "**Ikan Lengket**: Pastikan ikan giling dalam keadaan dingin saat diaduk agar adonan menyatu (emulsi) dan tidak ambyar saat dibakar.",
+            "**Santan**: Sedikit santan kental menjaga sate tetap lembab.",
+            "**Kencur**: Jangan lupa kencur, ciri khas bumbu Bali."
         ]
     },
     {
-        slug: "ayam-pelalah-bali",
+        slug: "lawar-bali-kacang-panjang",
         province: "Bali",
-        title: "Ayam Pelalah (Suwir Pedas)",
-        description: "Ayam suwir khas Bali yang biasa ada di Nasi Campur Bali. Ayam yang dibakar/goreng dulu lalu disuwir dan diaduk dengan bumbu sambal tomat jeruk limau yang segar pedas.",
-        image: "bali_ayam_pelalah.png", // Generated
-        prepTime: "20 Menit",
-        cookTime: "15 Menit",
+        title: "Lawar Bali (Kacang Panjang & Ayam)",
+        description: "Sayur campur khas Bali (bisa disebut salad) yang terdiri dari kacang panjang, nangka muda, daging cincang, dan kelapa parut bakar, diaduk dengan Bumbu Rajang. Versi halal menggunakan daging ayam/bebek.",
+        image: "bali_lawar.png",
+        prepTime: "40 Menit",
+        cookTime: "10 Menit",
         servings: 4,
-        difficulty: "Mudah",
+        difficulty: "Sedang",
         ingredients: [
-            "500 gr Dada Ayam (Rebus/Bakar matang, suwir kasar)",
-            "2 buah Jeruk Limau (Kunci aroma)",
-            "Minyak Kelapa",
-            "## Bumbu Tumbuk Kasar",
-            "10 Cabai Merah Besar (Bakar sebentar)",
-            "10 Cabai Rawit Merah",
-            "8 Bawang Merah (Bakar sebentar)",
-            "4 Bawang Putih (Bakar sebentar)",
-            "1 sdt Terasi Bakar",
-            "2 butir Kencur"
+            "200 gr Kacang Panjang (Potong kecil 1cm, rebus setengah matang)",
+            "100 gr Dada Ayam Rebus (Suwir/Cincang halus)",
+            "100 gr Kelapa Parut (Bakar/Sangrai sebentar)",
+            "## Bumbu Rajang (Cincang Halus, Tumis)",
+            "8 Bawang Merah, 4 Bawang Putih",
+            "5 Cabai Rawit, Terasi",
+            "## Bumbu Embe (Goreng Kering)",
+            "Bawang Merah Goreng, Bawang Putih Goreng, Cabai Goreng",
+            "## Perasa",
+            "Jeruk Limau, Garam, Sedikit Gula"
         ],
         instructions: [
-            "**Siapkan Ayam**: Pastikan ayam sudah matang dan disuwir. Lebih enak jika ayamnya ayam bakar suwir (ada aroma asap).",
-            "**Ulek Bumbu**: Ulek kasar semua bumbu yang sudah dibakar sebentar. Jangan terlalu halus.",
-            "**Tumis/Campur**: Panaskan minyak kelapa. Tumis bumbu sebentar sampai wangi. Matikan api.",
-            "**Aduk**: Masukkan ayam suwir ke wajan. Aduk rata dengan bumbu selagi hangat.",
-            "**Finishing**: Kucuri air jeruk limau yang banyak. Remas-remas sedikit (pakai sarung tangan) agar bumbu meresap ke serat ayam.",
-            "**Rasa**: Pedas, Asam Segar Limau, Wangi Terasi & Kencur."
+            "**Siapkan Sayur**: Rebus kacang panjang sebentar saja (masih renyah). Tiriskan.",
+            "**Kelapa**: Sangrai kelapa parut sampai harum (jangan gosong).",
+            "**Tumis Bumbu**: Tumis bumbu rajang sampai matang.",
+            "**Campur (Ngelawar)**: Di wadah besar, campur kacang panjang, ayam cincang, kelapa, bumbu tumis, dan bawang goreng (Embe). Aduk rata (diurap) pakai tangan.",
+            "**Seasoning**: Beri perasan jeruk limau dan garam. Cicipi.",
+            "**Sajikan**: Segera sajikan. Lawar tidak tahan lama (harus habis sekali makan)."
         ],
         tips: [
-            "**Bahan Bakar**: Membakar bahan bumbu (cabai bawang) sebelum diulek adalah kunci rasa Pelalah yang tidak 'langu'.",
-            "**Minyak**: Jangan pelit minyak, Pelalah yang enak itu agak berminyak merah."
+            "**Kelapa Bakar**: Membakar kelapa sebentar sebelum diparut (atau sangrai) memberikan aroma 'smokey' khas Lawar.",
+            "**Potongan**: Kacang panjang harus dipotong pendek-pendek konsisten.",
+            "**Darah**: Lawar asli (Lawar Merah) menggunakan sedikit darah segar ayam/babi, tapi resep ini adalah Lawar Putih (tanpa darah) yang halal dan umum.",
+            "**Jeruk Limau**: Perasan jeruk limau (lemo) di akhir adalah wajib untuk kesegaran.",
+            "**Base Rajang**: Bumbu dicincang halus (rajang) bukan diulek, agar teksturnya terasa."
         ]
     },
 
     // --- NUSA TENGGARA BARAT (3 Recipes) ---
     {
-        slug: "ayam-taliwang-ombok",
+        slug: "ayam-taliwang-lombok-pedas",
         province: "Nusa Tenggara Barat",
-        title: "Ayam Taliwang Bakar",
-        description: "Ayam kampung muda (umur 3 bulan) yang dibakar dengan bumbu super pedas dari Cabai Lombok dan Terasi, disajikan dengan Plecing Kangkung.",
-        image: "nusa_tenggara_barat_ayam_taliwang_bakar.png",
+        title: "Ayam Taliwang Bakar (Super Pedas)",
+        description: "Ayam bakar pedas legendaris dari Lombok. Menggunakan ayam kampung muda yang dibakar dengan bumbu cabai super pedas, bawang putih, dan terasi udang Lombok yang wanginya khas.",
+        image: "ntb_ayam_taliwang.png",
         prepTime: "30 Menit",
-        cookTime: "30 Menit",
+        cookTime: "45 Menit",
         servings: 2,
         difficulty: "Sedang",
         ingredients: [
-            "1 ekor Ayam Kampung Muda (Belah bekakak)",
-            "2 sdm Kecap Manis",
-            "## Bumbu Halus Taliwang",
-            "15 Cabai Merah Keriting (Keringkan dulu lebih bagus)",
-            "10 Cabai Rawit Merah (Extra Pedas)",
+            "1 ekor Ayam Kampung Muda (Ukuran kecil 500-700gr) - Belah bekakak",
+            "## Bumbu Halus (Tumis)",
+            "15 Cabai Merah Keriting + 15 Cabai Rawit (Super Pedas)",
             "10 Bawang Merah, 5 Bawang Putih",
-            "2 sdt Terasi Lombok (Bakar) - Kunci",
-            "3 cm Kencur",
+            "1,5 sdt Terasi Lombok (Bakar) - Kunci Rasa",
             "1 buah Tomat Merah",
-            "Gula Merah & Garam"
+            "Gula Merah (Sedikit saja untuk penyeimbang)",
+            "4 cm Kencur"
         ],
         instructions: [
-            "**Tumis Bumbu**: Tumis bumbu halus dengan minyak secukupnya sampai matang dan keluar minyak merah. Beri gula garam.",
-            "**Ungkep/Oles**: Masukkan ayam ke tumisan. Beri sedikit air. Masak sebentar setengah matang (ungkep) agar bumbu meresap. Angkat ayam.",
-            "**Bakar**: Bakar ayam di atas arang. Olesi sisa bumbu ungkep + kecap manis berkali-kali.",
-            "**Celup**: Teknik asli Taliwang kadang mencelupkan ayam ke bumbu di piring lalu bakar lagi sampai 2-3 kali lapis.",
-            "**Sajikan**: Hidangkan dengan Plecing Kangkung dan Beberuk Terong."
+            "**Goreng Setengah Matang**: Goreng ayam bekakak sebentar dalam minyak panas (hanya sampai kulit agak kaku, jangan kering). Angkat.",
+            "**Tumis Bumbu**: Tumis bumbu halus sampai benar-benar matang dan berminyak merah.",
+            "**Celup & Bakar**: Celupkan ayam ke dalam tumisan bumbu. Bakar di atas arang. Olesi lagi bumbu. Bakar lagi. Ulangi 3x sampai bumbu menumpuk dan meresap.",
+            "**Sajikan**: Sajikan dengan Plecing Kangkung dan Beberuk Terung.",
+            "**Rasa**: Pedas nendang, gurih terasi."
         ],
         tips: [
-            "**Terasi Lombok**: Terasi hitam khas Lombok memiliki aroma yang sangat kuat dan berbeda dengan terasi Cirebon. Wajib dipakai.",
-            "**Ayam Muda**: Gunakan ayam lancur (muda) agar dagingnya manis lembut dan tulangnya lunak."
+            "**Ayam Muda**: Wajib pakai ayam kampung muda (lancur) agar dagingnya manis dan lembut.",
+            "**Terasi Lombok**: Terasi Lombok aromanya lebih kuat dan warnanya lebih gelap, sangat mempengaruhi rasa.",
+            "**Pedas**: Ayam Taliwang identik dengan rasa pedas menyengat. Jangan kurangi cabai rawit.",
+            "**Kencur**: Penambahan kencur memberikan aroma segar di tengah rasa pedas.",
+            "**Plecing**: Jodohnya adalah Plecing Kangkung (Kangkung rebus siram sambal tomat)."
         ]
     },
     {
-        slug: "sate-rembiga-sapi",
+        slug: "beberuk-terung-lombok",
         province: "Nusa Tenggara Barat",
-        title: "Sate Rembiga (Sapi Pedas)",
-        description: "Sate sapi khas Desa Rembiga, Lombok yang rasanya UNIK: Sangat Pedas, Manis, dan Gurih tanpa bumbu kacang/kecap saat disajikan. Dagingnya dimarinasi bumbu merah.",
-        image: "nusa_tenggara_barat_sate_rembiga.png", // Generated
-        prepTime: "2 Jam (Marinasi)",
-        cookTime: "15 Menit",
+        title: "Beberuk Terung (Lalapan Mentah)",
+        description: "Sambal lalapan segar khas Lombok yang terdiri dari potongan Terong Bulat dan Kacang Panjang MENTAH yang disiram sambal tomat super pedas. Pasangan wajib Ayam Taliwang.",
+        image: "ntb_beberuk_terung.png",
+        prepTime: "15 Menit",
+        cookTime: "0 Menit",
         servings: 4,
         difficulty: "Mudah",
         ingredients: [
-            "500 gr Daging Sapi Has Dalam (Potong dadu)",
-            "Daun Pepaya (untuk empuk)",
-            "## Bumbu Marinasi (Haluskan)",
-            "15 Cabai Merah Keriting",
-            "10 Cabai Rawit (Wajib Pedas)",
-            "8 Bawang Putih",
-            "100 gr Gula Merah (Sisir) - PENTING",
-            "1/2 sdt Terasi Bakar",
-            "2 sdm Air Asam Jawa",
-            "Minyak Goreng"
+            "4 buah Terong Bulat Hijau/Ungu (Potong dadu kecil)",
+            "5 batang Kacang Panjang (Iris kecil 1cm)",
+            "## Sambal Ulek",
+            "10 Cabai Rawit Merah",
+            "2 Tomat Merah (Potong dadu)",
+            "3 Bawang Merah (Iris halus, campur mentah)",
+            "1 sdt Terasi Bakar",
+            "Garam, Gula, Jeruk Limau",
+            "Minyak Jelantah Panas (Sedikit)"
         ],
         instructions: [
-            "**Empukkan**: Bungkus daging dengan daun pepaya 30 menit.",
-            "**Marinasi**: Campur daging dengan bumbu halus, gula merah (banyak), dan minyak. Remas-remas. Simpan di kulkas minimal 2 jam (semalaman lebih baik).",
-            "**Tusuk**: Tusuk daging sapi ke tusuk sate.",
-            "**Bakar**: Bakar di atas arang. Tidak perlu olesan kecap lagi karena sudah manis dari gula merah marinasi.",
-            "**Sajikan**: Sate Rembiga dimakan begitu saja dengan Lontong/Nasi. Rasanya meledak di mulut (Pedas Manis)."
+            "**Ulek Sambal**: Ulek kasar cabai, terasi, garam. Masukkan potongan tomat, ulek asal penyet.",
+            "**Campur Sayur**: Masukkan potongan terong dan kacang panjang mentah ke cobek.",
+            "**Siram Minyak**: Siram dengan satu sendok minyak panas jelantah (bekas goreng udang/ayam lebih enak).",
+            "**Seasoning**: Kucuri Jeruk Limau. Aduk rata.",
+            "**Sajikan**: Segar, renyah, pedas."
         ],
         tips: [
-            "**Gula Merah & Cabai**: Keseimbangan Sate Rembiga ada pada rasa manis Gula Merah yang kuat melawan pedasnya Cabai Lombok.",
-            "**Tanpa Saus**: Ini sate 'kering' berbumbu, tidak perlu saus celup."
+            "**Sayur Mentah**: Terong dan kacang panjang harus mentah (crunchy) dan segar.",
+            "**Terasi**: Terasi bakar yang banyak adalah kunci.",
+            "**Minyak Jelantah**: Siraman minyak panas mematangkan cabai sedikit dan menyatukan rasa.",
+            "**Tomat**: Gunakan tomat merah segar yang banyak airnya.",
+            "**Pendamping**: Wajib ada saat makan Ayam Taliwang."
         ]
     },
     {
-        slug: "plecing-kangkung-lombok",
+        slug: "ayam-rarang-lombok",
         province: "Nusa Tenggara Barat",
-        title: "Plecing Kangkung (Sambal Tomat)",
-        description: "Kangkung air Lombok yang batangnya besar tapi renyah, direbus dan disajikan dingin dengan Sambal Plecing (Tomat Terasi) segar dan taburan kacang tanah goreng.",
-        image: "nusa_tenggara_barat_plecing_kangkung.png", // Generated
-        prepTime: "15 Menit",
-        cookTime: "5 Menit",
-        servings: 2,
-        difficulty: "Mudah",
+        title: "Ayam Rarang (Bumbu Balado Lombok)",
+        description: "Ayam kampung goreng yang dimasak dengan bumbu sambal goreng pedas membara khas Desa Rarang, Lombok Timur. Bumbunya sangat medok, bergumpal-gumpal, dan berwarna merah menyala.",
+        image: "ntb_ayam_rarang.png",
+        prepTime: "30 Menit",
+        cookTime: "40 Menit",
+        servings: 4,
+        difficulty: "Sedang",
         ingredients: [
-            "2 ikat Kangkung Air (Pilih yang batang besar)",
-            "Kacang Tanah Goreng",
-            "Tauge rebus (Opsional)",
-            "Kelapa Parut Urap (Opsional)",
-            "## Sambal Plecing",
-            "1 buah Tomat Merah Besar (Rebus/Bakar)",
-            "15 Cabai Rawit Merah (Rebus/Bakar)",
-            "1 sdt Terasi Lombok Bakar",
-            "1 buah Jeruk Limau",
-            "Garam Gula"
+            "1 ekor Ayam Kampung (Potong kecil 12 bagian)",
+            "## Bumbu Halus (Wajib Banyak)",
+            "20 Cabai Merah Kering (Rebus)",
+            "15 Cabai Rawit Merah (Pedas)",
+            "10 Bawang Putih (Lebih banyak bawang putih drpd merah)",
+            "5 Kemiri (Sangrai)",
+            "1 sdt Terasi",
+            "Gula Merah sisir"
         ],
         instructions: [
-            "**Rebus Kangkung**: Rebus kangkung di air mendidih yang diberi garam. Jangan terlalu lembek (masih 'kres').",
-            "**Rendam Air Es**: Angkat kangkung, langsung masukkan air es agar warna tetap hijau cerah.",
-            "**Belah Batang**: Suwir/belah batang kangkung (karena kangkung Lombok besar-besar).",
-            "**Buat Sambal**: Ulek tomat, cabai, terasi, garam, gula. Kucuri jeruk limau. Sambal ini basah dan segar.",
-            "**Sajikan**: Taruh kangkung di piring. Siram Sambal Plecing di atasnya. Taburi Kacang Tanah."
+            "**Goreng Ayam**: Goreng ayam kampung sampai matang berkulit (jangan terlalu kering). Angkat.",
+            "**Tumis Bumbu**: Tumis bumbu halus dengan minyak yang CUKUP BANYAK. Masak sampai bumbu matang, merah gelap, dan pecah minyak.",
+            "**Masak**: Masukkan ayam goreng. Beri sedikit air. Masak sampai bumbu meresap dan mengental (nyemek).",
+            "**Tekstur**: Bumbu harus tebal menempel di ayam.",
+            "**Sajikan**: Taburi bawang goreng. Bumbunya enak dimakan pakai nasi."
         ],
         tips: [
-            "**Kangkung Lombok**: Jika tidak ada kangkung Lombok, pakai kangkung biasa tapi jangan direbus terlalu lama.",
-            "**Suhu**: Plecing kangkung paling enak disajikan dingin (suhu ruang) dengan sambal dadakan."
+            "**Cabai Kering**: Kunci warna merah menyala dan rasa pedas yang 'dalam' adalah cabai kering rebus.",
+            "**Bawang Putih**: Ayam Rarang dominan bawang putih, beda dengan Taliwang.",
+            "**Minyak**: Butuh minyak agak banyak untuk menumis bumbu agar matang sempurna dan awet.",
+            "**Cabai Rawit**: Masukkan cabai rawit utuh jika ingin sensasi 'ranjau'.",
+            "**Potongan Kecil**: Ayam dipotong kecil-kecil agar bumbu menyelimuti seluruh permukaan."
         ]
     },
 
     // --- NUSA TENGGARA TIMUR (3 Recipes) ---
     {
-        slug: "sei-sapi-asap-ntt",
+        slug: "sei-sapi-asap-kupang",
         province: "Nusa Tenggara Timur",
-        title: "Se'i Sapi Asap (Kayu Kesambi)",
-        description: "Daging sapi yang diiris memanjang dan diasap panas (hot smoking) menggunakan kayu Pohon Kesambi. Disajikan dengan tumis daun pepaya/bunga pepaya dan Sambal Lu'at.",
-        image: "nusa_tenggara_timur_se_i_sapi_asap.png",
-        prepTime: "1 Hari (Marinasi)",
+        title: "Se'i Sapi (Daging Asap Kupang)",
+        description: "Daging sapi asap khas Rote/Kupang yang diiris tipis memanjang, dimarinasi rempah, lalu diasap perlahan dengan kayu Kosambi hingga matang dan beraroma 'smokey' khas.",
+        image: "ntt_sei_sapi.png",
+        prepTime: "1 Jam",
         cookTime: "2 Jam (Asap)",
         servings: 4,
-        difficulty: "Sulit (Teknik Asap)",
+        difficulty: "Sulit (Alat Asap)",
         ingredients: [
-            "1 kg Daging Sapi (Has Dalam) - Iris memanjang tipis 3cm",
-            "Kayu Bakar/Serbuk Kayu (Idealnya Kesambi, atau kayu buah)",
-            "Daun Kesambi (untuk tutup)",
-            "## Bumbu Marinasi",
-            "10 Bawang Putih (Cincang halus)",
-            "1 sdm Lada Hitam, 1 sdm Garam",
-            "Madu (Sedikit) untuk warna"
+            "500 gr Daging Sapi (Has Dalam/Memanjang)",
+            "Kayu Bakar Kosambi (atau serbuk kayu asap/batok kelapa)",
+            "Daun Kosambi (untuk tutup daging)",
+            "## Marinasi",
+            "Sendawa (Garam asap - opsional)",
+            "Garam, Lada",
+            "Bawang Putih Halus"
         ],
         instructions: [
-            "**Marinasi**: Lumuri irisan daging dengan bumbu marinasi. Simpan di kulkas 3-12 jam agar meresap dan daging 'curing' (kering).",
-            "**Siapkan Asapan**: Siapkan alat asap (smoker) atau wajan bekas dialasi foil + serbuk kayu/beras/teh (untuk aroma asap rumahan).",
-            "**Proses Asap**: Gantung/Letakkan daging di rak asap. Asap panas (hot smoke) suhu 80-90C selama 1-2 jam. Daging harus matang karena panas dan kering karena asap. Jangan dipanggang api langsung.",
-            "**Iris Tipis**: Setelah matang, iris daging se'i tipis-tipis.",
-            "**Tumis Sebentar**: Biasanya daging se'i asap ditumis sebentar dengan sedikit minyak dan bawang iris sebelum disajikan hangat.",
-            "**Sajikan**: Wajib dengan Sambal Lu'at (Sambal jeruk) dan Tumis Bunga Pepaya pahit."
+            "**Iris**: Iris daging sapi memanjang tebal 2-3 cm (seperti dendeng basah).",
+            "**Marinasi**: Lumuri daging dengan garam, lada, bawang putih. Diamkan 1 jam.",
+            "**Asap**: Panaskan alat pengasapan. Letakkan daging di rak, jauh dari api (hot smoke). Tutup daging dengan daun kosambi. Asap selama 1-2 jam sampai matang dan kering.",
+            "**Sajikan**: Iris tipis-tipis daging sei. Sajikan dengan Sambal Lu'at.",
+            "**Tumis (Opsional)**: Daging sei juga bisa ditumis kembali dengan bunga pepaya."
         ],
         tips: [
-            "**Kayu Kesambi**: Kayu ini memberikan aroma khas Se'i NTT. Jika tidak ada, gunakan kayu rambutan/batok kelapa, tapi aromanya beda.",
-            "**Curing**: Proses marinasi garam membantu menarik air keluar daging sehingga daging lebih awet saat diasap."
+            "**Kayu Kosambi**: Aroma otentik Se'i berasal dari kayu Kosambi (Schleichera oleosa). Jika tidak ada, pakai kayu buah (rambutan/apel).",
+            "**Daun Penutup**: Menutup daging dengan daun kosambi saat diasap membuat daging tetap merah merona dan wangi.",
+            "**Iris Tipis**: Sajikan dengan irisan sangat tipis agar tidak alot.",
+            "**Sambal Lu'at**: Jodoh Se'i adalah Sambal Lu'at (cabai fermentasi kulit jeruk).",
+            "**Hot Smoke**: Tekniknya adalah pengasapan panas (mematangkan) bukan dingin (mengawetkan)."
         ]
     },
     {
-        slug: "rumpu-rampe-flores",
+        slug: "rumpu-rampe-bunga-pepaya",
         province: "Nusa Tenggara Timur",
         title: "Rumpu Rampe (Tumis Bunga Pepaya)",
-        description: "Tumisan sayur pahit khas Flores yang terdiri dari Bunga Pepaya, Daun Pepaya, Daun Singkong, dan Jantung Pisang. Dimasak dengan ikan teri/ikan asap.",
-        image: "nusa_tenggara_timur_rumpu_rampe.png", // Generated
+        description: "Sayuran tumis khas Flores yang terdiri dari campuran pahit-gurih: Bunga Pepaya, Daun Pepaya, Daun Singkong, dan Jantung Pisang. Ditumis dengan bumbu pedas dan udang rebon/teri.",
+        image: "ntt_rumpu_rampe.png",
         prepTime: "30 Menit",
         cookTime: "15 Menit",
         servings: 4,
-        difficulty: "Mudah",
+        difficulty: "Sedang (Hilangkan Pahit)",
         ingredients: [
-            "200 gr Bunga Pepaya (Petik)",
-            "100 gr Daun Pepaya Muda",
-            "100 gr Daun Singkong",
-            "1 buah Jantung Pisang (Rebus, iris)",
-            "50 gr Ikan Teri Kering (Goreng)",
-            "Bahan Penghilang Pahit: Garam Kasar & Daun Jambu/Tanah Liat",
+            "100 gr Bunga Pepaya (Rebus dengan garam & asam jawa)",
+            "100 gr Daun Singkong (Rebus, iris)",
+            "100 gr Jantung Pisang (Rebus, iris)",
+            "50 gr Udang Rebon / Teri",
             "## Bumbu Iris",
             "8 Bawang Merah, 4 Bawang Putih",
             "10 Cabai Rawit (Pedas)",
             "Terasi"
         ],
         instructions: [
-            "**Hilangkan Pahit**: Remas-remas bunga & daun pepaya dengan garam kasar sampai layu, cuci bersih. Rebus dengan daun jambu biji sampai empuk. Tiriskan, peras airnya. (Tips: Pahitnya Rumpu Rampe itu yang dicari, jangan sampai hilang total).",
-            "**Rebus Lainnya**: Rebus daun singkong dan jantung pisang terpisah. Iris halus semua sayuran.",
-            "**Tumis**: Tumis bumbu iris dan terasi sampai wangi.",
-            "**Campur**: Masukkan semua sayuran rebus dan ikan teri goreng. Aduk rata.",
-            "**Seasoning**: Beri garam dan penyedap. Masak sampai bumbu meresap kering.",
-            "**Sajikan**: Pendamping nasi jagung atau se'i sapi."
+            "**Hilangkan Pahit**: Rebus bunga dan daun pepaya dalam air mendidih yang diberi GARAM BANYAK dan ASAM JAWA/LEMPUNG (tanah liat). Tiriskan, cuci bersih, peras. Ini menghilangkan pahit.",
+            "**Tumis**: Tumis bumbu iris dan terasi sampai wangi. Masukkan rebon.",
+            "**Campur**: Masukkan semua sayuran rebus. Aduk rata. Masak sampai bumbu meresap.",
+            "**Sajikan**: Teman makan Se'i Sapi atau Ikan Bakar.",
+            "**Rasa**: Gurih, pedas, sedikit pahit yang enak."
         ],
         tips: [
-            "**Tekstur**: Sayuran harus diiris halus, memberikan tekstur 'rampe' (campuran) di mulut.",
-            "**Teri**: Rasa asin gurih ikan teri menyeimbangkan rasa pahit bunga pepaya."
+            "**Tanah Liat**: Cara tradisional menghilangkan pahit daun pepaya adalah merebusnya dengan tanah liat (Ampo), lalu dicuci bersih.",
+            "**Daun Jambu**: Bisa juga merebus dengan daun jambu biji untuk menetralkan pahit.",
+            "**Campuran**: Kombinasi banyak daun membuat teksturnya kaya (ramai).",
+            "**Rebon**: Udang rebon/ebi memberikan rasa gurih yang mengimbangi rasa daun.",
+            "**Jangan Overcook**: Tumis sebentar saja karena sayur sudah direbus matang."
         ]
     },
     {
-        slug: "ikan-kuah-asam-ntt",
+        slug: "jagung-bose-bubur",
         province: "Nusa Tenggara Timur",
-        title: "Ikan Kuah Asam (Belimbing Wuluh)",
-        description: "Sup ikan segar bening (tanpa kunyit) yang sangat asam segar dari penggunaan Belimbing Wuluh dalam jumlah banyak. Sangat cocok untuk cuaca panas pesisir NTT.",
-        image: "nusa_tenggara_timur_ikan_kuah_asam.png", // Generated
-        prepTime: "15 Menit",
-        cookTime: "20 Menit",
+        title: "Jagung Bose (Bubur Jagung Santan)",
+        description: "Makanan pokok pengganti nasi di Timor. Jagung putih ditumbuk kasar (bose), dimasak lama dengan santan, kacang merah, dan labu kuning hingga menjadi bubur kental lembut.",
+        image: "ntt_jagung_bose.png",
+        prepTime: "1 Malam (Rendam)",
+        cookTime: "2 Jam",
         servings: 4,
         difficulty: "Mudah",
         ingredients: [
-            "1 kg Ikan Laut (Kakap/Kerapu/Tenggiri)",
-            "10 buah Belimbing Wuluh (Potong bulat)",
-            "10 Cabai Rawit Merah (Utuh)",
-            "1 ikat Kemangi",
-            "1 Liter Air",
-            "## Bumbu Iris",
-            "8 Bawang Merah",
-            "4 Bawang Putih",
-            "2 batang Serai, 3 Daun Jeruk",
-            "1 ruas Jahe (Geprek)"
+            "200 gr Jagung Putih Kering (Tumbuk/Pipil)",
+            "100 gr Kacang Merah (Rendam)",
+            "100 gr Labu Kuning (Potong kotak)",
+            "1 Liter Santan Encer + 200 ml Santan Kental",
+            "Garam"
         ],
         instructions: [
-            "**Rebus Air**: Didihkan air. Masukkan bumbu iris, serai, jahe, daun jeruk. Masak sampai wangi.",
-            "**Masak Ikan**: Masukkan potongan ikan. Masak sampai berubah warna.",
-            "**Asam Segar**: Masukkan belimbing wuluh dan cabai rawit utuh. Masak sampai belimbing layu dan air menjadi asam segar. Bumbui garam gula.",
-            "**Finishing**: Masukkan kemangi. Matikan api.",
-            "**Sajikan**: Kuahnya harus BENING (tanpa kunyit) dan rasa asamnya kuat."
+            "**Rebus**: Rebus jagung dan kacang merah dengan air biasa sampai EMPUK sekali (mekar). Ini butuh waktu lama (bisa pakai presto).",
+            "**Masak Santan**: Buang sisa air rebusan. Masukkan Santan Encer dan labu kuning. Masak sampai labu hancur mengental.",
+            "**Finishing**: Masukkan Santan Kental. Masak sambil diaduk agar santan menyatu dan bubur creamy.",
+            "**Sajikan**: Makan sebagai karbohidrat (pengganti nasi) dengan lauk Se'i atau Ikan Kuah Asam.",
+            "**Rasa**: Gurih santan, manis labu."
         ],
         tips: [
-            "**Bening**: Ikan Kuah Asam NTT beda dengan Pindang/Lempah Kuning karena tidak pakai kunyit/cabai giling merah. Warnanya bening pucat tapi rasanya kuat.",
-            "**Ikan Segar**: Karena bumbunya minimalis, kesegaran ikan sangat menentukan rasa."
+            "**Jagung Putih**: Gunakan jagung pulut putih lokal untuk tekstur terbaik, jika tidak ada bisa pakai jagung manis pipil (tapi rasa beda).",
+            "**Kacang**: Kacang merah atau kacang tanah wajib ada untuk tekstur mealy.",
+            "**Santan Kental**: Masukkan santan kental di akhir agar rasa gurihnya segar.",
+            "**Proses**: Jagung Bose aslinya ditumbuk lesung agar kulit arinya lepas.",
+            "**Kuah Asam**: Paling enak dimakan dengan lauk Ikan Kuah Asam pedas."
         ]
     }
 ];

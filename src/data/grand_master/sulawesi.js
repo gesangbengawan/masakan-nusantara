@@ -4,7 +4,7 @@ module.exports = [
         slug: "bubur-manado-tinutuan",
         province: "Sulawesi Utara",
         title: "Bubur Manado (Tinutuan Sehat)",
-        description: "Bubur beras yang dimasak dengan labu kuning (manis) dan aneka sayuran hijau (bayam, kangkung, kemangi, gedi). Makanan super sehat ini disajikan dengan Ikan Asin Goreng kering dan Sambal Roa/Dabu-dabu.",
+        description: "Bubur beras yang dimasak dengan labu kuning (manis) dan aneka sayuran hijau (bayam, kangkung, kemangi, gedi). Makanan super sehat ini disajikan dengan Ikan Asin Goreng kering dan Sambal Roa/Dabu-dabu. Sangat populer sebagai menu sarapan sehat yang kaya serat dan vitamin.",
         image: "sulawesi_utara_bubur_manado.png",
         prepTime: "20 Menit",
         cookTime: "40 Menit",
@@ -24,22 +24,25 @@ module.exports = [
         ],
         instructions: [
             "**Masak Bubur**: Rebus beras, serai, dan jagung pipil dengan air banyak. Masak sampai beras pecah.",
-            "**Masukkan Labu**: Masukkan labu kuning yang sudah dikukus (sebagian dilumatkan biar kuah kental kuning). Masak sampai bubur menyatu.",
+            "**Masukkan Labu**: Masukkan labu kuning yang sudah dikukus (sebagian dilumatkan biar kuah kental kuning manis). Masak sampai bubur menyatu.",
             "**Sayuran Hijau**: Menjelang diangkat, masukkan kangkung, bayam, dan daun gedi. Masak sebentar saja agar tetap hijau.",
             "**Aroma**: Matikan api. Masukkan DAUN KEMANGI. Aduk rata. Aromanya langsung semerbak.",
-            "**Sajikan**: Sajikan panas dengan Ikan Asin goreng dan Sambal Roa. (Tinutuan asli tidak pakai suwiran ayam/kacang seperti bubur ayam).",
+            "**Sajikan**: Sajikan panas dengan Ikan Asin goreng dan Sambal Roa. (Tinutuan asli tidak pakai suwiran ayam/kacang seperti bubur ayam, tapi lauknya ikan asin/tahu goreng).",
             "**Rasa**: Manis labu, gurih ikan asin, pedas sambal."
         ],
         tips: [
-            "**Daun Kemangi**: Kunci aroma Tinutuan ada pada daun kemangi yang dimasukkan terakhir.",
-            "**Labu Kuning**: Labu membuat bubur ini creamy manis alami tanpa santan."
+            "**Daun Kemangi**: Kunci aroma Tinutuan ada pada daun kemangi yang dimasukkan terakhir (jangan direbus lama).",
+            "**Labu Kuning**: Labu membuat bubur ini creamy manis alami tanpa santan. Semakin banyak labu, semakin enak.",
+            "**Daun Gedi**: Orang Manado asli memakai Daun Gedi untuk mengentalkan bubur secara alami (berlendir seperti okra).",
+            "**Sambal Roa**: Jodoh terbaik Tinutuan adalah Sambal Ikan Roa Asap.",
+            "**Jagung Manis**: Pipilan jagung manis memberikan tekstur 'pop' saat digigit."
         ]
     },
     {
         slug: "ayam-woku-belanga-manado",
         province: "Sulawesi Utara",
         title: "Ayam Woku Belanga (Pedas Kemangi)",
-        description: "Ayam masak khas Minahasa dengan bumbu kuning pedas yang sangat aromatik karena penggunaan DAUN KEMANGI, DAUN JERUK, PANDAN, dan KUNYIT daun yang melimpah.",
+        description: "Ayam masak khas Minahasa dengan bumbu kuning pedas yang sangat aromatik karena penggunaan DAUN KEMANGI, DAUN JERUK, PANDAN, dan KUNYIT daun yang melimpah. Woku Belanga memiliki sedikit kuah kental 'nyemek' yang sangat sedap disiram ke nasi hangat.",
         image: "sulawesi_utara_ayam_woku.png",
         prepTime: "20 Menit",
         cookTime: "30 Menit",
@@ -68,15 +71,18 @@ module.exports = [
         ],
         tips: [
             "**Daun Pandan**: Irisan daun pandan dalam masakan (bukan kue) adalah ciri khas Woku yang memberikan aroma sedap unik.",
-            "**Pedas**: Woku harus pedas nendang."
+            "**Pedas**: Woku harus pedas nendang, kalau tidak pedas bukan Woku.",
+            "**Daun Kunyit**: Aroma daun kunyit sangat penting untuk karakter masakan Minahasa.",
+            "**Nyemek**: Woku Belanga berbeda dengan Woku Daun (pepes). Woku Belanga berkuah kental sedikit.",
+            "**Kemangi**: Jangan pelit kemangi, masukkan segenggam penuh."
         ]
     },
     {
         slug: "cakalang-fufu-rica-rica",
         province: "Sulawesi Utara",
         title: "Cakalang Fufu Rica-Rica",
-        description: "Ikan Cakalang (Tuna) yang sudah diasap (Fufu) khas Manado, disuwir dan dimasak dengan bumbu cabai merah (Rica) yang pedas menyengat dan berlimpah.",
-        image: "sulawesi_utara_cakalang_fufu.png", // Generated
+        description: "Ikan Cakalang (Tuna) yang sudah diasap (Fufu) khas Manado, disuwir dan dimasak dengan bumbu cabai merah (Rica) yang pedas menyengat dan berlimpah. Aroma asap ikan berpadu sempurna dengan pedasnya cabai dan wanginya daun jeruk.",
+        image: "sulawesi_utara_cakalang_fufu.png",
         prepTime: "15 Menit",
         cookTime: "15 Menit",
         servings: 4,
@@ -102,7 +108,10 @@ module.exports = [
         ],
         tips: [
             "**Aroma Asap**: Ciri khas masakan ini adalah aroma 'smokey' dari ikan cakalang fufu yang beradu dengan pedasnya cabai.",
-            "**Minyak**: Rica-rica yang enak harus sedikit berminyak merah."
+            "**Minyak**: Rica-rica yang enak harus sedikit berminyak merah agar bumbu tidak kering.",
+            "**Ikan Tongkol**: Jika tidak ada Cakalang Fufu, bisa pakai Ikan Tongkol kukus/goreng, lalu disuwir dan diberi sedikit asap cair (liquid smoke).",
+            "**Daun Jeruk**: Irisan daun jeruk yang halus menambah kesegaran.",
+            "**Tahan Lama**: Masakan ini cukup awet (kering) dan cocok untuk stok lauk pengantar nasi."
         ]
     },
 
@@ -111,8 +120,8 @@ module.exports = [
         slug: "binte-biluhuta-gorontalo",
         province: "Gorontalo",
         title: "Binte Biluhuta (Sup Jagung)",
-        description: "Sup jagung siram khas Gorontalo yang unik rasanya: Manis dari jagung, Gurih dari kelapa parut & udang, Asam dari jeruk nipis, dan Pedas cabai. Teksturnya 'ramai'.",
-        image: "gorontalo_binte_biluhuta.png",
+        description: "Sup jagung siram khas Gorontalo yang unik rasanya: Manis dari jagung, Gurih dari kelapa parut & udang, Asam dari jeruk nipis, dan Pedas cabai. Teksturnya 'ramai' dan menyegarkan, sering disebut Milu Siram.",
+        image: "gorontalo_binte_biluhuta.jpeg",
         prepTime: "20 Menit",
         cookTime: "30 Menit",
         servings: 4,
@@ -139,15 +148,18 @@ module.exports = [
         ],
         tips: [
             "**Kelapa Parut**: Jangan pakai santan. Gunakan kelapa parut segar, teksturnya yang kasar beradu dengan jagung itu kuncinya.",
-            "**Ikan**: Kombinasi jagung, ikan, dan kelapa adalah identitas kuliner Gorontalo."
+            "**Ikan**: Kombinasi jagung, ikan, dan kelapa adalah identitas kuliner Gorontalo.",
+            "**Jeruk Nipis**: Binte Biluhuta harus terasa asam segar jeruk nipis, bukan asam cuka.",
+            "**Bawang Mentah**: Bawang merah iris yang direbus langsung memberikan rasa manis alami.",
+            "**Jagung Pulut**: Aslinya menggunakan Jagung Pulut (jagung ketan) putih yang lebih kenyal, tapi jagung manis juga enak."
         ]
     },
     {
         slug: "ayam-iloni-bakar-gorontalo",
         province: "Gorontalo",
         title: "Ayam Iloni (Ayam Bakar Santan)",
-        description: "Ayam bakar khas Gorontalo yang dimasak dulu dengan santan dan bumbu rempah pedas sebelum dibakar. Rasanya gurih meresap sampai ke tulang.",
-        image: "gorontalo_ayam_iloni.png", // Generated
+        description: "Makanan favorit Gorontalo. Ayam bakar yang dimasak dulu (diungkep) dengan santan kental dan bumbu rempah pedas sebelum dibakar. Rasanya sangat gurih, dagingnya lembut, dan bumbunya meresap sampai ke tulang.",
+        image: "gorontalo_ayam_iloni.png",
         prepTime: "30 Menit",
         cookTime: "45 Menit",
         servings: 4,
@@ -166,19 +178,23 @@ module.exports = [
             "**Tumis Bumbu**: Tumis bumbu halus dan rempah daun sampai wangi.",
             "**Ungkep Santan**: Masukkan ayam dan santan. Masak (ungkep) sampai santan menyusut kental dan ayam empuk.",
             "**Bakar**: Angkat ayam. Bakar di atas arang. Olesi sisa bumbu santan kental berulang kali.",
-            "**Sajikan**: Ayam Iiloni permukaannya basah berminyak bumbu, bukan kering gosong.",
+            "**Sajikan**: Ayam Iloni permukaannya basah berminyak bumbu, bukan kering gosong.",
             "**Rasa**: Gurih santan, wangi rempah, pedas."
         ],
         tips: [
-            "**Jinten**: Rempah jinten memberikan aroma khas yang membedakan Iloni dengan ayam bakar biasa."
+            "**Jinten**: Rempah jinten memberikan aroma khas yang membedakan Iloni dengan ayam bakar biasa.",
+            "**Basah**: Jangan bakar terlalu kering, biarkan bumbunya masih agak 'nyemek' menempel pada ayam.",
+            "**Santan**: Santan berfungsi sebagai pelembut daging dan pemberi rasa gurih (fatty).",
+            "**Pandan**: Sedikit daun pandan saat mengungkep memberikan aroma wangi lembut.",
+            "**Pedas**: Sesuaikan jumlah cabai rawit, Ayam Iloni biasanya cukup pedas."
         ]
     },
     {
         slug: "sate-tuna-gorontalo",
         province: "Gorontalo",
         title: "Sate Tuna (Dada Tuna)",
-        description: "Sate dari daging dada Tuna (Gorontalo penghasil Tuna) yang dipotong dadu besar, dibakar polos atau bumbu kecap, disajikan dengan Sambal Dabu-dabu. Teksturnya seperti daging sapi premium.",
-        image: "gorontalo_sate_tuna.png", // Generated
+        description: "Sate dari daging dada Tuna (Gorontalo penghasil Tuna) yang dipotong dadu besar, dibakar polos atau bumbu kecap, disajikan dengan Sambal Dabu-dabu. Teksturnya padat dan juicy seperti daging sapi premium.",
+        image: "gorontalo_sate_tuna.png",
         prepTime: "15 Menit",
         cookTime: "10 Menit",
         servings: 4,
@@ -202,7 +218,11 @@ module.exports = [
             "**Sajikan**: Sate tuna cocol dabu-dabu."
         ],
         tips: [
-            "**Jangan Lama**: Tuna cepat kering (dry) kalau dibakar lama. Cukup 2-3 menit per sisi."
+            "**Jangan Lama**: Tuna cepat kering (dry) kalau dibakar lama. Cukup 2-3 menit per sisi agar tetap moist.",
+            "**Fresh**: Pastikan tuna segar (sashimi grade lebih baik) agar tidak amis.",
+            "**Potongan Besar**: Potong dadu besar agar tidak mudah kering dalamnya.",
+            "**Minyak Panas**: Menyiram minyak panas ke dabu-dabu membuat rasa bawang dan cabai menyatu.",
+            "**Tekstur**: Tuna matang teksturnya padat mirip ayam/sapi, tidak lembek seperti ikan lain."
         ]
     },
 
@@ -211,8 +231,8 @@ module.exports = [
         slug: "kaledo-palu-donggala",
         province: "Sulawesi Tengah",
         title: "Kaledo (Kaki Lembu Donggala)",
-        description: "Sup tulang kaki sapi (kikil dan sumsum) khas Palu dengan kuah asam pedas bening dari Asam Jawa muda. Disajikan dengan Singkong Rebus (Ubi Kayu).",
-        image: "sulawesi_tengah_kaledo.png",
+        description: "Sup tulang kaki sapi (kikil dan sumsum) khas Palu dengan kuah asam pedas bening yang sangat 'clean'. Rasa asamnya berasal dari Asam Jawa muda. Disajikan dengan Singkong Rebus (Ubi Kayu) sebagai pengganti nasi.",
+        image: "sulawesi_tengah_kaledo.jpeg",
         prepTime: "30 Menit",
         cookTime: "3 Jam (Presto 1 Jam)",
         servings: 4,
@@ -234,16 +254,19 @@ module.exports = [
             "**Sajikan**: Hidangkan tulang besar di mangkuk. Sediakan sedotan untuk menyedot sumsum. Makan dengan Singkong Rebus."
         ],
         tips: [
-            "**Tanpa Bawang**: Kaledo otentik tidak menggunakan bawang atau rempah lain selain Asam, Cabai, Garam, Serai. Rasanya 'clean' daging sapi.",
-            "**Sumsum**: Sumsum tulang adalah primadona hidangan ini."
+            "**Tanpa Bawang**: Kaledo otentik tidak menggunakan bawang atau rempah lain selain Asam, Cabai, Garam, Serai. Rasanya murni daging sapi.",
+            "**Sumsum**: Sumsum tulang adalah primadona hidangan ini, jangan sampai hancur saat merebus, nikmat disedot.",
+            "**Asam Jawa Muda**: Gunakan asam jawa mentah (buah) untuk rasa asam yang segar, bukan asam jawa hitam (pasta).",
+            "**Cabai Hijau**: Cabai rawit hijau memberikan aroma langu pedas yang khas Palu.",
+            "**Singkong**: Singkong rebus tawar adalah karbohidrat terbaik penyeimbang kuah asam pedas."
         ]
     },
     {
         slug: "uta-dada-ayam-santan",
         province: "Sulawesi Tengah",
         title: "Uta Dada (Ayam/Tuna Kuah Santan)",
-        description: "Masakan khas Kaili Palu, berupa ayam atau ikan tuna panggang yang dimasak kembali dalam kuah santan pedas gurih.",
-        image: "sulawesi_tengah_uta_dada.png", // Generated
+        description: "Masakan khas sub-etnis Kaili di Palu. Berupa ayam kampung atau ikan tuna panggang yang dimasak kembali dalam kuah santan pedas gurih yang kaya rempah (kunyit, tomat). 'Uta' berarti Lauk, 'Dada' berarti Santan.",
+        image: "sulawesi_tengah_uta_dada.png",
         prepTime: "30 Menit",
         cookTime: "40 Menit",
         servings: 4,
@@ -266,15 +289,19 @@ module.exports = [
             "**Sajikan**: Rasa asap (smokey) berpadu dengan gurih santan pedas."
         ],
         tips: [
-            "**Tomat**: Penggunaan tomat yang banyak dalam bumbu memberikan rasa asam segar dan tekstur kuah yang kental."
+            "**Tomat**: Penggunaan tomat yang banyak dalam bumbu memberikan rasa asam segar dan tekstur kuah yang kental.",
+            "**Aroma Asap**: Membakar ayam/ikan sebelum dimasak santan adalah kunci aroma Uta Dada yang sedap.",
+            "**Santan**: Santan jangan terlalu kental seperti rendang, tapi juga jangan terlalu encer.",
+            "**Uta**: 'Uta' artinya Lauk/Ikan dalam bahasa Kaili.",
+            "**Pedas**: Masakan Palu rata-rata bercita rasa pedas, sesuaikan cabai."
         ]
     },
     {
         slug: "duo-saleh-sambal-teri",
         province: "Sulawesi Tengah",
         title: "Duo Saleh (Sambal Teri Khas Palu)",
-        description: "Sambal khas Palu yang terbuat dari Ikan Teri (Duo) halus yang dikeringkan, dimasak dengan cabai dan tomat yang sangat banyak. Pedas membara.",
-        image: "sulawesi_tengah_duo_saleh.png", // Generated
+        description: "Sambal legendaris khas Palu yang terbuat dari Ikan Teri (Duo) halus yang dikeringkan, dimasak dengan cabai dan tomat yang sangat banyak. Rasanya pedas membara, manis, dan renyah. Sering dijadikan oleh-oleh khas Palu.",
+        image: "sulawesi_tengah_duo_saleh.png",
         prepTime: "10 Menit",
         cookTime: "15 Menit",
         servings: 1,
@@ -295,7 +322,11 @@ module.exports = [
             "**Sajikan**: Lauk pendamping nasi jagung atau kaledo. Rasanya pedas manis gurih kriuk."
         ],
         tips: [
-            "**Teri Palu**: Teri di Palu bentuknya sangat halus dan tidak terlalu asin, enak sekali digoreng."
+            "**Teri Palu**: Teri di Palu bentuknya sangat halus dan tidak terlalu asin, enak sekali digoreng. Bisa ganti teri medan.",
+            "**Tomat**: Tomat menyimbangkan rasa asin teri dan pedas cabai, membuat sambal tidak kering.",
+            "**Gula**: Sedikit gula pasir membuat rasa sambal lebih gurih (umami).",
+            "**Minyak**: Sambal ini awet jika dimasak sampai minyaknya keluar dan tomat kering.",
+            "**Burasa**: Cocok dimakan bersama Burasa (lontong santan)."
         ]
     },
 
@@ -304,8 +335,8 @@ module.exports = [
         slug: "bau-peapi-mandar",
         province: "Sulawesi Barat",
         title: "Bau Peapi (Ikan Masak Mandar)",
-        description: "Olahan ikan (Bau) khas suku Mandar yang dimasak dengan kuah kuning kental kaya rempah, menggunakan MINYAK KELAPA MURNI (Minyak Mandar) dan Asam Mangga.",
-        image: "sulawesi_barat_bau_peapi.png", // Generated
+        description: "Olahan ikan (Bau) khas suku Mandar yang dimasak dengan kuah kuning kental kaya rempah. Keistimewaannya menggunakan MINYAK KELAPA MURNI (Minyak Mandar) dan Asam Mangga, memberikan aroma wangi yang luar biasa.",
+        image: "sulawesi_barat_bau_peapi.jpeg",
         prepTime: "20 Menit",
         cookTime: "30 Menit",
         servings: 4,
@@ -329,16 +360,19 @@ module.exports = [
             "**Sajikan**: Kuahnya sangat lezat disiram ke nasi."
         ],
         tips: [
-            "**Minyak Mandar**: Rahasia kelezatan Bau Peapi ada pada minyak kelapa murni buatan tangan (bukan minyak sawit). Aromanya wangi kelapa.",
-            "**Bawang Merah**: Masakan Mandar terkenal menggunakan bawang merah dalam jumlah royal."
+            "**Minyak Mandar**: Rahasia kelezatan Bau Peapi ada pada minyak kelapa murni buatan tangan. Aromanya wangi kelapa manis.",
+            "**Bawang Merah**: Masakan Mandar terkenal menggunakan bawang merah dalam jumlah royal untuk rasa manis gurih alami.",
+            "**Mangga Muda**: Asam mangga (pao) memberikan rasa asam segar yang berbeda dengan asam jawa.",
+            "**Tanpa Tumis**: Masakan ini sehat karena bumbu tidak ditumis, tapi dimasak langsung (stew).",
+            "**Ikan Layang**: Ikan layang atau tongkol kecil sangat cocok untuk menu ini karena dagingnya manis."
         ]
     },
     {
         slug: "jepa-mandar-sagu",
         province: "Sulawesi Barat",
         title: "Jepa (Pizza Sagu Mandar)",
-        description: "Makanan pokok pengganti nasi masyarakat Mandar, berupa lempengan pipih dari ampas singkong parut dan kelapa yang dipanggang di atas wajan tanah liat (Panjepangan). Dimakan dengan Bau Peapi.",
-        image: "sulawesi_barat_jepa.png", // Generated
+        description: "Makanan pokok pengganti nasi legendaris masyarakat Mandar. Berupa lempengan pipih dari ampas singkong parut dan kelapa yang dipanggang di atas wajan tanah liat (Panjepangan). Teman sejati Ikan Bau Peapi.",
+        image: "sulawesi_barat_jepa.png",
         prepTime: "20 Menit",
         cookTime: "10 Menit",
         servings: 4,
@@ -357,15 +391,19 @@ module.exports = [
             "**Sajikan**: Jepa tawar dimakan sebagai pengganti nasi dengan lauk Ikan Bau Peapi."
         ],
         tips: [
-            "**Tekstur**: Jepa teksturnya kenyal padat dan mengenyangkan. Aroma singkong bakarnya khas."
+            "**Tekstur**: Jepa teksturnya kenyal padat dan mengenyangkan. Aroma singkong bakarnya khas 'smoky'.",
+            "**Ampas**: Harus pakai ampas singkong yang sudah diperas air patinya, agar tidak keras saat dipanggang.",
+            "**Wajan Tanah**: Memasak di wajan tanah liat memberikan aroma 'earthy' yang tidak bisa didapat di teflon.",
+            "**Pengganti Nasi**: Sangat cocok untuk diet bebas gluten dan rendah gula.",
+            "**Kelapa**: Kelapa parut memberikan rasa gurih di setiap gigitan."
         ]
     },
     {
         slug: "golla-kambu-manis",
         province: "Sulawesi Barat",
         title: "Golla Kambu (Wajik Mandar)",
-        description: "Kue tradisional khas Mandar (Polewali) mirip wajik, terbuat dari beras ketan, kelapa parut, dan gula merah, dibungkus daun pisang kering.",
-        image: "sulawesi_barat_golla_kambu.png", // Generated
+        description: "Kue tradisional khas Mandar (Polewali) yang mirip wajik namun lebih istimewa. Terbuat dari beras ketan, kelapa parut, gula merah, dan kacang tanah sangrai, dibungkus daun pisang kering. Rasanya manis legit dengan tekstur kacang yang renyah.",
+        image: "sulawesi_barat_golla_kambu.png",
         prepTime: "1 Jam",
         cookTime: "1 Jam",
         servings: 10,
@@ -385,7 +423,11 @@ module.exports = [
             "**Sajikan**: Tahan lama dan manis gurih kacang."
         ],
         tips: [
-            "**Kacang Tanah**: Penambahan kacang tanah cincang membedakan Golla Kambu dengan wajik Jawa, memberikan tekstur renyah."
+            "**Kacang Tanah**: Penambahan kacang tanah cincang membedakan Golla Kambu dengan wajik Jawa, memberikan tekstur renyah di antara ketan lembut.",
+            "**Daun Kering**: Pembungkus daun pisang kering (klaras) membuat kue tidak mudah basi dan beraroma sedap.",
+            "**Gula Asli**: Gunakan gula merah aren asli agar legit dan warnanya cantik.",
+            "**Parutan Kelapa**: Gunakan kelapa muda (degan) agar tidak seret saat dimakan.",
+            "**Tahan Lama**: Golla Kambu bisa tahan berminggu-minggu tanpa pengawet natural."
         ]
     },
 
@@ -394,8 +436,8 @@ module.exports = [
         slug: "coto-makassar-asli",
         province: "Sulawesi Selatan",
         title: "Coto Makassar (Kuah Air Cucian Beras)",
-        description: "Soto daging legendaris dengan kuah kental gurih yang terbuat dari AIR TAJIN (Cucian beras) dan KACANG TANAH sangrai halus. Disajikan dengan Ketupat daun pandan dan Sambal Tauco.",
-        image: "sulawesi_selatan_coto_makassar.png",
+        description: "Soto daging legendaris dengan kuah kental gurih. Rahasia kelezatannya ada pada penggunaan AIR TAJIN (Air cucian beras) kental dan KACANG TANAH sangrai halus yang membuat kuahnya 'rich'. Disajikan dalam mangkuk kecil.",
+        image: "sulawesi_selatan_coto_makassar.jpeg",
         prepTime: "1 Jam",
         cookTime: "2 Jam",
         servings: 6,
@@ -424,15 +466,18 @@ module.exports = [
         ],
         tips: [
             "**Air Tajin & Kacang**: Ini dua rahasia kelezatan Coto. Air beras bikin kuah 'body' tebal, kacang bikin gurih nutty.",
-            "**Jeroan**: Coto makin sedap kalau kaldu rebusannya campur jeroan."
+            "**Jeroan**: Coto makin sedap kalau kaldu rebusannya campur jeroan (hati/jantung).",
+            "**Tauco**: Tauco memberikan rasa gurih fermentasi yang khas dan aroma sedap.",
+            "**Bumbu 40**: Orang Makassar menyebut bumbu Coto sebagai 'Ampah Patang Pulo' (Rempah 40) karena saking banyaknya rempah.",
+            "**Mangkuk Kecil**: Coto selalu disajikan di mangkuk kecil. Tradisinya makan coto nambah berkali-kali."
         ]
     },
     {
         slug: "pallubasa-makassar",
         province: "Sulawesi Selatan",
         title: "Pallubasa (Kelapa Sangrai)",
-        description: "Mirip Coto tapi berbeda. Pallubasa kuahnya lebih kental, berlemak, dan berwarna kecokelatan karena campuran KELAPA SANGRAI giling. Uniknya, disajikan dengan KUNING TELUR MENTAH (Alas) di atasnya.",
-        image: "sulawesi_selatan_pallubasa.png", // Generated
+        description: "Saudara dekat Coto Makassar namun bumbunya berbeda. Pallubasa kuahnya lebih kental, berlemak, dan berwarna kecokelatan karena campuran KELAPA SANGRAI giling. Uniknya, sering disajikan dengan 'Alas' (kuning telur ayam kampung mentah) di atasnya.",
+        image: "sulawesi_selatan_pallubasa.png",
         prepTime: "40 Menit",
         cookTime: "1.5 Jam",
         servings: 4,
@@ -460,14 +505,17 @@ module.exports = [
         ],
         tips: [
             "**Alas**: 'Alas' adalah istilah untuk tambahan kuning telur mentah. Bikin kuah makin creamy dan rich.",
-            "**Kelapa Sangrai**: Harus disangrai sampai coklat tua (jangan gosong) agar warnanya bagus."
+            "**Kelapa Sangrai**: Harus disangrai sampai coklat tua (jangan gosong) lalu ditumbuk sampai keluar minyak. Ini inti rasa Pallubasa.",
+            "**Coto vs Pallubasa**: Coto pengentalnya kacang tanah, Pallubasa pengentalnya kelapa sangrai.",
+            "**Jeroan**: Pallubasa juga enak pakai jeroan (usus, limpa) selain daging.",
+            "**Kuah Kental**: Kuah Pallubasa lebih keruh dan berampas dibanding Coto."
         ]
     },
     {
         slug: "konro-bakar-makassar",
         province: "Sulawesi Selatan",
         title: "Konro Bakar (Iga Sapi Bumbu Kacang)",
-        description: "Iga sapi besar yang direbus empuk dengan kuah sup rempah (kluwak/ketumbar), lalu dibakar dengan bumbu kacang pedas manis. Disajikan dengan kuah sup konro terpisah.",
+        description: "Iga sapi besar yang direbus empuk dengan kuah sup rempah (kluwak/ketumbar), lalu dibakar dengan bumbu kacang pedas manis yang karamelisasi. Disajikan dengan kuah sup konro terpisah yang hangat dan gurih.",
         image: "sulawesi_selatan_konro_bakar_iga.png",
         prepTime: "30 Menit",
         cookTime: "2 Jam",
@@ -493,7 +541,11 @@ module.exports = [
             "**Rasa**: Rempah Pala/Cengkeh kuat berpadu manis gurih kacang."
         ],
         tips: [
-            "**Rempah**: Sop Konro identik dengan aroma rempah kering (pala, cengkeh, kayu manis) yang kuat, mirip masakan Timur Tengah."
+            "**Rempah**: Sop Konro identik dengan aroma rempah kering (pala, cengkeh, kayu manis) yang kuat, mirip masakan Timur Tengah.",
+            "**Kluwak**: Sop Konro aslinya berwarna hitam karena kluwak, tapi ada juga versi merah tanpa kluwak.",
+            "**Empuk**: Kunci nikmatnya adalah iga yang direbus presto sampai sangat lembut (fall off the bone).",
+            "**Bumbu Kacang**: Saus kacang konro bakar beda dengan sate, lebih kental, manis, dan berempah.",
+            "**Kuah**: Jangan buang kuah rebusan, itu adalah sup yang lezat, sajikan terpisah."
         ]
     },
 
@@ -502,8 +554,8 @@ module.exports = [
         slug: "sinonggi-kendari-sagu",
         province: "Sulawesi Tenggara",
         title: "Sinonggi (Papeda Kendari)",
-        description: "Makanan pokok suku Tolaki berupa adonan sagu lengket (mirip Papeda/Kapurung) yang dimakan dengan cara 'digulung' sumpit, disajikan dengan Kuah Ikan Palumara yang asam segar.",
-        image: "sulawesi_tenggara_sinonggi.png", // Generated
+        description: "Makanan pokok suku Tolaki berupa adonan sagu lengket (mirip Papeda/Kapurung). Dimakan dengan cara unik: 'digulung' menggunakan sumpit kayu (mosonggi), lalu ditelan bulat-bulat dengan kuah ikan palumara.",
+        image: "sulawesi_tenggara_sinonggi.png",
         prepTime: "15 Menit",
         cookTime: "15 Menit",
         servings: 4,
@@ -524,15 +576,19 @@ module.exports = [
             "**Sajikan**: Siram sagu di piring dengan Kuah Ikan Palumara dan Sayur Bening. Telan langsung (jangan dikunyah lama)."
         ],
         tips: [
-            "**Air Mendidih**: Kunci Sinonggi jadi jel adalah suhu air yang tbenar-benar panas 100C."
+            "**Air Mendidih**: Kunci Sinonggi jadi jel adalah suhu air yang tbenar-benar panas 100C. Kalau air kurang panas, sagu tidak matang (mentah).",
+            "**Telan**: Makan sinonggi tidak perlu dikunyah, sensasinya adalah menelan gumpalan lembut yang licin.",
+            "**Sagu Basah**: Gunakan sagu basah asli pohon (bukan tepung tapioka) untuk hasil terbaik.",
+            "**Jeruk Nipis**: Perasan jeruk nipis pada sagu menghilangkan bau apek sagu dan memutihkan.",
+            "**Kebersamaan**: Mosonggi biasanya dilakukan beramai-ramai dari satu wadah besar."
         ]
     },
     {
         slug: "ikan-parende-buton",
         province: "Sulawesi Tenggara",
         title: "Ikan Parende (Sup Ikan Buton)",
-        description: "Sup ikan segar (biasanya Kakap/Kerapu) khas Buton dengan kuah kuning bening yang rasanya ringan, asam, dan segar. Tanpa santan, sangat sehat.",
-        image: "sulawesi_tenggara_ikan_parende.png", // Generated
+        description: "Sup ikan segar (biasanya Kakap/Kerapu/Pelagis) khas Buton dengan kuah kuning bening yang rasanya ringan, asam, dan segar. Tidak menggunakan santan sama sekali, sehingga sangat sehat dan menonjolkan rasa manis daging ikan.",
+        image: "sulawesi_tenggara_ikan_parende.png",
         prepTime: "20 Menit",
         cookTime: "25 Menit",
         servings: 4,
@@ -558,15 +614,19 @@ module.exports = [
             "**Sajikan**: Cocok untuk pemulihan (segar)."
         ],
         tips: [
-            "**Ikan Karang**: Paling enak menggunakan ikan karang (kakap/kerapu) daging putih."
+            "**Ikan Karang**: Paling enak menggunakan ikan karang (kakap/kerapu) daging putih yang manis dan tidak mudah hancur.",
+            "**Penyegar**: Masakan ini populer sebagai menu 'penyegar' setelah makan makanan bersantan.",
+            "**Bumbu Cemplung**: Tidak perlu menumis bumbu, semua direbus (Rebusan) agar bebas minyak.",
+            "**Belimbing**: Asam belimbing wuluh bikin mata melek dan segar alami.",
+            "**Kemangi**: Wajib pakai kemangi di akhir untuk aroma harum."
         ]
     },
     {
         slug: "kabuto-ubi-kering",
         province: "Sulawesi Tenggara",
         title: "Kabuto (Ubi Kayu Kering)",
-        description: "Makanan khas Muna/Buton dari singkong yang dikeringkan jamuran (Kakupu) lalu dikukus dan disajikan dengan kelapa parut dan ikan asin goreng. Teksturnya kenyal hitam.",
-        image: "sulawesi_tenggara_kabuto.png", // Generated
+        description: "Makanan khas Muna/Buton dari singkong yang dikeringkan hingga berjamur (Kakupu) lalu dikukus. Disajikan dengan kelapa parut dan ikan asin goreng. Teksturnya kenyal seperti karet dan berwarna hitam, dengan aroma fermentasi yang unik.",
+        image: "sulawesi_tenggara_kabuto.png",
         prepTime: "1 Malam (Rendam)",
         cookTime: "30 Menit",
         servings: 4,
@@ -585,7 +645,11 @@ module.exports = [
             "**Rasa**: Kenyal, sedikit asam fermentasi, gurih kelapa."
         ],
         tips: [
-            "**Singkong Hitam**: Jamur pada singkong kering (fermentasi alami) memberikan tekstur kenyal dan rasa khas yang tidak beracun setelah dimasak lama."
+            "**Singkong Hitam**: Jamur pada singkong kering (fermentasi alami) memberikan tekstur kenyal dan rasa khas yang tidak beracun setelah dimasak lama.",
+            "**Cuci Bersih**: Proses pencucian penting untuk menghilangkan kotoran dan rasa pahit berlebih, serta membersihkan jamur.",
+            "**Pengganti Nasi**: Kabuto sumber karbohidrat utama di daerah kering yang susah padi, sangat mengenyangkan.",
+            "**Ikan Asin**: Ikan asin goreng kering adalah jodoh terbaiknya, rasa asin bertemu tekstur kenyal.",
+            "**Kenyal**: Teksturnya seperti permen karet alami, butuh dikunyah."
         ]
     }
 ];

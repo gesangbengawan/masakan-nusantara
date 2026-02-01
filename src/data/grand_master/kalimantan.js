@@ -4,8 +4,8 @@ module.exports = [
         slug: "bubur-pedas-sambas",
         province: "Kalimantan Barat",
         title: "Bubur Pedas Sambas (Bercampur Sayur)",
-        description: "Bubur beras yang disangrai dulu dengan kelapa parut, lalu dimasak dengan aneka sayuran (pakis, kangkung, ubi) dan rempah. Uniknya, bubur ini tidak pedas cabai, tapi pedas lada dan rempah, serta ditaburi kacang tanah dan ikan teri.",
-        image: "kalimantan_barat_bubur_pedas_sambas.png",
+        description: "Bubur legendaris khas Sambas yang terbuat dari beras yang disangrai dengan kelapa parut, lalu dimasak dengan aneka sayuran (pakis, kangkung, ubi) dan rempah. Uniknya, bubur ini tidak pedas cabai, tapi pedas lada dan rempah yang menghangatkan, serta ditaburi kacang tanah goreng dan teri.",
+        image: "kalimantan_barat_bubur_pedas_sambas.jpeg",
         prepTime: "30 Menit",
         cookTime: "1 Jam",
         servings: 4,
@@ -25,22 +25,25 @@ module.exports = [
         ],
         instructions: [
             "**Sangrai Beras**: Sangrai beras dan kelapa parut sampai kuning kecokelatan. Tumbuk kasar (jangan jadi tepung).",
-            "**Masak Bubur**: Rebus kaldu. Masukkan beras sangrai. Masak sambil diaduk sampai menjadi bubur kental.",
+            "**Masak Bubur**: Rebus kaldu. Masukkan beras sangrai. Masak sambil diaduk sampai menjadi bubur kental yang wangi.",
             "**Tumis Bumbu**: Tumis bumbu halus sampai wangi. Masukkan ke dalam bubur.",
             "**Masukkan Sayur**: Masukkan ubi jalar dan jagung (yang keras). Masak sampai empuk. Terakhir masukkan sayuran hijau (pakis, kangkung) dan DAUN KESUM.",
             "**Sajikan**: Sajikan panas TABURI Kacang Tanah Goreng dan Ikan Teri goreng. Beri perasan jeruk sambal/kip."
         ],
         tips: [
             "**Daun Kesum**: Aromanya sangat khas dan wajib ada untuk Bubur Pedas asli. Jika tidak ada, ganti daun kemangi tapi rasanya beda.",
-            "**Beras Sangrai**: Proses sangrai memberi aroma 'nutty' dan warna bubur yang kecokelatan."
+            "**Beras Sangrai**: Proses sangrai memberi aroma 'nutty' dan warna bubur yang kecokelatan gelap, serta aroma 'smokey' (gosong) yang enak.",
+            "**Lada Hitam**: Bubur ini dinamakan 'Pedas' bukan karena cabai, tapi karena penggunaan lada hitam yang banyak yang menghangatkan badan.",
+            "**Pakis**: Gunakan pucuk pakis (paku) sayur yang muda dan renyah. Jangan pakai pakis tua yang alot.",
+            "**Kacang Tanah**: Toping kacang tanah goreng memberikan tekstur kriuk yang kontras dengan bubur lembut."
         ]
     },
     {
         slug: "asam-pedas-tempoyak-kalbar",
         province: "Kalimantan Barat",
         title: "Asam Pedas Tempoyak (Patin/Baung)",
-        description: "Gulai ikan sungai dengan perpaduan rasa Asam-Pedas-Manis dari Tempoyak (Durian) yang sangat medok. Berbeda dengan Jambi, versi Kalbar sering menambahkan Terong Asam (Rimbang).",
-        image: "kalimantan_barat_asam_pedas_tempoyak.png", // Generated
+        description: "Gulai ikan sungai dengan perpaduan rasa Asam-Pedas-Manis dari Tempoyak (Fermentasi Durian) yang sangat medok. Berbeda dengan gaya Sumatera, versi Kalimantan Barat sering menambahkan Terong Asam (Rimbang) yang memberikan rasa asam segar alami.",
+        image: "kalimantan_barat_asam_pedas_tempoyak.png",
         prepTime: "20 Menit",
         cookTime: "30 Menit",
         servings: 4,
@@ -59,27 +62,30 @@ module.exports = [
         instructions: [
             "**Rebus Kuah**: Didihkan air. Masukkan bumbu halus (tidak perlu ditumis agar segar) dan rempah daun.",
             "**Tempoyak & Terong**: Masukkan Tempoyak dan Terong Asam. Masak sampai tempoyak larut dan terong empuk.",
-            "**Masukkan Ikan**: Masukkan potongan ikan patin. Masak api sedang.",
+            "**Masukkan Ikan**: Masukkan potongan ikan patin. Masak api sedang sampai matang.",
             "**Seasoning**: Gula Pasir (penting untuk balance), Garam. Kuah harus kental merah kekuningan.",
             "**Sajikan**: Asam pedas tempoyak enak dimakan dengan nasi hangat dan tangan kosong."
         ],
         tips: [
-            "**Cabai Kering**: Penggunaan cabai kering memberikan warna merah gelap yang cantik dan rasa pedas yang tidak 'nyegrak'.",
-            "**Terong Asam**: Terong bulat berwarna kuning (Solanum ferox) ini memberikan rasa asam segar alami tambahan."
+            "**Cabai Kering**: Penggunaan cabai kering memberikan warna merah gelap yang cantik dan rasa pedas yang tidak 'nyegrak' di tenggorokan.",
+            "**Terong Asam**: Terong bulat berwarna kuning (Solanum ferox) ini memberikan rasa asam segar alami tambahan. Kulitnya berbulu, jadi harus dikupas/dikerok.",
+            "**Patin Sungai**: Ikan patin liar (bukan tambak) lemaknya berwarna kuning dan tidak bau tanah.",
+            "**Gula**: Tempoyak butuh gula yang cukup untuk menyeimbangkan asam fermentasinya yang tajam.",
+            "**Tanpa Santan**: Asam pedas ini tanpa santan, kekentalannya dari serat durian."
         ]
     },
     {
         slug: "choipan-pontianak-halal",
         province: "Kalimantan Barat",
         title: "Choipan (Isi Bengkuang Ebi)",
-        description: "Kue basah Tionghoa-Pontianak berupa kulit tepung beras tipis kenyal berisi tumisan bengkuang dan ebi gurih, disajikan dengan taburan bawang putih goreng melimpah dan sambal cuka.",
-        image: "kalimantan_barat_choipan.png", // Generated
+        description: "Kue basah Tionghoa-Pontianak (Teochew) berupa kulit tepung beras tipis kenyal berisi tumisan bengkuang dan ebi gurih, disajikan dengan taburan bawang putih goreng (Garlic Oil) melimpah dan sambal cuka yang pedas.",
+        image: "kalimantan_barat_choipan.png",
         prepTime: "1 Jam",
         cookTime: "15 Menit",
         servings: 20,
         difficulty: "Sulit (Kulit)",
         ingredients: [
-            "## Kulit",
+            "## Kulit Choipan",
             "200 gr Tepung Beras",
             "50 gr Tepung Sagu/Tapioka",
             "500 ml Air",
@@ -90,7 +96,7 @@ module.exports = [
             "5 Bawang Putih (Cincang)",
             "Lada, Garam, Gula",
             "## Topping",
-            "Minyak Bawang Putih Goreng (Garlic Oil)"
+            "Minyak Bawang Putih Goreng (Garlic Oil) yang banyak"
         ],
         instructions: [
             "**Tumis Isi**: Tumis bawang putih, ebi, dan bengkuang serut. Masak sampai bengkuang layu dan airnya menyusut kering. Beri lada yang banyak (harus terasa lada).",
@@ -101,8 +107,11 @@ module.exports = [
             "**Sajikan**: Angkat dan langsung siram dengan Minyak Bawang Putih (agar tidak lengket). Cocol Sambal Cuka."
         ],
         tips: [
-            "**Kulit Tipis**: Kunci Choipan enak adalah kulitnya yang tipis lembut (lumer) tapi tidak bocor.",
-            "**Ebi**: Ebi memberikan rasa umami 'laut' yang kuat."
+            "**Kulit Tipis**: Kunci Choipan enak adalah kulitnya yang tipis lembut (lumer di mulut) tapi tidak bocor. Adonan masak harus benar-benar kalis.",
+            "**Ebi**: Ebi memberikan rasa umami 'laut' yang kuat. Pilih ebi yang tidak terlalu asin.",
+            "**Lada**: Isian bengkuang harus dominan rasa lada/merica agar hangat.",
+            "**Minyak Bawang**: Jangan pelit garlic oil, ini yang bikin wangi dan gurih.",
+            "**Kucai**: Selain bengkuang, isian kucai (bunga bawang) juga populer."
         ]
     },
 
@@ -111,7 +120,7 @@ module.exports = [
         slug: "soto-banjar-asli",
         province: "Kalimantan Selatan",
         title: "Soto Banjar (Kuah Susu Rempah)",
-        description: "Soto ayam berkuah keruh (dicampur susu/telur kocok) yang sangat harum rempah (Kayu Manis, Cengkeh, Kapulaga, Adas). Disajikan dengan Ketupat dan Perkedel Singkong.",
+        description: "Soto ayam berkuah putih keruh (dicampur susu evaporasi atau telur kocok) yang sangat harum rempah-rempah (Kayu Manis, Cengkeh, Kapulaga, Adas Manis). Disajikan dengan Ketupat dan Perkedel Singkong yang khas.",
         image: "kalimantan_selatan_soto_banjar.png",
         prepTime: "40 Menit",
         cookTime: "1 Jam",
@@ -131,23 +140,26 @@ module.exports = [
             "Perkedel Singkong/Kentang, Telur Rebus, Soun"
         ],
         instructions: [
-            "**Rebus Ayam**: Rebus ayam bersama Bumbu Bungkus (rempah) sampai empuk. Angkat ayam, suwir.",
+            "**Rebus Ayam**: Rebus ayam bersama Bumbu Bungkus (rempah dalam kain) sampai empuk. Angkat ayam, suwir.",
             "**Tumis Bumbu**: Tumis bumbu halus (bawang putih merah) sampai harum. Masukkan ke kuah kaldu.",
-            "**Kentalkan**: Masukkan Susu Evaporasi (atau kuning telur rebus yang dihaluskan dengan sedikit kuah). Kuah jadi putih keruh gurih.",
+            "**Kentalkan**: Masukkan Susu Evaporasi (atau kuning telur bebek rebus yang dihaluskan dengan sedikit kuah). Kuah jadi putih keruh gurih.",
             "**Didihkan**: Masak api kecil agar aroma rempah kayu manis keluar maksimal. Bumbui garam gula.",
             "**Penyajian**: Tata ketupat, soun, ayam suwir, perkedel di piring. Siram kuah panas. Beri limau kuit (jeruk banjar) dan sambal.",
             "**Jeruk Kuit**: Wajib pakai Jeruk Limau Kuit yang kulitnya tebal harum."
         ],
         tips: [
-            "**Adas Manis**: Tanpa adas manis (fennel), aromanya kurang 'Banjar'.",
-            "**Perkedel Singkong**: Teman sejati Soto Banjar adalah perkedel dari singkong kukus, bukan kentang."
+            "**Adas Manis**: Tanpa adas manis (fennel), aromanya kurang 'Banjar' otentik.",
+            "**Perkedel Singkong**: Teman sejati Soto Banjar adalah perkedel dari singkong kukus, bukan kentang, teksturnya lebih padat dan manis.",
+            "**Susu vs Telur**: Resep kuno menggunakan kuning telur bebek rebus yang dihancurkan untuk mengentalkan kuah, resep modern pakai susu evaporasi lebih praktis.",
+            "**Limau Kuit**: Jeruk sambal Banjar kulitnya tebal dan aromanya sangat wangi manis, beda dengan nipis.",
+            "**Ketupat**: Soto Banjar dimakan dengan ketupat, bukan nasi."
         ]
     },
     {
         slug: "ketupat-kandangan-gabus",
         province: "Kalimantan Selatan",
         title: "Ketupat Kandangan (Ikan Gabus Asap)",
-        description: "Ketupat dengan kuah santan keruh yang disajikan dengan IKAN GABUS (Haruan) ASAP. Ikan gabus dipanggang dulu sebelum dimasak santan, memberikan aroma smokey yang kuat.",
+        description: "Ketupat dengan kuah santan kental keruh yang disajikan dengan IKAN GABUS (Haruan) ASAP. Ikan gabus dipanggang dulu sebelum dimasak santan, memberikan aroma smokey yang kuat dan tekstur daging yang kokoh.",
         image: "kalimantan_selatan_ketupat_kandangan.png",
         prepTime: "45 Menit",
         cookTime: "1 Jam",
@@ -168,21 +180,24 @@ module.exports = [
         instructions: [
             "**Panggang Ikan**: Panggang ikan gabus di atas bara api sampai matang dan kulitnya kering (beraroma asap). JANGAN digoreng. Potong-potong.",
             "**Masak Santan**: Tumis bumbu halus sampai wangi. Tuang santan kental. Aduk terus sampai mendidih dan santan berminyak (tanak).",
-            "**Masukkan Ikan**: Masukkan potongan ikan gabus panggang (dan kepala ikan). Masak sebentar agar bumbu meresap ke daging. Telur ikan gabus juga enak dimasukkan.",
+            "**Masukkan Ikan**: Masukkan potongan ikan gabus panggang (dan kepala ikan). Masak sebentar agar bumbu meresap ke daging.",
             "**Tekstur**: Kuah harus kental dan berminyak.",
             "**Penyajian**: Hancurkan ketupat di piring (diremas tangan biasanya). Siram kuah dan ikan. Makan dengan tangan kosong."
         ],
         tips: [
-            "**Haruan**: Ikan gabus (Haruan) memiliki tekstur daging yang padat dan manis. Memanggangnya kuncinya.",
-            "**Makan Tangan**: Tradisi makan Ketupat Kandangan adalah meremas ketupatnya dengan tangan agar menyatu dengan kuah santan."
+            "**Haruan**: Ikan gabus (Haruan) memiliki tekstur daging yang padat dan manis. Memanggangnya kuncinya agar tidak amis dan tidak hancur lebur.",
+            "**Makan Tangan**: Tradisi makan Ketupat Kandangan adalah meremas ketupatnya dengan tangan agar menyatu dengan kuah santan.",
+            "**Kulit Jeruk**: Sedikit parutan kulit jeruk purut di bumbu menambah aroma segar.",
+            "**Kuah Berminyak**: Santan harus dimasak sampai 'pecah minyak' agar gurihnya maksimal (mirip rendang basah).",
+            "**Tekstur Ketupat**: Ketupat Kandangan biasanya lebih padat/keras dibanding ketupat sate."
         ]
     },
     {
         slug: "ikan-patin-bakar-banjar",
         province: "Kalimantan Selatan",
         title: "Ikan Patin Bakar (Bumbu Rujak)",
-        description: "Ikan patin sungai besar dibakar dengan olesan bumbu merah pedas manis (Bumbu Rujak) dan kecap, menghasilkan karamelisasi yang lezat pada kulit ikan yang berlemak.",
-        image: "kalimantan_selatan_ikan_patin_bakar.png", // Generated
+        description: "Ikan patin sungai besar yang dibakar dengan olesan bumbu merah pedas manis (Bumbu Rujak) dan kecap. Proses pembakaran menghasilkan karamelisasi yang lezat pada kulit ikan yang berlemak dan juicy.",
+        image: "kalimantan_selatan_ikan_patin_bakar.png",
         prepTime: "20 Menit",
         cookTime: "30 Menit",
         servings: 4,
@@ -203,11 +218,14 @@ module.exports = [
             "**Masak Bumbu**: Haluskan bumbu merah. Tumis dengan minyak jelantah sampai matang. Masukkan gula merah, asam, kecap manis. Masak sampai jadi pasta kental.",
             "**Oles & Bakar**: Olesi ikan dengan pasta bumbu. Bakar di atas arang. Olesi lagi berkali-kali.",
             "**Karamelisasi**: Bakar sampai bumbu agak gosong terkaramelisasi dan lemak ikan menetes.",
-            "**Sajikan**: Sajikan dengan Sambal Terasi Mentah (Sambal Acan) dan Lalapan."
+            "**Sajikan**: Sajikan dengan Sambal Terasi Mentah (Sambal Acan) dan Lalapan segar."
         ],
         tips: [
             "**Lemak Patin**: Saat dibakar, lemak di bawah kulit patin akan meleleh (juicy) dan bikin bumbu makin gurih.",
-            "**Sambal Acan**: Sambal khas Banjar dengan terasi, mangga muda/limau kuit."
+            "**Sambal Acan**: Sambal khas Banjar dengan terasi, mangga muda/limau kuit adalah wajib. Tanpanya kurang lengkap.",
+            "**Minyak Jelantah**: Menggunakan minyak bekas goreng bawang untuk menumis bumbu oles memberikan aroma lebih sedap.",
+            "**Jangan Overcook**: Daging patin lembut, jangan dibakar terlalu lama nanti hancur.",
+            "**Potongan**: Potongan steak (melintang) paling cocok agar bumbu meresap dua sisi."
         ]
     },
 
@@ -216,8 +234,8 @@ module.exports = [
         slug: "juhu-singkah-umbut-rotan",
         province: "Kalimantan Tengah",
         title: "Juhu Singkah (Umbut Rotan)",
-        description: "Sayur kuah kuning khas Dayak yang menggunakan UMBUT ROTAN (pucuk rotan muda) yang rasanya sedikit pahit-gurih, dimasak bersama ikan sungai (Baung/Lais) dan santan encer.",
-        image: "kalimantan_tengah_juhu_singkah.png", // Generated
+        description: "Sayur kuah kuning khas Dayak yang menggunakan UMBUT ROTAN (pucuk rotan muda) yang rasanya sedikit pahit-gurih, dimasak bersama ikan sungai (Baung/Lais) dan santan encer. Hidangan eksotis yang penuh cita rasa hutan.",
+        image: "kalimantan_tengah_juhu_singkah.jpeg",
         prepTime: "30 Menit",
         cookTime: "40 Menit",
         servings: 4,
@@ -240,19 +258,22 @@ module.exports = [
             "**Masukkan Umbut**: Masukkan umbut rotan dan terong asam. Masak sampai umbut empuk.",
             "**Masukkan Ikan**: Masukkan ikan. Masak sampai matang. Jangan overcook.",
             "**Rasa**: Gurih santan, sedikit pahit rotan, asam segar terong. Unik dan eksotis.",
-            "**Sajikan**: Asli Dayak Kalteng."
+            "**Sajikan**: Makanan kebanggaan suku Dayak."
         ],
         tips: [
-            "**Umbut Rotan**: Teksturnya mirip rebung tapi lebih 'crunchy' dan ada aftertaste pahit yang bikin nagih.",
-            "**Ikan Sungai**: Wajib pakai ikan sungai segar."
+            "**Umbut Rotan**: Teksturnya mirip rebung tapi lebih 'crunchy' dan ada aftertaste pahit yang bikin nagih. Pilih rotan irit (kecil).",
+            "**Ikan Sungai**: Wajib pakai ikan sungai segar seperti Baung atau Lais agar kaldu manis.",
+            "**Terong Asam**: Terong asam (rimbang) memberikan rasa asam segar yang memotong rasa pahit umbut.",
+            "**Santan Encer**: Juhu Singkah kuahnya tidak boleh terlalu kental, harus encer segar seperti sup.",
+            "**Kuliner Dayak**: Makanan ini sering disajikan saat upacara adat Dayak."
         ]
     },
     {
         slug: "wadi-ikan-goreng",
         province: "Kalimantan Tengah",
         title: "Wadi Ikan Patin Goreng (Fermentasi)",
-        description: "Ikan Patin/Gabus yang difermentasi dengan garam dan beras sangrai (samu) selama berhari-hari hingga jadi awet (Wadi). Rasanya asin-asam gurih yang sangat kuat. Digoreng kering.",
-        image: "kalimantan_tengah_wadi_ikan.png", // Generated
+        description: "Ikan Patin/Gabus yang difermentasi (diawetkan) dengan garam dan beras sangrai (samu) selama berhari-hari hingga jadi awet (Wadi). Rasanya asin-asam gurih yang sangat kuat dan unik. Biasanya digoreng kering sebagai lauk nasi.",
+        image: "kalimantan_tengah_wadi_ikan.png",
         prepTime: "3 Hari (Fermentasi)",
         cookTime: "10 Menit",
         servings: 4,
@@ -267,22 +288,25 @@ module.exports = [
             "Bawang Merah & Cabai Rawit (Iris, tumis bersama wadi)"
         ],
         instructions: [
-            "**Buat Wadi**: Lumuri ikan bersih dengan garam banyak. Diamkan semalaman (keluar air). Tiriskan. Lumuri dengan Beras Sangrai (Samu) & Gula Merah sampai tertutup rata. Simpan di toples Rapat kedap udara selama 3-7 hari.",
+            "**Buat Wadi**: Lumuri ikan bersih dengan garam banyak. Diamkan semalaman (keluar air). Tiriskan (buang airnya). Lumuri dengan Beras Sangrai (Samu) & Gula Merah sampai tertutup rata. Simpan di toples Rapat kedap udara selama 3-7 hari.",
             "**Goreng**: Ambil ikan wadi (jangan cuci berasnya). Goreng di minyak panas sampai kering kecokelatan. (Hati-hati, wadi cepat gosong karena ada berasnya).",
             "**Toping**: Tumis bawang merah dan cabai rawit iris di minyak sisa goreng wadi. Siramkan ke atas ikan.",
-            "**Rasa**: Asin menyengat, Asam fermentasi, Gurih 'Cheesy'. Sangat boros nasi."
+            "**Rasa**: Asin menyengat, Asam fermentasi, Gurih 'Cheesy' ikan."
         ],
         tips: [
-            "**Fermentasi**: Jika fermentasi berhasil, aromanya seperti tape/keju, bukan bau busuk.",
-            "**Samu**: Bubuk beras sangrai memberikan aroma wangi khas."
+            "**Fermentasi**: Jika fermentasi berhasil, aromanya seperti tape/keju, bukan bau busuk. Ikan berwarna merah muda.",
+            "**Samu**: Bubuk beras sangrai memberikan aroma wangi khas dan tekstur krispi saat digoreng.",
+            "**Garam**: Jangan pelit garam, garam adalah pengawet utama untuk mencegah pembusukan.",
+            "**Wadah**: Wadah harus benar-benar kedap udara (anaerob) agar tidak berulat.",
+            "**Cuci Ikan**: Ikan harus bersih dan kering (tisu) sebelum digarami."
         ]
     },
     {
         slug: "tumis-kalakai-pakis-merah",
         province: "Kalimantan Tengah",
         title: "Tumis Kalakai (Pakis Merah)",
-        description: "Sayur pakis khas lahan gambut Kalimantan yang batangnya berwarna merah (Kalakai). Dipercaya menambah darah dan sangat lezat ditumis terasi.",
-        image: "kalimantan_tengah_tumis_kalakai.png", // Generated
+        description: "Sayur pakis khas lahan gambut Kalimantan yang batangnya berwarna merah (Kalakai). Dipercaya menambah darah dan sangat lezat ditumis dengan terasi dan udang. Teksturnya renyah dan sedikit berlendir jika dimasak lama.",
+        image: "kalimantan_tengah_tumis_kalakai.png",
         prepTime: "15 Menit",
         cookTime: "10 Menit",
         servings: 2,
@@ -305,7 +329,10 @@ module.exports = [
         ],
         tips: [
             "**Warna Merah**: Kalakai mengandung zat besi tinggi, kuah tumisan akan berubah jadi merah jambu/ungu, itu normal dan sehat.",
-            "**Gambut**: Tanaman ini tumbuh liar di hutan rawa gambut."
+            "**Gambut**: Tanaman ini tumbuh liar di hutan rawa gambut dan dianggap obat anemia (penambah darah).",
+            "**Jangan Overcook**: Masak cepat (stir fry) agar tetap renyah dan tidak lembek berlendir.",
+            "**Terasi**: Terasi membuat aroma tanah/hutan pakis jadi sedap.",
+            "**Batang Muda**: Buang batang yang tua/keras, pakai yang lentur saja."
         ]
     },
 
@@ -314,7 +341,7 @@ module.exports = [
         slug: "ayam-cincane-samarinda",
         province: "Kalimantan Timur",
         title: "Ayam Cincane (Bumbu Merah)",
-        description: "Ayam kampung bakar khas Samarinda yang dimarinasi dan diungkep dengan bumbu merah berminyak (santan), rasanya gurih manis pedas, berwarna merah menyala.",
+        description: "Ayam kampung bakar khas Samarinda yang dimarinasi dan diungkep dengan bumbu merah berminyak (santan), rasanya gurih manis pedas, berwarna merah menyala yang cantik dari cabai kering.",
         image: "kalimantan_timur_ayam_cincane.png",
         prepTime: "30 Menit",
         cookTime: "45 Menit",
@@ -339,15 +366,18 @@ module.exports = [
         ],
         tips: [
             "**Cabai Kering**: Rahasia warna merah gelap cantik Ayam Cincane adalah cabai kering, bukan cabai segar saja.",
-            "**Santan**: Santan membuat bumbu menjadi 'creamy' dan gurih melekat di ayam."
+            "**Santan**: Santan membuat bumbu menjadi 'creamy' dan gurih melekat di ayam.",
+            "**Warung Selera**: Ayam Cincane terkenal dari Samarinda Seberang.",
+            "**Jangan Gosong**: Membakar ayam Cincane cukup sebentar saja agar warna merah bumbunya tetap cantik, tidak hitam.",
+            "**Manis Gurih**: Rasanya harus seimbang antara manis gula merah dan pedas cabai."
         ]
     },
     {
         slug: "nasi-bekepor-kutai",
         province: "Kalimantan Timur",
         title: "Nasi Bekepor (Raja Kutai)",
-        description: "Nasi liwet ala Kerajaan Kutai yang dimasak di kenceng (panci logam) dengan santan, rempah, dan campuran Ikan Asin & Daun Kemangi. Bagian pinggirnya agak berkerak gurih.",
-        image: "kalimantan_timur_nasi_bekepor.png", // Generated
+        description: "Nasi liwet ala Kerajaan Kutai Kartanegara yang dimasak di kenceng (panci logam) dengan santan, rempah, dan campuran Ikan Asin Goreng & Daun Kemangi. Bagian pinggirnya agak berkerak gurih yang disebut 'Intip'.",
+        image: "kalimantan_timur_nasi_bekepor.png",
         prepTime: "20 Menit",
         cookTime: "45 Menit",
         servings: 4,
@@ -372,15 +402,18 @@ module.exports = [
         ],
         tips: [
             "**Minyak Sayur**: Penambahan minyak ke dalam beras membuat nasi bekepor pulen dan mengkilap.",
-            "**Kemangi**: Aroma kemangi yang layu di dalam nasi panas adalah ciri utamanya."
+            "**Kemangi**: Aroma kemangi yang layu di dalam nasi panas adalah ciri utamanya.",
+            "**Kerak**: Kerak nasi di dasar panci disebut 'intip' dan sangat rebutan karena renyah.",
+            "**Kastrol**: Paling enak dimasak pakai panci kastrol tebal/liwet.",
+            "**Ikan Asin**: Ikan asin harus digoreng kering baru dicampur nasi."
         ]
     },
     {
         slug: "gence-ruan-gabus",
         province: "Kalimantan Timur",
         title: "Gence Ruan (Gabus Sambal Goreng)",
-        description: "Ikan Gabus (Haruan) utuh yang dibakar kering/goreng, lalu disiram dengan Sambal Goreng Gence yang kasar dan berlimpah bawang merah.",
-        image: "kalimantan_timur_gence_ruan.png", // Generated
+        description: "Olahan Ikan Gabus (Haruan) utuh yang dibakar kering atau digoreng, lalu disiram dengan 'Sambal Goreng Gence'. Sambalnya kasar dengan potongan bawang merah yang berlimpah dan rasa asam manis yang kuat.",
+        image: "kalimantan_timur_gence_ruan.png",
         prepTime: "20 Menit",
         cookTime: "30 Menit",
         servings: 2,
@@ -403,8 +436,11 @@ module.exports = [
             "**Sajikan**: Makan dengan nasi hangat."
         ],
         tips: [
-            "**Bawang Merah**: Jangan haluskan bawang merah. Biarkan iris kasar atau utuh kecil-kecil agar teksturnya enak.",
-            "**Haruan**: Daging ikan gabus yang tebal tawar sangat cocok ketemu sambal gence yang 'rich'."
+            "**Bawang Merah**: Jangan haluskan bawang merah. Biarkan iris kasar atau utuh kecil-kecil agar teksturnya enak (crunchy saat digigit).",
+            "**Haruan**: Daging ikan gabus yang tebal tawar sangat cocok ketemu sambal gence yang 'rich' rasa asam manisnya.",
+            "**Air Asam**: Sambal Gence identik dengan rasa asam jawa yang menonjol.",
+            "**Belah Punggung**: Ikan dibelah punggung melebar agar matang merata dan sambal bisa masuk ke sela daging.",
+            "**Tomat**: Tomat menambah kekentalan sambal."
         ]
     },
 
@@ -413,8 +449,8 @@ module.exports = [
         slug: "kepiting-soka-tarakan",
         province: "Kalimantan Utara",
         title: "Kepiting Soka (Saus Tiram Tarakan)",
-        description: "Kepiting cangkang lunak (Soka) kualitas ekspor dari tambak Tarakan, digoreng tepung renyah dan disiram saus tiram lada hitam semu manis.",
-        image: "kalimantan_utara_kepiting_soka.png", // Generated
+        description: "Hidangan laut premium dari Tarakan. Kepiting cangkang lunak (Soka) yang bisa dimakan seluruh bagiannya, digoreng tepung renyah dan disiram saus tiram lada hitam semu manis khas Tarakan.",
+        image: "kalimantan_utara_kepiting_soka.png",
         prepTime: "20 Menit",
         cookTime: "20 Menit",
         servings: 4,
@@ -438,16 +474,19 @@ module.exports = [
             "**Sajikan**: Makan seluruh bagiannya (cangkangnya empuk krispi)."
         ],
         tips: [
-            "**Soka**: Pastikan menggunakan Kepiting Soka (Soft Shell Crab) asli, bukan rajungan biasa.",
-            "**Tarakan**: Kota Tarakan adalah penghasil kepiting soka terbesar."
+            "**Soka**: Pastikan menggunakan Kepiting Soka (Soft Shell Crab) asli, bukan rajungan biasa. Soka bisa dimakan cangkangnya karena lunak.",
+            "**Tarakan**: Kota Tarakan adalah penghasil kepiting soka terbesar di Indonesia.",
+            "**Tepung Kering**: Balurkan tepung kering saja (bukan adonan basah) agar hasil gorengan lebih keriting.",
+            "**Api Besar**: Goreng dengan api besar dan minyak panas agar tidak menyerap minyak.",
+            "**Saus Pisah**: Jika ingin tetap renyah maksimal, saus bisa disajikan terpisah (dicocol)."
         ]
     },
     {
         slug: "lawa-timun-rumput-laut",
         province: "Kalimantan Utara",
         title: "Lawa (Appetizer Kesultanan Bulungan)",
-        description: "Hidangan pembuka segar khas Kesultanan Bulungan. Terdiri dari timun cincang dan RUMPUT LAUT (Agar-agar laut) segar, yang dimatangkan dengan perasan jeruk nipis dan kelapa sangrai (urap). Tanpa dimasak api.",
-        image: "kalimantan_utara_lawa_timun.png", // Generated
+        description: "Hidangan pembuka segar khas Kesultanan Bulungan / Suku Tidung. Terdiri dari timun cincang dan RUMPUT LAUT (Agar-agar laut) segar, yang dimatangkan dengan perasan jeruk nipis dan kelapa sangrai (urap). Disajikan dingin.",
+        image: "kalimantan_utara_lawa_timun.png",
         prepTime: "20 Menit",
         cookTime: "0 Menit",
         servings: 4,
@@ -471,15 +510,18 @@ module.exports = [
         ],
         tips: [
             "**Kelapa Sangrai**: Memberikan tekstur 'crunchy' dan aroma wangi pada salad mentah ini.",
-            "**Jeruk Nipis**: Harus cukup banyak agar segar."
+            "**Jeruk Nipis**: Harus cukup banyak agar segar dan bawang mentahnya tidak langu.",
+            "**Kerang Kapah**: Versi mewah Lawa menggunakan kerang Kapah (kerang kampak) khas Bulungan yang manis.",
+            "**Ceviche**: Lawa mirip Ceviche Peru, 'memasak' protein dengan asam jeruk.",
+            "**Rumput Laut**: Gunakan rumput laut Eucheuma (agar-agar) yang transparan renyah."
         ]
     },
     {
         slug: "sate-temburung-kerang",
         province: "Kalimantan Utara",
         title: "Sate Temburung (Tudai/Kerang Dara)",
-        description: "Sate dari kerang dara (Tudai) atau Temburung (sejenis kerang hutan bakau) yang dibumbu merah pedas lalu dibakar. Kenyal dan gurih laut.",
-        image: "kalimantan_utara_sate_temburung.png", // Generated
+        description: "Sate eksotis dari kerang dara (Tudai) atau Temburung (sejenis kerang hutan bakau) yang dibumbu merah pedas manis lalu dibakar. Teksturnya kenyal dan gurih lautnya sangat kuat.",
+        image: "kalimantan_utara_sate_temburung.png",
         prepTime: "30 Menit",
         cookTime: "15 Menit",
         servings: 4,
@@ -501,8 +543,11 @@ module.exports = [
             "**Sajikan**: Camilan laut yang nikmat."
         ],
         tips: [
-            "**Tudai**: Di Kaltara, kerang darah disebut Tudai. Dagingnya tebal manis.",
-            "**Jangan Overcook**: Kerang kalau dibakar terlalu lama jadi alot seperti karet. Cukup sampai bumbu caramelize."
+            "**Tudai**: Di Kaltara, kerang darah disebut Tudai. Dagingnya tebal manis dan berwarna oranye merah.",
+            "**Jangan Overcook**: Kerang kalau dibakar terlalu lama jadi alot seperti karet. Cukup sampai bumbu caramelize.",
+            "**Cuci Bersih**: Pastikan kerang bebas dari pasir dan lumpur.",
+            "**Madu**: Sedikit madu di bumbu oles membuat warna sate mengkilap dan rasa manis legit.",
+            "**Rapat**: Tusuk kerang dengan rapat agar tidak mudah hangus/kering."
         ]
     }
 ];

@@ -5,7 +5,7 @@ module.exports = [
         province: "Nanggroe Aceh Darussalam",
         title: "Mie Aceh Spesial (Kuah Kental)",
         description: "Mie kuning tebal khas Aceh yang disajikan dengan kuah kari kental yang gurih dan pedas, lengkap dengan kepiting atau daging sapi. Aroma rempah kapulaga, jinten, dan daun kari (temurui) sangat menonjol.",
-        image: "nanggroe_aceh_darussalam_mie_aceh_spesial.png", // Placeholder for user generation
+        image: "nanggroe_aceh_darussalam_mie_aceh_spesial.jpeg", // Placeholder for user generation
         prepTime: "30 Menit",
         cookTime: "45 Menit",
         servings: 4,
@@ -36,7 +36,9 @@ module.exports = [
         tips: [
             "**Daun Kari**: Jangan skip daun ini. Tanpa daun kari (temurui), rasanya bukan Mie Aceh tapi mie goreng biasa.",
             "**Bumbu Ebi**: Jika ingin lebih gurih, tambahkan sedikit udang ebi kering yang dihaluskan ke dalam bumbu.",
-            "**Mie Lidi**: Gunakan mie lidi (mie hokkian tebal) agar tidak lembek saat dimasak kuah."
+            "**Mie Lidi**: Gunakan mie lidi (mie hokkian tebal) agar tidak lembek saat dimasak kuah, teksturnya lebih 'al dente'.",
+            "**Cabai Kering**: Campuran cabai kering giling membuat warna kuah merah gelap cantik dan tidak pucat.",
+            "**Acar Bawang**: Sajikan wajib dengan acar bawang merah utuh untuk menetralkan rasa kari yang 'berat'."
         ]
     },
     {
@@ -44,7 +46,7 @@ module.exports = [
         province: "Nanggroe Aceh Darussalam",
         title: "Ayam Tangkap (Ayam Goreng Rempah Daun)",
         description: "Ayam goreng kampung yang dimasak bersama aneka rempah dedaunan seperti daun pandan, daun kari dan cabai hijau yang digoreng garing. Rasanya gurih meresap sampai ke tulang dengan aroma wangi dedaunan.",
-        image: "nanggroe_aceh_darussalam_ayam_tangkap.png",
+        image: "nanggroe_aceh_darussalam_ayam_tangkap.jpeg",
         prepTime: "20 Menit",
         cookTime: "30 Menit",
         servings: 4,
@@ -72,7 +74,10 @@ module.exports = [
         ],
         tips: [
             "**Ayam Kecil**: Potong ayam ukuran kecil-kecil agar cepat matang dan bumbu meresap maksimal (finger food style).",
-            "**Daun Garing**: Dedaunan rempah (pandan & salam koja) yang digoreng garing rasanya seperti keripik dan sangat enak dimakan."
+            "**Daun Garing**: Dedaunan rempah (pandan & salam koja) yang digoreng garing rasanya seperti keripik dan sangat enak dimakan bersama nasi.",
+            "**Api**: Gunakan api sedang. Jika api terlalu besar, daun gosong tapi ayam belum matang.",
+            "**Minyak**: Minyak sisa menggoreng ayam tangkap sangat wangi, enak dipakai untuk menumis nasi goreng.",
+            "**Ayam Kampung**: Wajib pakai ayam kampung muda, ayam negeri akan terlalu lembek dan basah."
         ]
     },
     {
@@ -80,7 +85,7 @@ module.exports = [
         province: "Nanggroe Aceh Darussalam",
         title: "Gulai Kuah Pliek U (Sayur Khas Aceh)",
         description: "Masakan warisan leluhur Aceh yang kaya akan sayuran, dimasak dengan bumbu khas dari 'Pliek U' (ampas kelapa fermentasi/patarana) yang dijemur. Rasanya unik: gurih, sedikit asam, dan beraroma khas.",
-        image: "nanggroe_aceh_darussalam_gulai_kuah_pliek_u.png",
+        image: "nanggroe_aceh_darussalam_gulai_kuah_pliek_u.jpeg",
         prepTime: "40 Menit",
         cookTime: "1 Jam",
         servings: 6,
@@ -110,8 +115,11 @@ module.exports = [
             "**Sajikan**: Sajikan dengan Ikan Asin goreng."
         ],
         tips: [
-            "**Pliek U**: Tidak ada substitusi untuk Pliek U. Ini adalah jiwa dari masakan ini.",
-            "**Asam Sunti**: Memberikan rasa asam segar yang berbeda dari asam jawa."
+            "**Pliek U**: Tidak ada substitusi untuk Pliek U. Ini adalah jiwa dari masakan ini (ampas minyak kelapa yang difermentasi).",
+            "**Asam Sunti**: Memberikan rasa asam segar yang berbeda dari asam jawa. Jangan ganti cuka.",
+            "**Sayuran**: Jenis sayuran bisa disesuaikan, tapi daun melinjo dan nangka muda adalah yang paling klasik.",
+            "**Patarana**: Nama lain Pliek U adalah Patarana. Pastikan tidak apek sebelum dimasak.",
+            "**Ikan Asin**: Jodoh wajib Kuah Pliek U adalah Ikan Asin goreng kering."
         ]
     },
 
@@ -121,7 +129,7 @@ module.exports = [
         province: "Sumatera Utara",
         title: "Arsik Ikan Mas (Bumbu Kuning Batak)",
         description: "Ikan mas bumbu kuning khas Batak Toba yang dimasak hingga kering (asat) dengan cita rasa getir dan segar dari Andaliman (Merica Batak) dan Asam Gelugur.",
-        image: "sumatera_utara_arsik_ikan_mas.png",
+        image: "sumatera_utara_arsik_ikan_mas.jpeg",
         prepTime: "40 Menit",
         cookTime: "1 Jam",
         servings: 4,
@@ -150,7 +158,10 @@ module.exports = [
         ],
         tips: [
             "**Andaliman**: Memberikan sensasi 'getir' atau mati rasa di lidah yang eksotis. Kunci masakan Batak.",
-            "**Sisik Ikan**: Tradisi Arsik membiarkan sisik ikan mas tetap ada, agar daging tidak hancur saat dimasak lama dan sisiknya bisa dimakan (krispi/kenyal)."
+            "**Sisik Ikan**: Tradisi Arsik membiarkan sisik ikan mas tetap ada, agar daging tidak hancur saat dimasak lama dan sisiknya bisa dimakan (krispi/kenyal).",
+            "**Asam Cekala**: Buah kecombrang ini memberikan rasa asam segar yang khas. Geprek agar sarinya keluar.",
+            "**Jangan Dibalik**: Ikan Mas mudah hancur. Cukup siram-siram kuah ke atas ikan saat memasak.",
+            "**Waktu Masak**: Semakin lama dimasak (api kecil) semakin enak bumbunya meresap."
         ]
     },
     {
@@ -158,7 +169,7 @@ module.exports = [
         province: "Sumatera Utara",
         title: "Soto Medan (Kuah Santan Kuning)",
         description: "Soto ayam/daging bersantan dengan warna kuning pekat dan aroma rempah jinten yang kuat, disajikan lengkap dengan perkedel kentang dan sambal rawit hijau.",
-        image: "sumatera_utara_soto_medan.png",
+        image: "sumatera_utara_soto_medan.jpeg",
         prepTime: "40 Menit",
         cookTime: "1 Jam",
         servings: 4,
@@ -186,7 +197,10 @@ module.exports = [
         ],
         tips: [
             "**Jinten & Bunga Lawang**: Dua rempah ini yang membedakan aroma Soto Medan dengan soto Jawa (Lamongan/Kudus).",
-            "**Santan Segar**: Gunakan santan peras segar untuk rasa manis alami."
+            "**Santan Segar**: Gunakan santan peras segar untuk rasa manis alami. Santan instan rasanya kurang pas.",
+            "**Perkedel**: Perkedel kentang adalah lauk pendamping yang wajib ada untuk Soto Medan.",
+            "**Sambal Rawit Hijau**: Gunakan cabai rawit hijau yang digiling halus, bukan sambal merah.",
+            "**Kunyit**: Bakar kunyit sebelum dihaluskan agar warna kuningnya cantik dan tidak langu."
         ]
     },
     {
@@ -194,7 +208,7 @@ module.exports = [
         province: "Sumatera Utara",
         title: "Bika Ambon (Kuning Kenyal)",
         description: "Kue basah tradisional berwarna kuning dengan tekstur bersarang (berongga) yang kenyal, manis, dan beraroma harum daun jeruk dan serai. Dimasak dengan oven/cetakan pasir.",
-        image: "sumatera_utara_bika_ambon.png",
+        image: "sumatera_utara_bika_ambon.jpeg",
         prepTime: "2 Jam (Fermentasi)",
         cookTime: "1 Jam",
         servings: 10,
@@ -224,7 +238,10 @@ module.exports = [
         ],
         tips: [
             "**Kunci Sarang**: Panas harus dari bawah dan stabil. Pintu oven dibuka sedikit membantu gelembung udara naik dan tidak pecah (collapse).",
-            "**Daun Jeruk**: Jumlah daun jeruk yang banyak kuncinya wangi Bika Ambon."
+            "**Daun Jeruk**: Jumlah daun jeruk yang banyak kuncinya wangi Bika Ambon.",
+            "**Jangan Diaduk Saat Panggang**: Jangan menggoyangkan loyang saat proses 'bersarang' terjadi.",
+            "**Santan Kental**: Gunakan santan kani (kepala santan) agar kue berminyak dan legit.",
+            "**Pasir**: Meletakkan loyang berisi pasir di rak paling bawah oven membantu menahan panas agar stabil (teknik tradisional)."
         ]
     },
 
@@ -234,7 +251,7 @@ module.exports = [
         province: "Riau",
         title: "Gulai Ikan Patin (Kuah Kuning)",
         description: "Perpaduan ikan patin sungai yang lembut dengan kuah gulai kuning yang dicampur tempoyak (durian fermentasi) atau hanya asam kandis, menghasilkan rasa gurih creamy.",
-        image: "riau_gulai_ikan_patin_tempoyak.png",
+        image: "riau_gulai_ikan_patin_tempoyak.jpeg",
         prepTime: "20 Menit",
         cookTime: "30 Menit",
         servings: 4,
@@ -260,15 +277,18 @@ module.exports = [
         ],
         tips: [
             "**Patin Sungai**: Pilih patin sungai (bukan tambak) jika ada, dagingnya lebih manis dan tidak bau tanah.",
-            "**Daun Kunyit**: Aroma daun kunyit sangat penting di masakan Melayu Riau."
+            "**Daun Kunyit**: Aroma daun kunyit sangat penting di masakan Melayu Riau.",
+            "**Cuci Ikan**: Cuci patin dengan air jeruk nipis dan garam untuk menghilangkan lendir dan bau amis tanah.",
+            "**Warna Kuah**: Kuah gulai patin Riau biasanya berwarna kuning kemerahan cantik, tidak pucat.",
+            "**Tempoyak**: Jika tidak suka durian, tempoyak bisa di-skip, rasanya tetap enak (Gulai Kuning)."
         ]
     },
     {
         slug: "asam-pedas-baung-riau",
         province: "Riau",
         title: "Asam Pedas Ikan Baung",
-        description: "Ikan baung sungai segar dengan kuah merah menyala yang pedas dan asam segar TANPA santan. Sangat menyegarkan dan bebas kolesterol.",
-        image: "riau_asam_pedas_ikan_baung.png",
+        description: "Ikan baung sungai segar yang dimasak dengan kuah merah menyala yang sangat pedas dan asam menyegarkan TANPA santan. Kuah merahnya yang encer namun kaya rempah (daun kunyit, serai) sangat nendang dan membuat keringat bercucuran, cocok untuk makan siang yang membangkitkan selera.",
+        image: "riau_asam_pedas_ikan_baung.jpeg",
         prepTime: "20 Menit",
         cookTime: "30 Menit",
         servings: 4,
@@ -296,7 +316,10 @@ module.exports = [
         ],
         tips: [
             "**Warna Merah**: Kunci Asam Pedas Riau adalah warna kuah yang MERAH MENYALA. Gunakan cabai merah keriting banyak.",
-            "**Tanpa Santan**: Masakan ini sangat ringan tapi kaya rasa rempah."
+            "**Tanpa Santan**: Masakan ini sangat ringan tapi kaya rasa rempah.",
+            "**Asam Kandis**: Asam kandis (kulit buah kering) memberikan rasa asam yang pekat tanpa membuat kuah 'butek' seperti asam jawa.",
+            "**Terasi**: Sedikit terasi bakar memperkuat rasa umami kuah pedas.",
+            "**Ikan Baung**: Teksturnya mirip lele tapi lebih besar dan dagingnya sangat lembut manis."
         ]
     },
     {
@@ -304,7 +327,7 @@ module.exports = [
         province: "Riau",
         title: "Mie Sagu Goreng (Selatpanjang)",
         description: "Mie kenyal yang terbuat dari pati sagu, makanan pokok khas Selatpanjang, Riau. Dimasak goreng dengan tauge, kucai, dan ikan teri atau udang, bertekstur kenyal unik (chewy).",
-        image: "riau_mie_sagu_goreng.png",
+        image: "riau_mie_sagu_goreng.jpeg",
         prepTime: "15 Menit",
         cookTime: "15 Menit",
         servings: 2,
@@ -329,7 +352,10 @@ module.exports = [
         ],
         tips: [
             "**Tekstur**: Mie Sagu punya tekstur sangat kenyal (chewy) dan transparan, berbeda dengan mie tepung terigu. Bebas Gluten.",
-            "**Kucai**: Kucai (Chives) adalah sayuran wajib untuk Mie Sagu, memberikan aroma bawang ringan."
+            "**Kucai**: Kucai (Chives) adalah sayuran wajib untuk Mie Sagu, memberikan aroma bawang ringan.",
+            "**Rendam Air**: Mie sagu kering cukup direndam air dingin (bukan air panas) agar tidak lengket.",
+            "**Teri**: Taburan teri goreng garing memberikan kontras tekstur dengan mie yang kenyal.",
+            "**Selatpanjang**: Kota penghasil sagu terbesar di Riau, mie ini adalah sarapan pokok di sana."
         ]
     },
 
@@ -339,7 +365,7 @@ module.exports = [
         province: "Kepulauan Riau",
         title: "Mie Lendir (Kuah Kacang Ubi)",
         description: "Mie kuning dengan kuah kacang kental yang gurih manis. Tekstur 'lendir' yang legendaris berasal dari Ubi Jalar rebus yang dihaluskan, bukan bahan pengental buatan. Menu sarapan favorit di Tanjungpinang.",
-        image: "kepulauan_riau_mie_lendir.png",
+        image: "kepulauan_riau_mie_lendir.jpeg",
         prepTime: "30 Menit",
         cookTime: "30 Menit",
         servings: 4,
@@ -365,8 +391,11 @@ module.exports = [
             "**Penyajian**: Tata mie dan tauge. Siram kuah kental panas. Toping telur rebus dan irisan cabai rawit hijau (untuk pedas)."
         ],
         tips: [
-            "**Ubi Jalar**: Pilih ubi jalar warna oranye atau kuning untuk warna kuah yang cantik.",
-            "**Kencur**: Sedikit kencur memberikan aroma segar yang menyeimbangkan rasa manis ubi."
+            "**Ubi Jalar**: Pilih ubi jalar warna oranye atau kuning untuk warna kuah yang cantik alami.",
+            "**Kencur**: Sedikit kencur memberikan aroma segar yang menyeimbangkan rasa manis ubi.",
+            "**Kekentalan**: Kuah Mie Lendir harus benar-benar kental (seperti saus), tidak encer.",
+            "**Cabe Rawit Iris**: Karena kuahnya manis, irisan cabai rawit hijau (cabe potong) wajib ada untuk yang suka pedas.",
+            "**Blender Halus**: Pastikan ubi dan kacang diblender sangat halus agar tekstur kuah mulut 'smooth'."
         ]
     },
     {
@@ -374,7 +403,7 @@ module.exports = [
         province: "Kepulauan Riau",
         title: "Gonggong Rebus Original (Siput Laut)",
         description: "Siput laut khas Kepulauan Riau yang direbus sederhana dengan jahe dan garam, dinikmati dengan cara mencungkil dagingnya dari cangkang dan dicocol sambal khas. Teksturnya kenyal mirip cumi.",
-        image: "kepulauan_riau_gonggong_rebus_original.png",
+        image: "kepulauan_riau_gonggong_rebus_original.jpeg",
         prepTime: "20 Menit",
         cookTime: "15 Menit",
         servings: 4,
@@ -399,15 +428,18 @@ module.exports = [
         ],
         tips: [
             "**Endemik**: Gonggong (Laevistrombus canarium) hanya mudah ditemukan di perairan Kepri dan Bangka.",
-            "**Nutrisi**: Tinggi protein dan dipercaya sebagai aphrodisiac lokal."
+            "**Nutrisi**: Tinggi protein dan dipercaya sebagai aphrodisiac lokal.",
+            "**Jangan Overcook**: Kunci kenikmatan adalah perebusan pas. Jika terlalu lama, daging susut dan keras.",
+            "**Kotoran**: Ada bagian hitam di ujung ekor (pencernaan) yang beberapa orang buang karena berpasir, tapi ada juga yang memakannya.",
+            "**Sambal Cuka**: Sambal khas gonggong wajib pakai cuka putih, aroma asamnya memotong amis siput."
         ]
     },
     {
         slug: "laksa-kuah-lemak-kepri",
         province: "Kepulauan Riau",
         title: "Laksa Kuah Lemak (Laksa Melayu)",
-        description: "Laksa khas Melayu dengan mie sagu putih tebal dalam kuah santan ikan yang gurih (lemak) dan kaya rempah, disajikan dengan sambal belacan.",
-        image: "kepulauan_riau_laksa_kuah_lemak.png",
+        description: "Laksa khas Melayu Kepulauan Riau yang menggunakan mie sagu putih tebal. Disajikan dalam kuah santan gurih yang dicampur dengan daging ikan tongkol halus sehingga tekstur kuahnya kental, 'berpasir', dan sangat kaya rasa (lemak). Wajib dimakan dengan sambal belacan pedas.",
+        image: "kepulauan_riau_laksa_kuah_lemak.jpeg",
         prepTime: "40 Menit",
         cookTime: "40 Menit",
         servings: 4,
@@ -435,7 +467,10 @@ module.exports = [
         ],
         tips: [
             "**Kuah Ikan**: Ciri Laksa Kepri adalah kuahnya yang 'berpasir' dari daging ikan tumbuk, bukan kuah santan licin.",
-            "**Mie Sagu**: Gunakan mie sagu yang kenyal, bukan mie kuning biasa."
+            "**Mie Sagu**: Gunakan mie sagu yang kenyal, bukan mie kuning biasa.",
+            "**Sambal Belacan**: Laksa ini wajib pedas dengan sambal terasi (belacan) khas Melayu.",
+            "**Bungkus**: Tradisi laksa Kepri sering dijual dibungkus daun kelapa/daun pisang membentuk kerucut.",
+            "**Ikan Tongkol**: Gunakan ikan tongkol/tenggiri segar untuk rasa kuah yang manis umami."
         ]
     }
 ];
