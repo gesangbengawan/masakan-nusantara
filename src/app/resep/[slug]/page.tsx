@@ -45,9 +45,9 @@ export default async function RecipeDetailPage({ params }: Props) {
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent" />
                 <div className="absolute bottom-0 left-0 right-0 p-8 md:p-16 max-w-5xl mx-auto text-center">
-                    <motion_h1 className="text-4xl md:text-6xl font-serif font-bold text-white mb-6 drop-shadow-2xl leading-tight">
+                    <h1 className="text-4xl md:text-6xl font-serif font-bold text-white mb-6 drop-shadow-2xl leading-tight">
                         {recipe.title}
-                    </motion_h1>
+                    </h1>
                     <p className="text-lg md:text-xl text-white/90 max-w-3xl mx-auto font-light leading-relaxed">
                         {recipe.description}
                     </p>
@@ -180,7 +180,4 @@ export default async function RecipeDetailPage({ params }: Props) {
     );
 }
 
-// Simple workaround for framer motion elements in server component (if needed, usually use context or client wrapper)
-function motion_h1({ children, className }: { children: React.ReactNode, className: string }) {
-    return <h1 className={className}>{children}</h1>;
-}
+
